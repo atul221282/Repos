@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PostAnythingApp.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,7 @@ namespace PostAnythingApp
         public App()
         {
             //InitializeComponent();
-
-            MainPage = new PostAnythingApp.MainPage();
+            MainPage = new MainPage(new MainPageModel(new AccountService()));
         }
 
         protected override void OnStart()

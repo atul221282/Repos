@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\atul\source\repos\postanythingapp\postanythingapp\postanythingapp.winphone\obj\debug\intermediatexaml\postanythingapp.winphone.exe" HashGuid="e5cfeeea-d9e0-0fd2-aa22-04ac87fc9e37" />
-    <ReferenceAssembly PathName="c:\users\atul\source\repos\postanythingapp\postanythingapp\postanythingapp\bin\debug\postanythingapp.dll" HashGuid="35a335c2-71bc-449a-18bf-9bd8e03e4cad" />
+    <LocalAssembly PathName="c:\users\atul\source\repos\postanythingapp\postanythingapp\postanythingapp.winphone\obj\debug\intermediatexaml\postanythingapp.winphone.exe" HashGuid="a56179e2-e3fc-c365-bcd6-70f344d0a212" />
+    <ReferenceAssembly PathName="c:\users\atul\source\repos\postanythingapp\postanythingapp\postanythingapp\bin\debug\postanythingapp.dll" HashGuid="f0ef13aa-4af1-375e-fac1-7d4b9a8fa8c0" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\postanythingapp\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.core.dll" HashGuid="c8a30eb8-5ae8-352d-b94f-7c913a7557ba" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\postanythingapp\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.dll" HashGuid="d9389e38-8a39-bed5-406b-7a34fe4704ea" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\postanythingapp\packages\xamarin.forms.2.0.0.6482\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="dbd728c2-e21b-4125-2be0-f7931b605baa" />

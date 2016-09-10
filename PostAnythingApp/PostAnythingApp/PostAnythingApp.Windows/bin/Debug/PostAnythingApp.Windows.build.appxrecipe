@@ -43,6 +43,9 @@
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp\bin\Debug\PostAnythingApp.Service.dll">
+      <PackagePath>PostAnythingApp.Service.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -67,9 +70,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp.Service\bin\Debug\PostAnythingApp.Service.dll">
-      <PackagePath>PostAnythingApp.Service.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf</PackagePath>

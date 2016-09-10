@@ -133,6 +133,7 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Resources.ResourceManager.dll",
 		"System.Diagnostics.Tools.dll",
+		"PostAnythingApp.Service.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

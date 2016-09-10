@@ -45,3 +45,5 @@ C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.WinPh
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri.xml
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.WinPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.WinPhone\bin\Debug\PostAnythingApp.Service.dll
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.WinPhone\bin\Debug\PostAnythingApp.Service.pdb
