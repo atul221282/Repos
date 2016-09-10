@@ -31,5 +31,16 @@ C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\obj\Debug\uploadflags.txt
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\PostAnythingApp.Service.dll
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\PostAnythingApp.Service.pdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\obj\Debug\PostAnythingApp.Droid.dll.mdb
 C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Droid\bin\Debug\PostAnythingApp.Droid.dll.mdb
