@@ -135,6 +135,7 @@ class MonoPackageManager_Resources {
 		"System.Collections.Concurrent.dll",
 		"System.Runtime.InteropServices.dll",
 		"System.Resources.ResourceManager.dll",
+		"Autofac.dll",
 		"System.Diagnostics.Tools.dll",
 		"PostAnythingApp.Service.dll",
 	};

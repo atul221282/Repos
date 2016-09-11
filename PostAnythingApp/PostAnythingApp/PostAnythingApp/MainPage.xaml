@@ -4,8 +4,11 @@
              xmlns:local="clr-namespace:PostAnythingApp"
              x:Class="PostAnythingApp.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <StackLayout>
+    <Label Text="{Binding Name}"
+                 Font="Bold,Large"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" />
+  </StackLayout>
 
 </ContentPage>

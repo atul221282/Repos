@@ -11,7 +11,7 @@ namespace PostAnythingApp.Service
         public MainPageModel(IAccountService account)
         {
             this.Account = account;
-            this.Name = "atul221282";
+            this.Name = account.UserName;
         }
         public string Name { get; set; }
     }

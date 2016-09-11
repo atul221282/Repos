@@ -1,4 +1,5 @@
-﻿using PostAnythingApp.Service;
+﻿using Autofac;
+using PostAnythingApp.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,12 @@ namespace PostAnythingApp
     {
         public App()
         {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<AccountService>().As<IAccountService>();
+            builder.RegisterType<MainPageModel>().As<IMainPageModel>();
+            var container = builder.Build();
             //InitializeComponent();
-            MainPage = new MainPage(new MainPageModel(new AccountService()));
+            MainPage = new MainPage(container.Resolve<IMainPageModel>());
         }
 
         protected override void OnStart()
