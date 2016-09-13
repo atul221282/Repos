@@ -1,5 +1,7 @@
 ﻿using Autofac;
 using ShareSpecial.Core;
+using ShareSpecial.Core.Service;
+using ShareSpecial.Core.ViewModel.Special;
 using Xamarin.Forms;
 
 namespace ShareSpecial
@@ -9,15 +11,12 @@ namespace ShareSpecial
         public App()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType<AccountService>().As<IAccountService>();
-            builder.RegisterType<MainViewModel>().As<IMainViewModel>();
+            builder.RegisterType<SpecialService>().As<ISpecialService>();
+            builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
             var container = builder.Build();
-            //InitializeComponent();
-            
 
             InitializeComponent();
-
-            MainPage = new MainPage(container.Resolve<IMainViewModel>());
+            MainPage = new MainPage(container.Resolve<ISpecialViewModel>());
         }
 
         protected override void OnStart()
