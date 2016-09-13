@@ -137,7 +137,6 @@ class MonoPackageManager_Resources {
 		"System.Resources.ResourceManager.dll",
 		"Autofac.dll",
 		"System.Diagnostics.Tools.dll",
-		"ShareSpecial.Model.dll",
 		"ShareSpecial.Core.dll",
 	};
 	public static final String[] Dependencies = new String[]{

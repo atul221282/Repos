@@ -244,3 +244,54 @@ The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 WebException @9/13/2016 10:03:08 PM
 The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 *******************************************************
+WebException @9/13/2016 10:09:11 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:16:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:17:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:19:02 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:19:12 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:19:27 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/13/2016 10:19:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/13/2016 10:20:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:21:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:22:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:23:50 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:24:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/13/2016 10:25:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/13/2016 10:26:10 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
