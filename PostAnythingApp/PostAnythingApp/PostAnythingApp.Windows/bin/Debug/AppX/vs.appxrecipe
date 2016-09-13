@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ISHANA</Machine>
+    <WindowsUser>atul</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d51ff362-fa9d-4ada-b056-bd76d8ae13bb</PackageIdentityName>
+    <PackageIdentityPublisher>CN=atul</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>99A351497068FA078A3702E48241FFCE6D15E4F27B579100167B2DA8D569067C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d51ff362-fa9d-4ada-b056-bd76d8ae13bb_1.0.0.0_neutral__ve58hr65qtxht</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d51ff362-fa9d-4ada-b056-bd76d8ae13bb_ve58hr65qtxht!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d51ff362-fa9d-4ada-b056-bd76d8ae13bb</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=atul</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-12T11:30:49.949</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\bin\Debug\PostAnythingApp.Windows.exe">
+      <PackagePath>PostAnythingApp.Windows.exe</PackagePath>
+      <Modified>2016-09-12T12:58:38.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp\bin\Debug\PostAnythingApp.dll">
+      <PackagePath>PostAnythingApp.dll</PackagePath>
+      <Modified>2016-09-12T12:58:37.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp\bin\Debug\Autofac.dll">
+      <PackagePath>Autofac.dll</PackagePath>
+      <Modified>2016-01-09T02:58:21.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp\bin\Debug\PostAnythingApp.Service.dll">
+      <PackagePath>PostAnythingApp.Service.dll</PackagePath>
+      <Modified>2016-09-11T12:44:31.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-10T11:51:46.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-10T11:51:46.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-10T11:51:46.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-10T11:51:46.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\bin\Debug\PostAnythingApp.Windows.xr.xml">
+      <PackagePath>PostAnythingApp.Windows.xr.xml</PackagePath>
+      <Modified>2016-09-10T11:53:16.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-09-12T11:30:47.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-09-12T11:30:47.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\PostAnythingApp\PostAnythingApp\PostAnythingApp.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-09-12T12:55:37.775</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ISHANA</Machine>
+    <WindowsUser>atul</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4d1548ab-d908-48e6-b62b-ba872628810d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=atul</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>0162A1DA7D170C672FE0F0AFD8B1B60A634D3C48C125092D6A9A94E5E6D2110A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4d1548ab-d908-48e6-b62b-ba872628810d_1.0.0.0_neutral__ve58hr65qtxht</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4d1548ab-d908-48e6-b62b-ba872628810d_ve58hr65qtxht!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4d1548ab-d908-48e6-b62b-ba872628810d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=atul</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-13T11:02:01.752</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Windows.exe">
+      <PackagePath>ShareSpecial.Windows.exe</PackagePath>
+      <Modified>2016-09-13T11:24:31.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
+      <PackagePath>ShareSpecial.dll</PackagePath>
+      <Modified>2016-09-13T11:24:30.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
+      <PackagePath>Autofac.dll</PackagePath>
+      <Modified>2016-01-09T02:58:21.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
+      <PackagePath>ShareSpecial.Core.dll</PackagePath>
+      <Modified>2016-09-13T11:13:08.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-13T11:00:59.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-13T11:00:59.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-13T11:00:59.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-13T11:00:59.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Windows.xr.xml">
+      <PackagePath>ShareSpecial.Windows.xr.xml</PackagePath>
+      <Modified>2016-09-13T11:02:00.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-09-13T11:02:00.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-09-13T11:02:00.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\FormsTextBox.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.0.0.6482\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+      <Modified>2015-11-16T21:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-09-13T11:24:32.363</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

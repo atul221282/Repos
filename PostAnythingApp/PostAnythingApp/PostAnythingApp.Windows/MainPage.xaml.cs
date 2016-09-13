@@ -20,7 +20,6 @@ namespace PostAnythingApp.Windows
         public MainPage()
         {
             this.InitializeComponent();
-
             LoadApplication(new PostAnythingApp.App());
         }
     }
