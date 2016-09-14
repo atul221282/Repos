@@ -1,6 +1,8 @@
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Model.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Xamarin.Forms.Core.dll
@@ -11,6 +13,8 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\XLab
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Model.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.Abstractions.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Xamarin.Forms.Platform.pdb
@@ -21,8 +25,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\XLab
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.csprojResolveAssemblyReference.cache
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.MainPage.xaml.g.cs
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.App.xaml.g.cs
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Special.Index.xaml.g.cs
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Views.Special.Index.xaml.g.cs
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Views.Account.Login.xaml.g.cs
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.pdb
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll.mdb
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll.mdb

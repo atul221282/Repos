@@ -35,8 +35,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\AccountService.cs" />
+    <Compile Include="Service\IAccountService.cs" />
     <Compile Include="Service\ISpecialService.cs" />
     <Compile Include="Service\SpecialService.cs" />
+    <Compile Include="ViewModel\Account\ILoginViewModel.cs" />
+    <Compile Include="ViewModel\Account\LoginViewModel.cs" />
     <Compile Include="ViewModel\Special\ISpecialViewModel.cs" />
     <Compile Include="ViewModel\Special\SpecialViewModel.cs" />
   </ItemGroup>
@@ -56,6 +60,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShareSpecial.Model\ShareSpecial.Model.csproj">
+      <Project>{50539ABF-96C0-474E-A0B4-E25BB0B0A6A8}</Project>
+      <Name>ShareSpecial.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

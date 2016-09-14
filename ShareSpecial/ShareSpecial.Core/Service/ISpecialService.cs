@@ -8,6 +8,7 @@ namespace ShareSpecial.Core.Service
 {
     public interface ISpecialService
     {
+        void AddSpecial();
         string GetName();
     }
 }

@@ -37,9 +37,18 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCode.cs" />
     <Compile Include="BaseEntity.cs" />
-    <Compile Include="Special\Special.cs" />
+    <Compile Include="Constant\GlobalConstant.cs" />
+    <Compile Include="IBaseCode.cs" />
+    <Compile Include="IBaseEntity.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="Special\PostSpecial.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Special\PostSpecialType.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="UsersType.cs" />
+    <Compile Include="UsersUsersType.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
