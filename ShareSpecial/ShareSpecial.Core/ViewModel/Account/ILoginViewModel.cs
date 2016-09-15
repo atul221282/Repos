@@ -11,5 +11,6 @@ namespace ShareSpecial.Core.ViewModel.Account
         string Email { get; set; }
         string Password { get; set; }
 
+        string GetEmail();
     }
 }

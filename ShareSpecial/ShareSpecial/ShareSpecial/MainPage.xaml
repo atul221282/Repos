@@ -8,7 +8,4 @@
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
-  <Button Text="Get Post" FontSize="20" HorizontalOptions="CenterAndExpand"
-                Clicked="btnGetPost_OnClickedAsync" x:Name="btnGetPost"></Button>
-  
 </ContentPage>

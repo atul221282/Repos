@@ -20,5 +20,7 @@ namespace ShareSpecial.Core.ViewModel.Account
         public string Email { get; set; }
 
         public string Password { get; set; }
+
+        public string GetEmail() => $"{Email} welcome to xamarin";
     }
 }

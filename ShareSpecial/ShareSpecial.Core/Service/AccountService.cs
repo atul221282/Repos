@@ -8,10 +8,8 @@ namespace ShareSpecial.Core.Service
 {
     public class AccountService : IAccountService
     {
-        public string GetEmail()
-        {
-            return @"atul221282@gmail.com";
-        }
+        private const string Email = "";
+        public string GetEmail() => Email;
 
         public bool Validate(string email, string password)
         {

@@ -21,18 +21,12 @@ namespace ShareSpecial
             BindingContext = ViewModel;
             InitializeComponent();
         }
-
-        protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
-        {
-            var name = ViewModel.GetName();
-            var answer = await DisplayAlert("Question?", "Would you like to play a game " + name, "Yes", "No");
-        }
-
         async protected override void OnAppearing()
         {
+            //todo load application data here
+            //todo then navigate from here
             var page = new Login(ObjectFactory.Container.Resolve<ILoginViewModel>());
             App.Current.MainPage = new NavigationPage(page);
-            
         }
     }
 
