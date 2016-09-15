@@ -81,5 +81,11 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debu
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\ShareSpecial.Droid.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Droid.dll.mdb

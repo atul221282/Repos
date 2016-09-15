@@ -34,14 +34,13 @@ namespace ShareSpecial.Views.Account
                     JsonConvert.SerializeObject(new { EmailAddress = Model.Email, Password = Model.Password })
                     , Encoding.UTF8, "application/json"))
             {
-                var result = await client.PostAsync(@"http://localhost/PostAnything.API/api/Account/Login", content);
+                var result =
+                    await client.PostAsync(@"http://192.168.153.2/PostAnything.API/api/Account/Login", content);
                 if (result.IsSuccessStatusCode)
                 {
                     var answer = await DisplayAlert("wlecome", name, "Yes", "No");
                 }
             }
-
-
         }
 
     }
