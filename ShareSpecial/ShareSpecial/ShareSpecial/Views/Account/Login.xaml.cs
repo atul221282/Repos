@@ -31,7 +31,7 @@ namespace ShareSpecial.Views.Account
             using (var client = new HttpClient())
             using (var content =
                 new StringContent(
-                    JsonConvert.SerializeObject(new { EmailAddress = Model.Email, Password = "123456" })
+                    JsonConvert.SerializeObject(new { EmailAddress = Model.Email, Password = Model.Password })
                     , Encoding.UTF8, "application/json"))
             {
                 var result = await client.PostAsync(@"http://localhost/PostAnything.API/api/Account/Login", content);

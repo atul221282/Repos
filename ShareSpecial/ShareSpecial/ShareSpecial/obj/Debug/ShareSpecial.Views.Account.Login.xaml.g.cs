@@ -20,12 +20,16 @@ namespace ShareSpecial.Views.Account {
         private global::Xamarin.Forms.Entry enEmail;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry enPassword;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button btnGetPost;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Login));
             enEmail = this.FindByName<global::Xamarin.Forms.Entry>("enEmail");
+            enPassword = this.FindByName<global::Xamarin.Forms.Entry>("enPassword");
             btnGetPost = this.FindByName<global::Xamarin.Forms.Button>("btnGetPost");
         }
     }
