@@ -2,6 +2,7 @@
 using ShareSpecial.Core.Service;
 using ShareSpecial.Core.ViewModel.Account;
 using ShareSpecial.Core.ViewModel.Special;
+using ShareSpecial.Infrastructure;
 using ShareSpecial.Model.Constant;
 using ShareSpecial.Views.Account;
 using System;
@@ -31,6 +32,7 @@ namespace ShareSpecial
         {
             var page = new Login(ObjectFactory.Container.Resolve<ILoginViewModel>());
             App.Current.MainPage = new NavigationPage(page);
+            
         }
     }
 

@@ -3,6 +3,7 @@ using ShareSpecial.Core;
 using ShareSpecial.Core.Service;
 using ShareSpecial.Core.ViewModel.Account;
 using ShareSpecial.Core.ViewModel.Special;
+using ShareSpecial.Infrastructure;
 using ShareSpecial.Model.Constant;
 using Xamarin.Forms;
 
@@ -10,16 +11,18 @@ namespace ShareSpecial
 {
     public partial class App : Application
     {
+        public static IContainer container;
         public App()
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<SpecialService>().As<ISpecialService>();
-            builder.RegisterType<AccountService>().As<IAccountService>();
-            builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
-            builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
-            ObjectFactory.Container = builder.Build();
+            SetContainer();
             InitializeComponent();
             MainPage = new MainPage(ObjectFactory.Container.Resolve<ISpecialViewModel>());
+        }
+
+        private static void SetContainer()
+        {
+
+            var data = ObjectFactory.Container;
         }
 
         protected override void OnStart()
