@@ -1,6 +1,5 @@
 ﻿using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.ViewModel.Account;
-using ShareSpecial.Helper;
 using System;
 
 using Xamarin.Forms;

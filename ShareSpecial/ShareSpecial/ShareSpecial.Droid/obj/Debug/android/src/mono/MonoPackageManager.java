@@ -100,6 +100,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "ShareSpecial.Droid.dll" comes first in this list. */
 		"ShareSpecial.Droid.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Settings.Abstractions.dll",
+		"Plugin.Settings.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -114,6 +116,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"ShareSpecial.dll",
 		"System.Runtime.dll",
+		"System.Resources.ResourceManager.dll",
 		"System.Collections.dll",
 		"System.Diagnostics.Debug.dll",
 		"System.Threading.Tasks.dll",
@@ -132,7 +135,6 @@ class MonoPackageManager_Resources {
 		"System.Text.RegularExpressions.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Runtime.InteropServices.dll",
-		"System.Resources.ResourceManager.dll",
 		"Autofac.dll",
 		"System.Diagnostics.Tools.dll",
 		"ShareSpecial.Core.dll",
@@ -142,8 +144,6 @@ class MonoPackageManager_Resources {
 		"System.Runtime.Serialization.Primitives.dll",
 		"System.Text.Encoding.dll",
 		"System.Text.Encoding.Extensions.dll",
-		"Plugin.Settings.Abstractions.dll",
-		"Plugin.Settings.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

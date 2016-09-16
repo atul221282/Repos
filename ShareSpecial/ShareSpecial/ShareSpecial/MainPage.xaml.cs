@@ -2,7 +2,6 @@
 using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.ViewModel.Account;
 using ShareSpecial.Core.ViewModel.Special;
-using ShareSpecial.Helper;
 using ShareSpecial.Infrastructure;
 using ShareSpecial.Views.Account;
 using Xamarin.Forms;

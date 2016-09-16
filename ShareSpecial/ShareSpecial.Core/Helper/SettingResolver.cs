@@ -8,7 +8,7 @@ using ShareSpecial.BusinessEntities;
 using ShareSpecial.BusinessEntity.Identity;
 using Newtonsoft.Json;
 
-namespace ShareSpecial.Helper
+namespace ShareSpecial.Core.Helper
 {
     public class SettingResolver : ISettingResolver
     {
