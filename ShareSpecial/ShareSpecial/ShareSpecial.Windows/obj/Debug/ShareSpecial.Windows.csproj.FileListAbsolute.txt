@@ -16,6 +16,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\De
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Core.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Settings.Abstractions.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Settings.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Newtonsoft.Json.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Xamarin.Forms.Platform.WinRT.pri
@@ -25,6 +26,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\De
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Core.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Settings.Abstractions.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Settings.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Newtonsoft.Json.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\ShareSpecial.Windows.csprojResolveAssemblyReference.cache
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\App.g.i.cs
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\App.g.cs
@@ -93,5 +95,13 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\De
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.Tablet.pri.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\ProjectArchitectures.txt
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Newtonsoft.Json.dll
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Newtonsoft.Json.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.BusinessEntity.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.BusinessEntity.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles.intermediate
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles.intermediate
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles.intermediate
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml.intermediate

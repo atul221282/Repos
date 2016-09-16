@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Constant\ApplicationConstant.cs" />
+    <Compile Include="Extension\HttpClientExtension.cs" />
+    <Compile Include="Helper\HttpClientResolver.cs" />
+    <Compile Include="Helper\IHttpClientResolver.cs" />
+    <Compile Include="Helper\ISettingResolver.cs" />
+    <Compile Include="Helper\SettingResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AccountService.cs" />
     <Compile Include="Service\IAccountService.cs" />
@@ -49,6 +55,10 @@
       <HintPath>..\packages\Autofac.3.5.2\lib\portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\Autofac.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="XLabs.Ioc, Version=2.0.5782.12218, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\XLabs.IoC.2.0.5782\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10\XLabs.Ioc.dll</HintPath>
       <Private>True</Private>
@@ -62,6 +72,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ShareSpecial.BusinessEntity\ShareSpecial.BusinessEntity.csproj">
+      <Project>{4F64C816-A3BA-449B-8845-C2835B0523C1}</Project>
+      <Name>ShareSpecial.BusinessEntity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShareSpecial.Model\ShareSpecial.Model.csproj">
       <Project>{50539ABF-96C0-474E-A0B4-E25BB0B0A6A8}</Project>
       <Name>ShareSpecial.Model</Name>

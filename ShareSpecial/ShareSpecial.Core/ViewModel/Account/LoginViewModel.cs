@@ -22,5 +22,7 @@ namespace ShareSpecial.Core.ViewModel.Account
         public string Password { get; set; }
 
         public string GetEmail() => $"{Email} welcome to xamarin";
+
+        public async Task<bool> LoginAsync() => await Service.LoginAsync(Email, Password);
     }
 }

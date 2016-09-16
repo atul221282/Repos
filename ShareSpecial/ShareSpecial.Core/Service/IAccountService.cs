@@ -1,11 +1,12 @@
 ﻿
 using ShareSpecial.Model;
+using System.Threading.Tasks;
 
 namespace ShareSpecial.Core.Service
 {
     public interface IAccountService
     {
-        bool Validate(string email, string password);
         string GetEmail();
+        Task<bool> LoginAsync(string email, string password);
     }
 }

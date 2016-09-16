@@ -27,21 +27,12 @@ namespace ShareSpecial.Views.Account
 
         protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
         {
-            var name = Model.GetEmail();
-            using (var client = new HttpClient())
-            using (var content =
-                new StringContent(
-                    JsonConvert.SerializeObject(new { EmailAddress = Model.Email, Password = Model.Password })
-                    , Encoding.UTF8, "application/json"))
+            if (await Model.LoginAsync())
             {
-                var result =
-                    await client.PostAsync(@"http://192.168.153.2/PostAnything.API/api/Account/Login", content);
-                if (result.IsSuccessStatusCode)
-                {
-                    var answer = await DisplayAlert("wlecome", name, "Yes", "No");
-                }
+                var answer = await DisplayAlert("wlecome", Model.Email, "Yes", "No");
             }
         }
-
     }
+
 }
+

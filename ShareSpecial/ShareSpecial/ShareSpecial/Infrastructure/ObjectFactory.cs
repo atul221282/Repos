@@ -1,11 +1,14 @@
 ﻿using Autofac;
 using Autofac.Core;
+using ShareSpecial.Core.Constant;
+using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.Service;
 using ShareSpecial.Core.ViewModel.Account;
 using ShareSpecial.Core.ViewModel.Special;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,9 +27,12 @@ namespace ShareSpecial.Infrastructure
         public static IContainer Components()
         {
             var builder = new ContainerBuilder();
-            
+
+            //builder.Register(x => new HttpClient());
+            builder.RegisterType<HttpClientResolver>().As<IHttpClientResolver>();
             builder.RegisterType<SpecialService>().As<ISpecialService>();
             builder.RegisterType<AccountService>().As<IAccountService>();
+            builder.RegisterType<SettingResolver>().As<ISettingResolver>();
             builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
             builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
 

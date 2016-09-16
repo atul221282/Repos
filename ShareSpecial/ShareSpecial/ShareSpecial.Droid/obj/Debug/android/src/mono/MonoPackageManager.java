@@ -136,13 +136,14 @@ class MonoPackageManager_Resources {
 		"Autofac.dll",
 		"System.Diagnostics.Tools.dll",
 		"ShareSpecial.Core.dll",
-		"Plugin.Settings.Abstractions.dll",
-		"Plugin.Settings.dll",
 		"Newtonsoft.Json.dll",
 		"System.Xml.XDocument.dll",
 		"System.Runtime.Serialization.Primitives.dll",
 		"System.Text.Encoding.dll",
 		"System.Text.Encoding.Extensions.dll",
+		"ShareSpecial.BusinessEntity.dll",
+		"Plugin.Settings.Abstractions.dll",
+		"Plugin.Settings.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

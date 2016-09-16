@@ -109,6 +109,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ShareSpecial.BusinessEntity\ShareSpecial.BusinessEntity.csproj">
+      <Project>{4f64c816-a3ba-449b-8845-c2835b0523c1}</Project>
+      <Name>ShareSpecial.BusinessEntity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ShareSpecial.Core\ShareSpecial.Core.csproj">
       <Project>{540aba29-ce71-43c3-978a-a1c6d6fb4ea3}</Project>
       <Name>ShareSpecial.Core</Name>

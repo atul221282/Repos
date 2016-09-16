@@ -12,5 +12,7 @@ namespace ShareSpecial.Core.ViewModel.Account
         string Password { get; set; }
 
         string GetEmail();
+
+        Task<bool> LoginAsync();
     }
 }
