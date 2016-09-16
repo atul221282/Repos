@@ -38,9 +38,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helper\AppSettings.cs" />
     <Compile Include="Helper\ISettingResolver.cs" />
     <Compile Include="Helper\SettingResolver.cs" />
-    <Compile Include="Helper\Settings.cs" />
     <Compile Include="Infrastructure\ObjectFactory.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

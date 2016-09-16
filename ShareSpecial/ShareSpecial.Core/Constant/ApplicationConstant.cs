@@ -12,7 +12,7 @@ namespace ShareSpecial.Core.Constant
         public const string BaseAPI = BaseUrl + "PostAnything.API/api/";
     }
 
-    public static class SettingConstants
+    public static class SettingConstant
     {
         public static string skExpiresAt = "expires_at";
         public static DateTime skExpiresAtDefault = DateTime.MinValue;

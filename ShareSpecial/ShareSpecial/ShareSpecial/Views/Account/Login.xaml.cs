@@ -27,7 +27,10 @@ namespace ShareSpecial.Views.Account
             var response = await Model.LoginAsync();
             if (response.HasSuccess)
             {
-                var answer = await DisplayAlert("wlecome", response.Value.Item2.FullName, "Yes", "No");
+                Setting.User = response.Value.Item2;
+                Setting.Token = response.Value.Item1;
+
+                var answer = await DisplayAlert("wlecome", Setting.User.FullName, "Yes", "No");
             }
         }
     }

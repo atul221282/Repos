@@ -18,12 +18,12 @@ namespace ShareSpecial.Helper
         {
             get
             {
-                return JsonConvert.DeserializeObject<Token>(Settings.TokenResponse);
+                return JsonConvert.DeserializeObject<Token>(Settings.Token);
             }
 
             set
             {
-                Settings.TokenResponse = JsonConvert.SerializeObject(value);
+                Settings.Token = JsonConvert.SerializeObject(value);
             }
         }
 
@@ -31,12 +31,12 @@ namespace ShareSpecial.Helper
         {
             get
             {
-                return JsonConvert.DeserializeObject<Users>(Settings.UserDetails);
+                return JsonConvert.DeserializeObject<Users>(Settings.User);
             }
 
             set
             {
-                Settings.UserDetails = JsonConvert.SerializeObject(value);
+                Settings.User = JsonConvert.SerializeObject(value);
             }
         }
 
