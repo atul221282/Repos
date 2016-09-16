@@ -1,12 +1,7 @@
-﻿using Newtonsoft.Json;
-using ShareSpecial.Core.Service;
+﻿using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.ViewModel.Account;
+using ShareSpecial.Helper;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
@@ -16,20 +11,23 @@ namespace ShareSpecial.Views.Account
     {
 
         private readonly ILoginViewModel Model;
+        private readonly ISettingResolver Setting;
 
-        public Login(ILoginViewModel model)
+        public Login(ILoginViewModel model, ISettingResolver setting)
         {
             this.Model = model;
             Model.Email = "bsharma2422@gmail.com";
             BindingContext = model;
+            this.Setting = setting;
             InitializeComponent();
         }
 
         protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
         {
-            if (await Model.LoginAsync())
+            var response = await Model.LoginAsync();
+            if (response.HasSuccess)
             {
-                var answer = await DisplayAlert("wlecome", Model.Email, "Yes", "No");
+                var answer = await DisplayAlert("wlecome", response.Value.Item2.FullName, "Yes", "No");
             }
         }
     }

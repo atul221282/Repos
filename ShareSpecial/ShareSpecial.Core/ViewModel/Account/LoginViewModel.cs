@@ -1,4 +1,8 @@
-﻿using ShareSpecial.Core.Service;
+﻿using ShareSpecial.BusinessEntities;
+using ShareSpecial.BusinessEntity;
+using ShareSpecial.BusinessEntity.Identity;
+using ShareSpecial.Core.Helper;
+using ShareSpecial.Core.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +27,6 @@ namespace ShareSpecial.Core.ViewModel.Account
 
         public string GetEmail() => $"{Email} welcome to xamarin";
 
-        public async Task<bool> LoginAsync() => await Service.LoginAsync(Email, Password);
+        public async Task<Result<Tuple<Token,Users>>> LoginAsync() => await Service.LoginAsync(Email, Password);
     }
 }

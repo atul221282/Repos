@@ -49,17 +49,17 @@
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
+      <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.Abstractions.dll">
       <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.dll">
-      <PackagePath>Plugin.Settings.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
-      <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.dll">
+      <PackagePath>Plugin.Settings.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>

@@ -622,4 +622,3 @@ namespace ShareSpecial.WinPhone.ShareSpecial_WinPhone_XamlTypeInfo
 }
 
 
-

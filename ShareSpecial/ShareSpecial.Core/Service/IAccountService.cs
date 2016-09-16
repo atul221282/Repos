@@ -1,5 +1,9 @@
 ﻿
-using ShareSpecial.Model;
+using ShareSpecial.BusinessEntities;
+using ShareSpecial.BusinessEntity;
+using ShareSpecial.BusinessEntity.Identity;
+
+using System;
 using System.Threading.Tasks;
 
 namespace ShareSpecial.Core.Service
@@ -7,6 +11,6 @@ namespace ShareSpecial.Core.Service
     public interface IAccountService
     {
         string GetEmail();
-        Task<bool> LoginAsync(string email, string password);
+        Task<Result<Tuple<Token, Users>>> LoginAsync(string email, string password);
     }
 }

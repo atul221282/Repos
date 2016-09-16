@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShareSpecial.Core.Helper
+namespace ShareSpecial.BusinessEntity
 {
-    public interface ISettingResolver
+    public class Result<T> : Result
     {
-        string BaseAPI { get; }
+        public T Value { get; set; }
     }
 }

@@ -42,6 +42,9 @@
     <Compile Include="Identity\Token.cs" />
     <Compile Include="Interfaces\IBaseCode.cs" />
     <Compile Include="Interfaces\IBaseEntity.cs" />
+    <Compile Include="Model\IResult.cs" />
+    <Compile Include="Model\Result.cs" />
+    <Compile Include="Model\Result`1.cs" />
     <Compile Include="Permission.cs" />
     <Compile Include="Post\PostSpecial.cs" />
     <Compile Include="Post\PostSpecialType.cs" />

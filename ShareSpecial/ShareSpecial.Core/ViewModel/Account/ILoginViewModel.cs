@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ShareSpecial.BusinessEntities;
+using ShareSpecial.BusinessEntity;
+using ShareSpecial.BusinessEntity.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +16,6 @@ namespace ShareSpecial.Core.ViewModel.Account
 
         string GetEmail();
 
-        Task<bool> LoginAsync();
+        Task<Result<Tuple<Token, Users>>> LoginAsync();
     }
 }

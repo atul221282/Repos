@@ -1,11 +1,10 @@
 ﻿using Autofac;
-using ShareSpecial.Core.Service;
+using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.ViewModel.Account;
 using ShareSpecial.Core.ViewModel.Special;
+using ShareSpecial.Helper;
 using ShareSpecial.Infrastructure;
-using ShareSpecial.Model.Constant;
 using ShareSpecial.Views.Account;
-using System;
 using Xamarin.Forms;
 
 namespace ShareSpecial
@@ -25,7 +24,8 @@ namespace ShareSpecial
         {
             //todo load application data here
             //todo then navigate from here
-            var page = new Login(ObjectFactory.Container.Resolve<ILoginViewModel>());
+            var page = new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
+                ObjectFactory.Container.Resolve<ISettingResolver>());
             App.Current.MainPage = new NavigationPage(page);
         }
     }

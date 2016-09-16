@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShareSpecial.Model
+namespace ShareSpecial.BusinessEntity
 {
     public class Result : IResult
     {
@@ -28,7 +28,17 @@ namespace ShareSpecial.Model
             };
         }
 
-        public Result Ok<T>(T value)
+        public Result<T> Error<T>(string error = "", string code = "")
+        {
+            return new Result<T>
+            {
+                Code = code,
+                Errors = error,
+                HasError = true
+            };
+        }
+
+        public Result<T> Ok<T>(T value)
         {
             return new Result<T>
             {

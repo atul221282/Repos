@@ -8,39 +8,46 @@ using Newtonsoft.Json.Linq;
 using ShareSpecial.BusinessEntity.Identity;
 using ShareSpecial.BusinessEntities;
 using System;
+using ShareSpecial.Core.Constant;
+using ShareSpecial.BusinessEntity;
+
 
 namespace ShareSpecial.Core.Service
 {
     public class AccountService : IAccountService
     {
-        private readonly ISettingResolver Setting;
         private readonly IHttpClientResolver Client;
-        public AccountService(ISettingResolver setting, IHttpClientResolver client)
+        private readonly IResult Result;
+        public AccountService(IHttpClientResolver client, IResult result)
         {
-            this.Setting = setting;
             Client = client;
+            Result = result;
         }
 
         private const string Email = "";
 
         public string GetEmail() => Email;
 
-        public async Task<bool> LoginAsync(string email, string password)
+        public async Task<Result<Tuple<Token, Users>>> LoginAsync(string email, string password)
         {
             using (var client = Client.GetClient())
             {
                 var response = await client
-                    .PostStringAsync<object>($"{Setting.BaseAPI}Account/Login",
+                    .PostStringAsync<object>($"{ApplicationConstant.BaseAPI}Account/Login",
                     new { EmailAddress = email, password = password });
                 if (response.IsSuccessStatusCode)
                 {
-                    var result = JsonConvert.DeserializeObject<JObject>(await response.Content.ReadAsStringAsync());
-                    var token = result["m_Item1"].ToObject<Token>();
-                    var user = result["m_Item2"].ToObject<Users>();
-                    return true;
+                    var data = JsonConvert.DeserializeObject<JObject>(await response.Content.ReadAsStringAsync());
+                    var user = data["m_Item2"].ToObject<Users>();
+                    var token = data["m_Item1"].ToObject<Token>();
+
+                    return Result.Ok(new Tuple<Token, Users>(token,user));
+
                 }
-                return false;
+                return Result.Error<Tuple<Token, Users>>("Error");
             }
         }
+
+       
     }
 }

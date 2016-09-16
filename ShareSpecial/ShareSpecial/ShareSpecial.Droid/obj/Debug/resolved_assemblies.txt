@@ -47,6 +47,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debu
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Autofac.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.Core.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.BusinessEntity.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
@@ -54,6 +55,5 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debu
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Mono.CSharp.dll
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.BusinessEntity.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Plugin.Settings.dll
