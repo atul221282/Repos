@@ -14,11 +14,10 @@ namespace ShareSpecial.Core.ViewModel.Special
         public SpecialViewModel(ISpecialService special)
         {
             Special = special;
-            this.Name = Special.GetName();
+            
         }
 
         public string Name { get; set; }
 
-        public string GetName() => Special.GetName();
     }
 }

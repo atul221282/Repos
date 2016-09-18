@@ -26,7 +26,7 @@ namespace ShareSpecial.Core.ViewModel.Account
 
         Task<Result<Tuple<Token, Users>>> LoginAsync();
 
-        Task<Result<List<PostSpecial>>> GetSpecials();
+        Task<Result<List<PostSpecial>>> GetSpecialsAsync();
 
         Task<Result<PostSpecial>> GetSpecialAsync(long id);
     }

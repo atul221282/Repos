@@ -10,6 +10,5 @@ namespace ShareSpecial.Core.ViewModel.Special
     {
         string Name { get; set; }
 
-        string GetName();
     }
 }

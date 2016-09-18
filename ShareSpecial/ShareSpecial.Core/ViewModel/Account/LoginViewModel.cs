@@ -15,12 +15,12 @@ namespace ShareSpecial.Core.ViewModel.Account
     public class LoginViewModel : ILoginViewModel
     {
 
-        private readonly IAccountService Service;
+        private readonly IServiceFactory Service;
 
-        public LoginViewModel(IAccountService service)
+        public LoginViewModel(IServiceFactory service)
         {
             this.Service = service;
-            this.Email = service.GetEmail();
+            this.Email = service.Account.GetEmail();
         }
         public string Email { get; set; }
 
@@ -34,10 +34,10 @@ namespace ShareSpecial.Core.ViewModel.Account
 
         public string GetEmail() => $"{Email} welcome to xamarin";
 
-        public async Task<Result<List<PostSpecial>>> GetSpecials() => await Service.GetSpecialsAsync(Longitude, Latitude, Distance);
+        public async Task<Result<List<PostSpecial>>> GetSpecialsAsync() => await Service.Special.GetSpecialsAsync(Longitude, Latitude, Distance);
 
-        public async Task<Result<Tuple<Token, Users>>> LoginAsync() => await Service.LoginAsync(Email, Password);
+        public async Task<Result<Tuple<Token, Users>>> LoginAsync() => await Service.Account.LoginAsync(Email, Password);
 
-        public async Task<Result<PostSpecial>> GetSpecialAsync(long id) => await Service.GetSpecialAsync(id);
+        public async Task<Result<PostSpecial>> GetSpecialAsync(long id) => await Service.Special.GetSpecialAsync(id);
     }
 }

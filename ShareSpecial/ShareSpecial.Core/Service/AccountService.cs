@@ -59,57 +59,6 @@ namespace ShareSpecial.Core.Service
             }
         }
 
-        public async Task<Result<List<PostSpecial>>> GetSpecialsAsync(double? longitude, double? latitude,
-            int distance)
-        {
-            using (HttpClient client = HelperFactory.HttpClient.GetClient())
-            {
-                try
-                {
-                    var response = await client
-                        .GetModel<Result<List<PostSpecial>>>(
-                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}");
-
-                    if (response.HasSuccess)
-                    {
-                        return response;
-                    }
-                    else
-                    {
-                        return Result.Error<List<PostSpecial>>("Error");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    return Result.Error<List<PostSpecial>>(ex.Message);
-                }
-            }
-        }
-
-        public async Task<Result<PostSpecial>> GetSpecialAsync(long id)
-        {
-            using (HttpClient client = HelperFactory.HttpClient.GetClient())
-            {
-                try
-                {
-                    var response = await client
-                        .GetModel<Result<PostSpecial>>(
-                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?id={id}");
-
-                    if (response.HasSuccess)
-                    {
-                        return response;
-                    }
-                    else
-                    {
-                        return Result.Error<PostSpecial>("Error");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    return Result.Error<PostSpecial>(ex.Message);
-                }
-            }
-        }
+        
     }
 }

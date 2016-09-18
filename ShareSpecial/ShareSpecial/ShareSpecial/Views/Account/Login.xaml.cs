@@ -29,7 +29,7 @@ namespace ShareSpecial.Views.Account
         protected async void btnLogin_OnClickedAsync(object sender, EventArgs events)
         {
             var response = await Model.LoginAsync();
-            
+
             if (response.HasError)
             {
                 await DisplayAlert("Error", response.Errors, "Ok");
@@ -45,10 +45,10 @@ namespace ShareSpecial.Views.Account
 
         protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
         {
-            var response = await Model.GetSpecials();
-            if(response.HasSuccess)
+            var response = await Model.GetSpecialsAsync();
+            if (response.HasSuccess)
             {
-                
+                var special = await Model.GetSpecialAsync(1);
             }
         }
 
