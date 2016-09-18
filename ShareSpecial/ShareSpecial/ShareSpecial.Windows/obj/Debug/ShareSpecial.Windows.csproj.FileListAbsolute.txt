@@ -97,6 +97,12 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\De
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.Tablet.pri.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Geolocator.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Geolocator.Abstractions.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\Plugin.Geolocator.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles.intermediate
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles

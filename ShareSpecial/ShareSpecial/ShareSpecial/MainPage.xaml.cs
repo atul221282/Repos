@@ -24,7 +24,7 @@ namespace ShareSpecial
             //todo load application data here
             //todo then navigate from here
             var page = new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
-                ObjectFactory.Container.Resolve<ISettingResolver>());
+                ObjectFactory.Container.Resolve<IHelperFactory>());
             App.Current.MainPage = new NavigationPage(page);
         }
     }

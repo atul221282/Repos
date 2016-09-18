@@ -244,5 +244,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\obj\x86\De
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Settings.Abstractions.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Settings.dll
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Settings.Abstractions.xml
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Settings.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.BusinessEntity.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.BusinessEntity.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Newtonsoft.Json.xml

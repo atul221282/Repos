@@ -1,10 +1,6 @@
 ﻿using ShareSpecial.BusinessEntities;
+using ShareSpecial.BusinessEntities.Post;
 using ShareSpecial.BusinessEntity.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShareSpecial.Core.Helper
 {
@@ -12,8 +8,13 @@ namespace ShareSpecial.Core.Helper
     {
         string BaseAPI { get; }
 
+        string PostSpecialAPI { get; }
+
         Token Token { get; set; }
 
         Users User { get; set; }
+
+        PostLocation Location { get; set; }
+
     }
 }

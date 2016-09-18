@@ -46,6 +46,7 @@
     <Compile Include="Model\Result.cs" />
     <Compile Include="Model\Result`1.cs" />
     <Compile Include="Permission.cs" />
+    <Compile Include="Post\PostLocation.cs" />
     <Compile Include="Post\PostSpecial.cs" />
     <Compile Include="Post\PostSpecialType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

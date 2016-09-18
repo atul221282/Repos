@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShareSpecial.BusinessEntities.Post
 {
@@ -51,11 +47,8 @@ namespace ShareSpecial.BusinessEntities.Post
             get { return _isAvailableOnline; }
             set { _isAvailableOnline = value; }
         }
-
-
+        public PostLocation PostLocation { get; set; }
         public virtual Users PostedBy { get; set; }
         public virtual PostSpecialType PostSpecialType { get; set; }
-
-
     }
 }

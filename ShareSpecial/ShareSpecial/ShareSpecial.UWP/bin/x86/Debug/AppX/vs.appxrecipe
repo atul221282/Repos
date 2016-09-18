@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-15T09:39:13.598</Modified>
+      <Modified>2016-09-17T10:15:49.202</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.UWP.exe">
       <PackagePath>entrypoint\ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-09-15T09:39:12.303</Modified>
+      <Modified>2016-09-17T10:15:43.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,6 +448,14 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T13:41:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugins.Settings\2.1.0\lib\UAP10\Plugin.Settings.Abstractions.dll">
+      <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
+      <Modified>2015-12-18T07:36:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugins.Settings\2.1.0\lib\UAP10\Plugin.Settings.dll">
+      <PackagePath>Plugin.Settings.dll</PackagePath>
+      <Modified>2015-12-18T07:36:24.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xamarin.Forms\2.3.1.114\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2016-08-02T05:43:24.000</Modified>
@@ -466,7 +474,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2016-09-15T09:38:32.162</Modified>
+      <Modified>2016-09-17T10:11:35.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -474,15 +482,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2016-09-14T13:37:04.305</Modified>
+      <Modified>2016-09-17T10:11:35.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.Abstractions.dll">
-      <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
-      <Modified>2015-12-18T07:36:24.000</Modified>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
+      <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
+      <Modified>2016-09-17T10:11:34.649</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Plugin.Settings.dll">
-      <PackagePath>Plugin.Settings.dll</PackagePath>
-      <Modified>2015-12-18T07:36:24.000</Modified>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T13:36:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -528,7 +536,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll">
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
-      <Modified>2016-09-14T13:10:55.907</Modified>
+      <Modified>2016-09-17T10:11:34.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +552,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-09-15T09:39:13.285</Modified>
+      <Modified>2016-09-17T10:15:48.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\ShareSpecial.UWP.exe">
       <PackagePath>ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-09-15T09:39:13.590</Modified>
+      <Modified>2016-09-17T10:15:49.185</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,9 +1,11 @@
 ﻿
 using ShareSpecial.BusinessEntities;
+using ShareSpecial.BusinessEntities.Post;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.BusinessEntity.Identity;
 
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ShareSpecial.Core.Service
@@ -12,5 +14,9 @@ namespace ShareSpecial.Core.Service
     {
         string GetEmail();
         Task<Result<Tuple<Token, Users>>> LoginAsync(string email, string password);
+
+        Task<Result<List<PostSpecial>>> GetSpecialsAsync(double? longitude, double? latitude, int distance);
+
+        Task<Result<PostSpecial>> GetSpecialAsync(long id);
     }
 }

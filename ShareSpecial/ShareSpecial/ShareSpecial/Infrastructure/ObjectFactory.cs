@@ -24,6 +24,7 @@ namespace ShareSpecial.Infrastructure
             var builder = new ContainerBuilder();
 
             //builder.Register(x => new HttpClient());
+            builder.RegisterType<HelperFactory>().As<IHelperFactory>();
             builder.RegisterType<Result>().As<IResult>();
             builder.RegisterType<HttpClientResolver>().As<IHttpClientResolver>();
             builder.RegisterType<SpecialService>().As<ISpecialService>();

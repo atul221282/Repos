@@ -1,11 +1,12 @@
 ﻿using Autofac;
-using ShareSpecial.Core;
-using ShareSpecial.Core.Service;
-using ShareSpecial.Core.ViewModel.Account;
 using ShareSpecial.Core.ViewModel.Special;
 using ShareSpecial.Infrastructure;
-using ShareSpecial.Model.Constant;
+using Plugin.Geolocator;
 using Xamarin.Forms;
+using System.Threading.Tasks;
+using ShareSpecial.Core.Helper;
+using Newtonsoft.Json;
+using ShareSpecial.BusinessEntities.Post;
 
 namespace ShareSpecial
 {
@@ -25,9 +26,20 @@ namespace ShareSpecial
             var data = ObjectFactory.Container;
         }
 
-        protected override void OnStart()
+        async protected override void OnStart()
         {
             // Handle when your app starts
+            await GetLocation();
+        }
+
+        private async Task GetLocation()
+        {
+            var locator = CrossGeolocator.Current;
+            if (locator.IsGeolocationEnabled)
+            {
+                var position = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
+                ObjectFactory.Container.Resolve<IHelperFactory>().Setting.Location = new PostLocation { Latitude = position.Latitude, Longitude = position.Longitude };
+            }
         }
 
         protected override void OnSleep()

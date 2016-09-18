@@ -10,17 +10,18 @@ using ShareSpecial.BusinessEntities;
 using System;
 using ShareSpecial.Core.Constant;
 using ShareSpecial.BusinessEntity;
-
+using ShareSpecial.BusinessEntities.Post;
+using System.Collections.Generic;
 
 namespace ShareSpecial.Core.Service
 {
     public class AccountService : IAccountService
     {
-        private readonly IHttpClientResolver Client;
+        private readonly IHelperFactory HelperFactory;
         private readonly IResult Result;
-        public AccountService(IHttpClientResolver client, IResult result)
+        public AccountService(IHelperFactory helperFactory, IResult result)
         {
-            Client = client;
+            HelperFactory = helperFactory;
             Result = result;
         }
 
@@ -30,24 +31,85 @@ namespace ShareSpecial.Core.Service
 
         public async Task<Result<Tuple<Token, Users>>> LoginAsync(string email, string password)
         {
-            using (var client = Client.GetClient())
+            using (HttpClient client = HelperFactory.HttpClient.GetClient())
             {
-                var response = await client
-                    .PostStringAsync<object>($"{ApplicationConstant.BaseAPI}Account/Login",
-                    new { EmailAddress = email, password = password });
-                if (response.IsSuccessStatusCode)
+                try
                 {
-                    var data = JsonConvert.DeserializeObject<JObject>(await response.Content.ReadAsStringAsync());
-                    var user = data["m_Item2"].ToObject<Users>();
-                    var token = data["m_Item1"].ToObject<Token>();
+                    var response = await client
+                        .PostStringAsync<object>($"{HelperFactory.Setting.BaseAPI}Account/Login",
+                        new { EmailAddress = email, password = password });
 
-                    return Result.Ok(new Tuple<Token, Users>(token,user));
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var data = JsonConvert.DeserializeObject<JObject>(await response.Content.ReadAsStringAsync());
+                        var user = data["m_Item2"].ToObject<Users>();
+                        var token = data["m_Item1"].ToObject<Token>();
 
+                        return Result.Ok(new Tuple<Token, Users>(token, user));
+
+                    }
+                    else
+                        return Result.Error<Tuple<Token, Users>>("Error");
                 }
-                return Result.Error<Tuple<Token, Users>>("Error");
+                catch (Exception ex)
+                {
+                    return Result.Error<Tuple<Token, Users>>(ex.Message);
+                }
+
             }
         }
 
-       
+        public async Task<Result<List<PostSpecial>>> GetSpecialsAsync(double? longitude, double? latitude,
+            int distance)
+        {
+            using (HttpClient client = HelperFactory.HttpClient.GetClient())
+            {
+                try
+                {
+                    var response = await client
+                        .GetModel<Result<List<PostSpecial>>>(
+                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}");
+
+                    if (response.HasSuccess)
+                    {
+                        return response;
+                    }
+                    else
+                    {
+                        return Result.Error<List<PostSpecial>>("Error");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return Result.Error<List<PostSpecial>>(ex.Message);
+                }
+            }
+        }
+
+        public async Task<Result<PostSpecial>> GetSpecialAsync(long id)
+        {
+            using (HttpClient client = HelperFactory.HttpClient.GetClient())
+            {
+                try
+                {
+                    var response = await client
+                        .GetModel<Result<PostSpecial>>(
+                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?id={id}");
+
+                    if (response.HasSuccess)
+                    {
+                        return response;
+                    }
+                    else
+                    {
+                        return Result.Error<PostSpecial>("Error");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return Result.Error<PostSpecial>(ex.Message);
+                }
+            }
+        }
     }
 }

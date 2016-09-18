@@ -1,4 +1,5 @@
 ﻿using ShareSpecial.BusinessEntities;
+using ShareSpecial.BusinessEntities.Post;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.BusinessEntity.Identity;
 using System;
@@ -12,10 +13,21 @@ namespace ShareSpecial.Core.ViewModel.Account
     public interface ILoginViewModel
     {
         string Email { get; set; }
+
         string Password { get; set; }
+
+        double? Longitude { get; set; }
+
+        double? Latitude { get; set; }
+
+        int Distance { get; set; }
 
         string GetEmail();
 
         Task<Result<Tuple<Token, Users>>> LoginAsync();
+
+        Task<Result<List<PostSpecial>>> GetSpecials();
+
+        Task<Result<PostSpecial>> GetSpecialAsync(long id);
     }
 }

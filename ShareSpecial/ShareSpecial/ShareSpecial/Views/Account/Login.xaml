@@ -2,10 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShareSpecial.Views.Account.Login">
-  <StackLayout>
-    <Entry x:Name="enEmail" Placeholder="Email" Text="{Binding Email}"></Entry>
+
+  <StackLayout VerticalOptions="Center">
+    <Entry x:Name="enEmail" Placeholder="Email" Text="{Binding Email}">
+    </Entry>
     <Entry x:Name="enPassword" Placeholder="Password" Text="{Binding Password}"></Entry>
+    <Button Text="Login" FontSize="20" HorizontalOptions="CenterAndExpand"
+                Clicked="btnLogin_OnClickedAsync" x:Name="btnLogin"></Button>
     <Button Text="Get Post" FontSize="20" HorizontalOptions="CenterAndExpand"
                 Clicked="btnGetPost_OnClickedAsync" x:Name="btnGetPost"></Button>
   </StackLayout>
+
 </ContentPage>

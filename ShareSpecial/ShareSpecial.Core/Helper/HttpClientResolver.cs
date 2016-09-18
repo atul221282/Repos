@@ -13,6 +13,11 @@ namespace ShareSpecial.Core.Helper
         {
         }
 
-        public HttpClient GetClient() => new HttpClient();
+        public HttpClient GetClient()
+        {
+            var client = new HttpClient();
+            client.Timeout = TimeSpan.FromSeconds(25);
+            return client;
+        }
     }
 }
