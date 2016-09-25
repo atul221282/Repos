@@ -38,8 +38,7 @@ namespace ShareSpecial.Core.Service
                 {
                     var response = await client
                         .GetModel<Result<List<PostSpecial>>>(
-                        $@"{HelperFactory.Setting.PostSpecialAPI}
-                                GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}");
+                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}");
 
                     if (response.HasSuccess)
                         return response;
@@ -74,5 +73,6 @@ namespace ShareSpecial.Core.Service
                 }
             }
         }
+
     }
 }

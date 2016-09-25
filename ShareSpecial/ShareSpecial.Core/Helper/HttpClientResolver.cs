@@ -19,5 +19,7 @@ namespace ShareSpecial.Core.Helper
             client.Timeout = TimeSpan.FromSeconds(25);
             return client;
         }
+
+
     }
 }

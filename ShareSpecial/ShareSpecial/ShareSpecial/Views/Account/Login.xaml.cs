@@ -16,6 +16,7 @@ namespace ShareSpecial.Views.Account
         {
             this.Model = model;
             Model.Email = "bsharma2422@gmail.com";
+            Model.Password = "123456";
             BindingContext = model;
             this.Helper = helper;
             var pp = helper.Setting.Location;
