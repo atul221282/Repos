@@ -29,7 +29,7 @@ namespace ShareSpecial.Core.Constant
 
         public static string Location = "Location";
 
-        public static string LocationDefault { get; internal set; }
+        public static string LocationDefault = string.Empty;
     }
 
 }

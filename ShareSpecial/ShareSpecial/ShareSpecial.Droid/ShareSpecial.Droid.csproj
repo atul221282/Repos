@@ -164,6 +164,10 @@
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ShareSpecial.Core\ShareSpecial.Core.csproj">
+      <Project>{540ABA29-CE71-43C3-978A-A1C6D6FB4EA3}</Project>
+      <Name>ShareSpecial.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShareSpecial\ShareSpecial.csproj">
       <Project>{B80FD49A-0324-4146-B07B-2B029AC94AB3}</Project>
       <Name>ShareSpecial</Name>

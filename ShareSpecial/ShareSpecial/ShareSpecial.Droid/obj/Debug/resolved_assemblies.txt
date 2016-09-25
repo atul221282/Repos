@@ -26,6 +26,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debu
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Xml.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.Core.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
@@ -51,9 +52,6 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debu
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Autofac.dll
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.Core.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.BusinessEntity.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
@@ -64,3 +62,5 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debu
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Mono.CSharp.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Thinktecture.IdentityModel.Client.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Autofac.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
