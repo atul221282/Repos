@@ -116,5 +116,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debu
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Droid.dll.config
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Thinktecture.IdentityModel.Client.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Thinktecture.IdentityModel.Client.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Thinktecture.IdentityModel.Client.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Thinktecture.IdentityModel.Client.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\ShareSpecial.Droid.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Droid.dll.mdb

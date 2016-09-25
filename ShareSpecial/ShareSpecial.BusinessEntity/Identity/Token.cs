@@ -26,7 +26,7 @@ namespace ShareSpecial.BusinessEntity.Identity
         {
             get
             {
-                return DateTime.Now > CreatedOn;
+                return DateTime.Now >= CreatedOn;
             }
         }
 

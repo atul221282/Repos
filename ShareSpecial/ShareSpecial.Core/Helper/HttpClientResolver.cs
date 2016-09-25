@@ -15,10 +15,10 @@ namespace ShareSpecial.Core.Helper
 {
     public class HttpClientResolver : IHttpClientResolver
     {
-        private readonly ISettingResolver setting;
+        private readonly ISettingResolver Setting;
         public HttpClientResolver(ISettingResolver setting)
         {
-            this.setting = setting;
+            this.Setting = setting;
         }
 
         public async Task<HttpClient> GetClient(bool isAuthorised = true)
@@ -27,12 +27,12 @@ namespace ShareSpecial.Core.Helper
             var client = new HttpClient();
             client.Timeout = TimeSpan.FromSeconds(25);
 
-            if (isAuthorised && setting.Token.HasExpired)
+            if (isAuthorised)
                 await CheckAndPossiblyRefreshToken(client);
 
-            if (setting.Token.access_token != null && isAuthorised == true)
+            if (Setting.Token.access_token != null && isAuthorised == true)
             {
-                client.SetBearerToken(setting.Token.access_token);
+                client.SetBearerToken(Setting.Token.access_token);
             }
 
             client.DefaultRequestHeaders.Accept.Clear();
@@ -44,18 +44,22 @@ namespace ShareSpecial.Core.Helper
 
         private async Task CheckAndPossiblyRefreshToken(HttpClient client)
         {
-            try
+            if (DateTime.Now.ToLocalTime() >= Setting.Token.CreatedOn)
             {
-                var result = await client.PostStringAsync<Token>($"{ApplicationConstant.AccountAPI}RefreshToken", setting.Token);
-                if (result.IsSuccessStatusCode)
+                try
                 {
-                    setting.Token = JsonConvert.DeserializeObject<Token>(await result.Content.ReadAsStringAsync());
-                    setting.Token.CreatedOn = DateTime.Now;
+                    var result = await client.PostStringAsync<Token>($"{ApplicationConstant.AccountAPI}RefreshToken", Setting.Token);
+                    if (result.IsSuccessStatusCode)
+                    {
+                        var token = JsonConvert.DeserializeObject<Token>(await result.Content.ReadAsStringAsync());
+                        token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);
+                        Setting.Token = token;
+                    }
                 }
-            }
-            catch (Exception ex)
-            {
-                var gg = ex;
+                catch (Exception ex)
+                {
+                    var gg = ex;
+                }
             }
         }
     }

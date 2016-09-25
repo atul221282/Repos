@@ -28,7 +28,8 @@ namespace ShareSpecial.Core.Constant
         public static string skUserDetailsDefault = string.Empty;
 
         public static string Location = "Location";
-        public static string LocationDefault = string.Empty;
+
+        public static string LocationDefault { get; internal set; }
     }
 
 }

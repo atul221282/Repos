@@ -5,8 +5,6 @@
 
   <StackLayout VerticalOptions="Center">
     
-    <Entry x:Name="enToken" Placeholder="Email" Text="{Binding Token}">
-    </Entry>
     <Entry x:Name="enEmail" Placeholder="Email" Text="{Binding Email}">
     </Entry>
     <Entry x:Name="enPassword" Placeholder="Password" Text="{Binding Password}"></Entry>

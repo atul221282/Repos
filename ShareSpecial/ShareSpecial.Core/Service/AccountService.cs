@@ -47,7 +47,7 @@ namespace ShareSpecial.Core.Service
                         var data = JsonConvert.DeserializeObject<JObject>(await response.Content.ReadAsStringAsync());
                         var user = data["m_Item2"].ToObject<Users>();
                         var token = data["m_Item1"].ToObject<Token>();
-                        token.CreatedOn = DateTime.Now;
+                        token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);
                         return Result.Ok(new Tuple<Token, Users>(token, user));
 
                     }

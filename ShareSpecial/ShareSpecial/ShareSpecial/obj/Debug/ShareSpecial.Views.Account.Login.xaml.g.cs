@@ -17,9 +17,6 @@ namespace ShareSpecial.Views.Account {
     public partial class Login : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry enToken;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry enEmail;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -34,7 +31,6 @@ namespace ShareSpecial.Views.Account {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Login));
-            enToken = this.FindByName<global::Xamarin.Forms.Entry>("enToken");
             enEmail = this.FindByName<global::Xamarin.Forms.Entry>("enEmail");
             enPassword = this.FindByName<global::Xamarin.Forms.Entry>("enPassword");
             btnLogin = this.FindByName<global::Xamarin.Forms.Button>("btnLogin");

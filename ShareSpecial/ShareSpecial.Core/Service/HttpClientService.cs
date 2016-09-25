@@ -26,29 +26,9 @@ namespace ShareSpecial.Core.Service
 
         public HttpClient GetClient(bool authorize = true, string requestedVersion = null)
         {
-            var token = setting.Token;
-            //if (DateTime.Now <= DateTime.Now.AddMinutes(token.expires_in))
-            return CheckAndPossiblyRefreshToken().Result;
-            //else
-            //return client;
+            return client;
         }
 
-        private async Task<HttpClient> CheckAndPossiblyRefreshToken()
-        {
-            using (var cc = client)
-            {
-                try
-                {
-                    var result = await cc.PostStringAsync<Token>($"{ApplicationConstant.AccountAPI}RefreshToken", setting.Token);
-                }
-                catch (Exception ex)
-                {
-                    var gg = ex;
-                }
-                
-                return cc;
-            }
-        }
     }
 
     public interface IHttpClientService

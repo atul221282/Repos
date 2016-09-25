@@ -25,5 +25,7 @@ namespace ShareSpecial.Core.Helper
             get { return AppSettings.GetValueOrDefault<string>(SettingConstant.Location, SettingConstant.LocationDefault); }
             set { AppSettings.AddOrUpdateValue<string>(SettingConstant.Location, value); }
         }
+
+        
     }
 }
