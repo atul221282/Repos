@@ -25,3 +25,13 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\Plugin.Geolo
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\Plugin.Geolocator.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\Plugin.Geolocator.Abstractions.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\Plugin.Geolocator.Abstractions.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.config
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\Thinktecture.IdentityModel.Client.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\Thinktecture.IdentityModel.Client.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.csproj.App.config
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb

@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\bin\Debug\ShareSpecial.WinPhone.exe">
       <PackagePath>ShareSpecial.WinPhone.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\bin\Debug\ShareSpecial.WinPhone.exe.config">
+      <PackagePath>ShareSpecial.WinPhone.exe.config</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xam.Plugin.Geolocator.3.0.4\lib\wpa81\Plugin.Geolocator.Abstractions.dll">
       <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -66,6 +69,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Thinktecture.IdentityModel.Client.dll">
+      <PackagePath>Thinktecture.IdentityModel.Client.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>

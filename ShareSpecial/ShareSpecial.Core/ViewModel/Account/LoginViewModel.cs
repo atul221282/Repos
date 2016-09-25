@@ -16,12 +16,14 @@ namespace ShareSpecial.Core.ViewModel.Account
     {
 
         private readonly IServiceFactory Service;
-
+        private readonly IHelperFactory Helper;
         public LoginViewModel(IServiceFactory service)
         {
             this.Service = service;
+            
             this.Email = service.Account.GetEmail();
         }
+
         public string Email { get; set; }
 
         public string Password { get; set; }

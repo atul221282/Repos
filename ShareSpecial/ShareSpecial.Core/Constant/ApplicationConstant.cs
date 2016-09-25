@@ -4,9 +4,16 @@ namespace ShareSpecial.Core.Constant
 {
     public static class ApplicationConstant
     {
-        public const string BaseUrl = @"http://192.168.0.9/";
+        public const string BaseUrl = @"http://192.168.0.10/";
         public const string BaseAPI = BaseUrl + "PostAnything.API/api/";
+
+        public const string AccountAPI = BaseAPI + "Account/";
+
         public static string PostSpecialAPI = BaseAPI + "PostSpecials/";
+
+        public const string IdSrvIssuerBaseUri = BaseUrl + "PostAnything.IdServer/";
+        public const string IdSrv = IdSrvIssuerBaseUri + "identity";
+        public const string IdSrvToken = IdSrv + "/connect/token";
     }
 
     public static class SettingConstant

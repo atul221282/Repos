@@ -5,7 +5,7 @@
     <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\packages\xam.plugin.geolocator.3.0.4\lib\win8\plugin.geolocator.dll" HashGuid="388f1122-9d57-ce2f-c8c7-dae5f9a81113" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\packages\xam.plugins.settings.2.1.0\lib\win8\plugin.settings.abstractions.dll" HashGuid="2b0e2d63-0984-03e6-e1dc-77d16c51778c" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\packages\xam.plugins.settings.2.1.0\lib\win8\plugin.settings.dll" HashGuid="26f3d346-7a59-3cd8-0ef4-1467b0f8acfc" />
-    <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\sharespecial\sharespecial\bin\debug\sharespecial.dll" HashGuid="3eedc2ab-1653-2314-9073-bb697dd818e8" />
+    <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\sharespecial\sharespecial\bin\debug\sharespecial.dll" HashGuid="4fd3a7d2-ec8b-1213-2540-513f2409641e" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.core.dll" HashGuid="af180b9a-aa51-0944-927e-c6473cd8810f" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
     <ReferenceAssembly PathName="c:\users\atul\source\repos\sharespecial\packages\xamarin.forms.2.3.1.114\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="9252d1f6-d345-6b4f-eb93-61537b95eb17" />

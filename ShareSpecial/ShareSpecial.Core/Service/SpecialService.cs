@@ -32,7 +32,7 @@ namespace ShareSpecial.Core.Service
         public async Task<Result<List<PostSpecial>>> GetSpecialsAsync(double? longitude, double? latitude,
             int distance)
         {
-            using (HttpClient client = HelperFactory.HttpClient.GetClient())
+            using (HttpClient client = await HelperFactory.HttpClient.GetClient(isAuthorised: true))
             {
                 try
                 {
@@ -54,7 +54,7 @@ namespace ShareSpecial.Core.Service
 
         public async Task<Result<PostSpecial>> GetSpecialAsync(long id)
         {
-            using (HttpClient client = HelperFactory.HttpClient.GetClient())
+            using (HttpClient client = await HelperFactory.HttpClient.GetClient())
             {
                 try
                 {

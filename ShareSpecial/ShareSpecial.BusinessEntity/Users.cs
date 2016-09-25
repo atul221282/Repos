@@ -8,9 +8,6 @@ namespace ShareSpecial.BusinessEntities
 {
     public class Users : BaseEntity
     {
-        //http://lockmedown.com/hash-right-implementing-pbkdf2-net/
-        //https://cmatskas.com/-net-password-hashing-using-pbkdf2/
-
         private string _emailAddress;
         private string _firstName;
         private string _surnName;

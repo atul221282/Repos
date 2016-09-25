@@ -9,6 +9,6 @@ namespace ShareSpecial.Core.Helper
 {
     public interface IHttpClientResolver
     {
-        HttpClient GetClient();
+        Task<HttpClient> GetClient(bool isAuthorised = true);
     }
 }

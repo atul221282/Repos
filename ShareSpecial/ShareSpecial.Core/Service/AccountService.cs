@@ -19,10 +19,13 @@ namespace ShareSpecial.Core.Service
     {
         private readonly IHelperFactory HelperFactory;
         private readonly IResult Result;
-        public AccountService(IHelperFactory helperFactory, IResult result)
+        private readonly IHttpClientService Service;
+
+        public AccountService(IHelperFactory helperFactory, IResult result, IHttpClientService service)
         {
             HelperFactory = helperFactory;
             Result = result;
+            Service = service;
         }
 
         private const string Email = "";
@@ -31,20 +34,20 @@ namespace ShareSpecial.Core.Service
 
         public async Task<Result<Tuple<Token, Users>>> LoginAsync(string email, string password)
         {
-            using (HttpClient client = HelperFactory.HttpClient.GetClient())
+            using (HttpClient client = await HelperFactory.HttpClient.GetClient(isAuthorised: false))
             {
                 try
                 {
                     var response = await client
                         .PostStringAsync<object>($"{HelperFactory.Setting.BaseAPI}Account/Login",
-                        new { EmailAddress = email, password = password });
+                        new { EmailAddress = email, Password = password });
 
                     if (response.IsSuccessStatusCode)
                     {
                         var data = JsonConvert.DeserializeObject<JObject>(await response.Content.ReadAsStringAsync());
                         var user = data["m_Item2"].ToObject<Users>();
                         var token = data["m_Item1"].ToObject<Token>();
-
+                        token.CreatedOn = DateTime.Now;
                         return Result.Ok(new Tuple<Token, Users>(token, user));
 
                     }
@@ -59,6 +62,6 @@ namespace ShareSpecial.Core.Service
             }
         }
 
-        
+
     }
 }

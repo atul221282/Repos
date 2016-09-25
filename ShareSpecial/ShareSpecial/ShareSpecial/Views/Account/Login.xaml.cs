@@ -18,7 +18,7 @@ namespace ShareSpecial.Views.Account
             Model.Email = "bsharma2422@gmail.com";
             Model.Password = "123456";
             BindingContext = model;
-            this.Helper = helper;
+
             var pp = helper.Setting.Location;
             Model.Latitude = pp.Latitude;
             Model.Longitude = pp.Longitude;
@@ -39,7 +39,6 @@ namespace ShareSpecial.Views.Account
             {
                 Helper.Setting.User = response.Value.Item2;
                 Helper.Setting.Token = response.Value.Item1;
-
                 var answer = await DisplayAlert("wlecome", Helper.Setting.User.FullName, "Yes", "No");
             }
         }

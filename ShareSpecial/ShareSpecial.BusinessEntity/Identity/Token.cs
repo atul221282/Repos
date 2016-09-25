@@ -8,6 +8,10 @@ namespace ShareSpecial.BusinessEntity.Identity
 {
     public class Token
     {
+        public Token()
+        {
+
+        }
         public string access_token { get; set; }
 
         public int expires_in { get; set; }
@@ -15,5 +19,16 @@ namespace ShareSpecial.BusinessEntity.Identity
         public string token_type { get; set; }
 
         public string refresh_token { get; set; }
+
+        public DateTime CreatedOn { get; set; }
+
+        public bool HasExpired
+        {
+            get
+            {
+                return DateTime.Now > CreatedOn;
+            }
+        }
+
     }
 }

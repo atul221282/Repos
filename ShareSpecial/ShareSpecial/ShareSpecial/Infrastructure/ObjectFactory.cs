@@ -27,7 +27,10 @@ namespace ShareSpecial.Infrastructure
             builder.RegisterType<HelperFactory>().As<IHelperFactory>();
             builder.RegisterType<ServiceFactory>().As<IServiceFactory>();
             builder.RegisterType<Result>().As<IResult>();
+
+            builder.RegisterType<HttpClientService>().As<IHttpClientService>();
             builder.RegisterType<HttpClientResolver>().As<IHttpClientResolver>();
+
             builder.RegisterType<SpecialService>().As<ISpecialService>();
             builder.RegisterType<AccountService>().As<IAccountService>();
             builder.RegisterType<SettingResolver>().As<ISettingResolver>();
