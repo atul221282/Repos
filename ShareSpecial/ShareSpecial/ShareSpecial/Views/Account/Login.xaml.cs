@@ -1,8 +1,10 @@
 ﻿using Newtonsoft.Json;
+using Plugin.Geolocator;
 using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.ViewModel.Account;
 using System;
-
+using System.Threading;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace ShareSpecial.Views.Account
@@ -20,9 +22,6 @@ namespace ShareSpecial.Views.Account
             Model.Password = "123456";
             BindingContext = model;
             this.Helper = helper;
-            var pp = helper.Setting.Location;
-            Model.Latitude = pp.Latitude;
-            Model.Longitude = pp.Longitude;
             InitializeComponent();
             //lat - 34.810579350003934
             //long 138.68080767575302
@@ -39,7 +38,6 @@ namespace ShareSpecial.Views.Account
             else
             {
                 Helper.Setting.User = response.Value.Item2;
-
                 response.Value.Item1.CreatedOn = DateTime.Now.AddSeconds(response.Value.Item1.expires_in);
                 //Settings.Token = JsonConvert.SerializeObject(response.Value.Item1);
                 var answer = await DisplayAlert("wlecome", Helper.Setting.User.FullName, "Yes", "No");
@@ -55,11 +53,31 @@ namespace ShareSpecial.Views.Account
             }
         }
 
-        protected override void OnAppearing()
+        protected async override void OnAppearing()
         {
+            await SetLocation();
+        }
 
+        private async Task SetLocation()
+        {
+            var locator = CrossGeolocator.Current;
+            var ct = new CancellationTokenSource(50000).Token;
+            locator.DesiredAccuracy = 100; //100 is new default
+            if (locator.IsGeolocationAvailable && locator.IsGeolocationEnabled)
+            {
+                try
+                {
+                    var position = await locator.GetPositionAsync(timeoutMilliseconds: 600000, token: ct);
+                    Model.Latitude = position.Latitude;
+                    Model.Longitude = position.Longitude;
+                }
+                catch (Exception ex)
+                {
+                    //log ex;
+                    var ff = ex;
+                }
+            }
         }
     }
-
 }
 

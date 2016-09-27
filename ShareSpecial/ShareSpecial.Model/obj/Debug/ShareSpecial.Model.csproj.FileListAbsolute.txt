@@ -1,7 +1,12 @@
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\obj\Debug\ShareSpecial.Model.csprojResolveAssemblyReference.cache
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\obj\Debug\ShareSpecial.Model.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\obj\Debug\ShareSpecial.Model.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\obj\Debug\ShareSpecial.Model.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\obj\Debug\ShareSpecial.Model.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\obj\Debug\ShareSpecial.Model.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\obj\Debug\ShareSpecial.Model.dll.mdb
