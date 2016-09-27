@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>055A192854819CC9B84C6A361B720B657ACD55081D3285206513C173E04ED6BC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>9C5838A58FFE2621BC68584F05A2EFF116FB346701340AC43168DC8EC68B9419</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4d1548ab-d908-48e6-b62b-ba872628810d_1.0.0.0_neutral__ve58hr65qtxht</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4d1548ab-d908-48e6-b62b-ba872628810d_ve58hr65qtxht!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4d1548ab-d908-48e6-b62b-ba872628810d</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-17T14:14:09.010</Modified>
+      <Modified>2016-09-27T11:41:52.127</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Windows.exe">
       <PackagePath>ShareSpecial.Windows.exe</PackagePath>
-      <Modified>2016-09-25T13:32:25.455</Modified>
+      <Modified>2016-09-27T12:20:15.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xam.Plugin.Geolocator.3.0.4\lib\win8\Plugin.Geolocator.Abstractions.dll">
       <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
@@ -54,7 +54,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2016-09-25T13:16:59.554</Modified>
+      <Modified>2016-09-27T12:17:03.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -82,11 +82,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2016-09-25T13:16:59.009</Modified>
+      <Modified>2016-09-27T12:00:50.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
       <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
-      <Modified>2016-09-25T10:48:29.927</Modified>
+      <Modified>2016-09-27T11:29:27.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -122,15 +122,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2016-09-17T11:07:23.195</Modified>
+      <Modified>2016-09-27T11:41:48.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-09-17T11:07:23.199</Modified>
+      <Modified>2016-09-27T11:41:48.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll">
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
-      <Modified>2016-09-24T14:22:28.065</Modified>
+      <Modified>2016-09-27T11:00:58.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.1.114\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
@@ -162,7 +162,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-09-25T13:32:27.715</Modified>
+      <Modified>2016-09-27T12:00:55.142</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

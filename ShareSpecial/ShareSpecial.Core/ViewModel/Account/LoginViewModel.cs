@@ -20,7 +20,7 @@ namespace ShareSpecial.Core.ViewModel.Account
         public LoginViewModel(IServiceFactory service)
         {
             this.Service = service;
-            
+
             this.Email = service.Account.GetEmail();
         }
 
@@ -38,7 +38,10 @@ namespace ShareSpecial.Core.ViewModel.Account
 
         public async Task<Result<List<PostSpecial>>> GetSpecialsAsync() => await Service.Special.GetSpecialsAsync(Longitude, Latitude, Distance);
 
-        public async Task<Result<Tuple<Token, Users>>> LoginAsync() => await Service.Account.LoginAsync(Email, Password);
+        public async Task<Result<Tuple<Token, Users>>> LoginAsync()
+        {
+            return await Service.Account.LoginAsync(Email, Password);
+        }
 
         public async Task<Result<PostSpecial>> GetSpecialAsync(long id) => await Service.Special.GetSpecialAsync(id);
     }

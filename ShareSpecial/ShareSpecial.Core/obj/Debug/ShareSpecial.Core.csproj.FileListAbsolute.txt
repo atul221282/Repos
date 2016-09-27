@@ -43,3 +43,5 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb

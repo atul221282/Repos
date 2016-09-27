@@ -1,0 +1,7 @@
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\ShareSpecial.BusinessEntity.csproj;neutral
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\ShareSpecial.BusinessEntity.csproj;neutral
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Core\ShareSpecial.Core.csproj;neutral
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\ShareSpecial.Model.csproj;neutral
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\ShareSpecial.Model.csproj;neutral
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\ShareSpecial.Windows.csproj;neutral
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\ShareSpecial.csproj;neutral

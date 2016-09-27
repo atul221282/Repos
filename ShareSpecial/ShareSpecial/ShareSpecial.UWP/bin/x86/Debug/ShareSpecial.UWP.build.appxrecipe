@@ -334,6 +334,12 @@
     <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugin.Geolocator\3.0.4\lib\UAP10\Plugin.Geolocator.Abstractions.dll">
+      <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugin.Geolocator\3.0.4\lib\UAP10\Plugin.Geolocator.dll">
+      <PackagePath>Plugin.Geolocator.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugins.Settings\2.1.0\lib\UAP10\Plugin.Settings.Abstractions.dll">
       <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -366,6 +372,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Thinktecture.IdentityModel.Client.dll">
+      <PackagePath>Thinktecture.IdentityModel.Client.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

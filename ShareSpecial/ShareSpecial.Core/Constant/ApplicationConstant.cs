@@ -30,6 +30,9 @@ namespace ShareSpecial.Core.Constant
         public static string Location = "Location";
 
         public static string LocationDefault = string.Empty;
+
+        public static string TokenExpiryDefault = string.Empty;
+        public static string TokenExpiry = "TokenExpiry";
     }
 
 }

@@ -21,14 +21,5 @@ namespace ShareSpecial.BusinessEntity.Identity
         public string refresh_token { get; set; }
 
         public DateTime CreatedOn { get; set; }
-
-        public bool HasExpired
-        {
-            get
-            {
-                return DateTime.Now >= CreatedOn;
-            }
-        }
-
     }
 }

@@ -248,3 +248,9 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\De
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.BusinessEntity.pdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Geolocator.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Plugin.Geolocator.pdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Thinktecture.IdentityModel.Client.dll
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Thinktecture.IdentityModel.Client.pdb

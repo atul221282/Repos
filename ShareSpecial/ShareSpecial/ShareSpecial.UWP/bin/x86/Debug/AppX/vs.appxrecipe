@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>C56DC0778C5B808EB19FA48721C145CE4C073666269CFA25753946991A54F98D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>169D0E18ACA3997685A640BFD39B0DB76FA85BAAC429BB0AF1C19BFAB2F43A1E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4e8282c8-d102-43c7-baab-819fde322ac4_1.0.0.0_x86__ve58hr65qtxht</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4e8282c8-d102-43c7-baab-819fde322ac4_ve58hr65qtxht!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4e8282c8-d102-43c7-baab-819fde322ac4</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-17T10:15:49.202</Modified>
+      <Modified>2016-09-27T12:22:24.704</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.UWP.exe">
       <PackagePath>entrypoint\ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-09-17T10:15:43.311</Modified>
+      <Modified>2016-09-27T12:22:16.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,6 +448,14 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T13:41:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugin.Geolocator\3.0.4\lib\UAP10\Plugin.Geolocator.Abstractions.dll">
+      <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
+      <Modified>2016-01-31T19:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugin.Geolocator\3.0.4\lib\UAP10\Plugin.Geolocator.dll">
+      <PackagePath>Plugin.Geolocator.dll</PackagePath>
+      <Modified>2016-01-31T19:10:30.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\.nuget\packages\Xam.Plugins.Settings\2.1.0\lib\UAP10\Plugin.Settings.Abstractions.dll">
       <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
       <Modified>2015-12-18T07:36:24.000</Modified>
@@ -474,7 +482,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2016-09-17T10:11:35.435</Modified>
+      <Modified>2016-09-27T12:17:03.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -482,15 +490,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2016-09-17T10:11:35.050</Modified>
+      <Modified>2016-09-27T12:00:50.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
       <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
-      <Modified>2016-09-17T10:11:34.649</Modified>
+      <Modified>2016-09-27T11:29:27.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2016-06-13T13:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Thinktecture.IdentityModel.Client.dll">
+      <PackagePath>Thinktecture.IdentityModel.Client.dll</PackagePath>
+      <Modified>2015-03-08T01:34:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -536,7 +548,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll">
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
-      <Modified>2016-09-17T10:11:34.618</Modified>
+      <Modified>2016-09-27T11:00:58.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -552,11 +564,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-09-17T10:15:48.051</Modified>
+      <Modified>2016-09-27T12:22:22.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\ShareSpecial.UWP.exe">
       <PackagePath>ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-09-17T10:15:49.185</Modified>
+      <Modified>2016-09-27T12:22:24.685</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

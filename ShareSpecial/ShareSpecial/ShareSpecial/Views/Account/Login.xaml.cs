@@ -29,6 +29,7 @@ namespace ShareSpecial.Views.Account
 
         protected async void btnLogin_OnClickedAsync(object sender, EventArgs events)
         {
+            
             var response = await Model.LoginAsync();
 
             if (response.HasError)
@@ -38,8 +39,9 @@ namespace ShareSpecial.Views.Account
             else
             {
                 Helper.Setting.User = response.Value.Item2;
-                response.Value.Item1.CreatedOn = DateTime.Now.AddSeconds(response.Value.Item1.expires_in);
-                //Settings.Token = JsonConvert.SerializeObject(response.Value.Item1);
+                var token = response.Value.Item1;
+                Settings.TokenExpiry = DateTime.Now.AddSeconds(token.expires_in).ToString();
+                Settings.Token = JsonConvert.SerializeObject(token);
                 var answer = await DisplayAlert("wlecome", Helper.Setting.User.FullName, "Yes", "No");
             }
         }
@@ -53,7 +55,7 @@ namespace ShareSpecial.Views.Account
             }
         }
 
-        protected async override void OnAppearing()
+        async protected override void OnAppearing()
         {
             await SetLocation();
         }
@@ -61,13 +63,12 @@ namespace ShareSpecial.Views.Account
         private async Task SetLocation()
         {
             var locator = CrossGeolocator.Current;
-            var ct = new CancellationTokenSource(50000).Token;
             locator.DesiredAccuracy = 100; //100 is new default
             if (locator.IsGeolocationAvailable && locator.IsGeolocationEnabled)
             {
                 try
                 {
-                    var position = await locator.GetPositionAsync(timeoutMilliseconds: 600000, token: ct);
+                    var position = await locator.GetPositionAsync(timeoutMilliseconds: 60000);
                     Model.Latitude = position.Latitude;
                     Model.Longitude = position.Longitude;
                 }

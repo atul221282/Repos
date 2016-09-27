@@ -25,7 +25,10 @@ namespace ShareSpecial.Core.Helper
             get { return AppSettings.GetValueOrDefault<string>(SettingConstant.Location, SettingConstant.LocationDefault); }
             set { AppSettings.AddOrUpdateValue<string>(SettingConstant.Location, value); }
         }
-
-        
+        public static string TokenExpiry
+        {
+            get { return AppSettings.GetValueOrDefault<string>(SettingConstant.TokenExpiry, SettingConstant.TokenExpiryDefault); }
+            set { AppSettings.AddOrUpdateValue<string>(SettingConstant.TokenExpiry, value); }
+        }
     }
 }

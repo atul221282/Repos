@@ -38,8 +38,9 @@ namespace ShareSpecial.Core.Service
             {
                 try
                 {
+                    string url = ApplicationConstant.AccountAPI + "Login";
                     var response = await client
-                        .PostStringAsync<object>($"{HelperFactory.Setting.BaseAPI}Account/Login",
+                        .PostStringAsync<object>(url,
                         new { EmailAddress = email, Password = password });
 
                     if (response.IsSuccessStatusCode)

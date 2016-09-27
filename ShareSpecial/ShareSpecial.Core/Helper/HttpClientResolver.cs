@@ -30,7 +30,7 @@ namespace ShareSpecial.Core.Helper
             if (isAuthorised)
                 await CheckAndPossiblyRefreshToken(client);
 
-            if (Setting.Token.access_token != null && isAuthorised == true)
+            if (Setting.Token != null && Setting.Token.access_token != null && isAuthorised == true)
             {
                 client.SetBearerToken(Setting.Token.access_token);
             }
@@ -44,7 +44,7 @@ namespace ShareSpecial.Core.Helper
 
         private async Task CheckAndPossiblyRefreshToken(HttpClient client)
         {
-            if (DateTime.Now.ToLocalTime() >= Setting.Token.CreatedOn)
+            if (DateTime.Now.ToLocalTime() >= DateTime.Parse(Settings.TokenExpiry))
             {
                 try
                 {
@@ -52,12 +52,14 @@ namespace ShareSpecial.Core.Helper
                     if (result.IsSuccessStatusCode)
                     {
                         var token = JsonConvert.DeserializeObject<Token>(await result.Content.ReadAsStringAsync());
-                        token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);
+                        //token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);
+                        Settings.TokenExpiry = DateTime.Now.AddSeconds(token.expires_in).ToString();
                         Setting.Token = token;
                     }
                 }
                 catch (Exception ex)
                 {
+                    //TODO:Navigate to login page
                     var gg = ex;
                 }
             }
