@@ -38034,3 +38034,756 @@ Actual error is :
 Value cannot be null.
 Parameter name: syntax
 *******************************************************
+WebException @9/27/2016 10:33:46 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:36:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:36:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/27/2016 10:38:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:38:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:38:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:38:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:12 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:12 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/27/2016 10:39:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/27/2016 10:39:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/27/2016 10:39:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:39:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:39:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:39:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/27/2016 10:40:51 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/27/2016 10:40:52 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:52 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:40:52 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:52 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:40:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:40:55 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:55 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:40:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:40:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:40:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:40:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/27/2016 10:41:02 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:02 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:02 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:04 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:04 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:04 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/27/2016 10:41:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:15 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:15 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:15 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:15 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:15 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:15 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:19 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:19 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:19 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:19 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:19 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:19 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/27/2016 10:41:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/27/2016 10:41:22 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:22 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/27/2016 10:41:22 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/28/2016 8:55:15 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/28/2016 8:55:32 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/28/2016 8:55:32 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/28/2016 8:55:33 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/28/2016 9:05:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/28/2016 9:07:30 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/28/2016 9:07:31 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Sequence contains no matching element
+*******************************************************
+WebException @9/28/2016 9:09:27 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/28/2016 9:15:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/28/2016 9:25:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+NullReferenceException @9/29/2016 6:51:06 PM
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at GCop.Utilities.DteExtensions.GetProjectFromFilePath(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @9/29/2016 6:51:08 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 6:51:28 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/29/2016 6:53:38 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 6:53:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/29/2016 6:53:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/29/2016 6:53:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value does not fall within the expected range.
+*******************************************************
+WebException @9/29/2016 7:01:08 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 7:11:08 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 7:21:08 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 7:31:13 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 7:39:30 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 7:40:30 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 7:41:16 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @9/29/2016 7:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value cannot be null.
+Parameter name: syntax
+*******************************************************
+WebException @9/29/2016 7:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/29/2016 7:41:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Object reference not set to an instance of an object.
+*******************************************************
+WebException @9/29/2016 7:42:12 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************

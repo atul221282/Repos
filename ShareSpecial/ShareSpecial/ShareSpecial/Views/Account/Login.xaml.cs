@@ -29,7 +29,8 @@ namespace ShareSpecial.Views.Account
 
         protected async void btnLogin_OnClickedAsync(object sender, EventArgs events)
         {
-            
+            //await SetLocation();
+
             var response = await Model.LoginAsync();
 
             if (response.HasError)

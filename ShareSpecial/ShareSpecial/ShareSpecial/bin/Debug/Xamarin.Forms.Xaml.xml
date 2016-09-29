@@ -382,6 +382,15 @@
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:Xamarin.Forms.Xaml.Internals.XamlLoader">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Xaml.Internals.XamlLoader.XamlFileProvider">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:Xamarin.Forms.Xaml.Internals.XamlServiceProvider">
             <summary>To be added.</summary>
             <remarks>To be added.</remarks>

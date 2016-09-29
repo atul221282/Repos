@@ -32,5 +32,17 @@
             </summary>
             <param name="key">Key for setting</param>
         </member>
+        <member name="M:Plugin.Settings.Abstractions.ISettings.Clear">
+            <summary>
+            Clear all keys from settings
+            </summary>
+        </member>
+        <member name="M:Plugin.Settings.Abstractions.ISettings.Contains(System.String)">
+            <summary>
+            Checks to see if the key has been added.
+            </summary>
+            <param name="key">Key to check</param>
+            <returns>True if contains key, else false</returns>
+        </member>
     </members>
 </doc>
