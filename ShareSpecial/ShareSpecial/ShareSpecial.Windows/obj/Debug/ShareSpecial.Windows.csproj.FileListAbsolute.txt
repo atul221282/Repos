@@ -105,11 +105,3 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\De
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.Tablet.pri.xml
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\ProjectArchitectures.txt
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles.intermediate
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles.intermediate
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles.intermediate
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml
-C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml.intermediate

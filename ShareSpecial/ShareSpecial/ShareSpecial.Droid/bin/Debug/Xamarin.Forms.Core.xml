@@ -5219,7 +5219,7 @@ namespace FormsGallery
             <remarks />
         </member>
         <member name="T:Xamarin.Forms.ExportEffectAttribute">
-            <summary>Attribute that identifies a <see cref="T:Xamarin.Forms.Effect" /> with a unique identifer that can be used with <see cref="MXamarin.Forms.Effect.Resolve" /> to locate an effect.</summary>
+            <summary>Attribute that identifies a <see cref="T:Xamarin.Forms.Effect" /> with a unique identifier that can be used with <see cref="MXamarin.Forms.Effect.Resolve" /> to locate an effect.</summary>
             <remarks>
                 <para>Developers must supply a name that is unique over the scope of the value that was supplied to <see cref="T:Xamarin.Forms.ResolutionGroupNameAttribute" />. The <see cref="T:Xamarin.Forms.Effect.Resolve" /> method takes a string that is the concatenation of the the resolution group name that was provided to <see cref="T:Xamarin.Forms.ResolutionGroupNameAttribute" />, '<c>.</c>', and the name that was supplied to <see cref="T:Xamarin.Forms.ExportEffectAttribute" />, and returns an effect that will have the type <paramref name="effectType" />.</para>
                 <example>
@@ -6930,6 +6930,10 @@ namespace FormsGallery
             <summary>Abstract class whose implementors load images from files or the Web.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="C:Xamarin.Forms.ImageSource">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:Xamarin.Forms.ImageSource.Cancel">
             <summary>Request a cancel of the ImageSource loading.</summary>
             <returns>An awaitable Task. The result of the Task indicates if the Task was successfully cancelled.</returns>
@@ -7306,6 +7310,33 @@ Debug.WriteLine (Object.ReferenceEquals (modalPage, poppedPage)); //prints "true
         <member name="P:Xamarin.Forms.IPageContainer`1.CurrentPage">
             <summary>Gets the current page.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Xamarin.Forms.IPageController">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.IPageController.ContainerArea">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.IPageController.IgnoresContainerArea">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.IPageController.InternalChildren">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.IPageController.SendAppearing">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.IPageController.SendDisappearing">
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="T:Xamarin.Forms.IPlatform">
@@ -10083,7 +10114,9 @@ Children = {
         </member>
         <member name="E:Xamarin.Forms.NavigationPage.PoppedToRoot">
             <summary>Event that is raised when the last nonroot element is popped from this <see cref="T:Xamarin.Forms.NavigationPage" /> element.</summary>
-            <remarks>To be added.</remarks>
+            <remarks>The <see cref="T:Xamarin.Forms.NavigationEventArgs" /> can be cast to <see cref="T:Xamarin.Forms.PoppedToRootEventArgs" /> for 
+        access to additional properties. For example, the list of popped pages.
+        </remarks>
         </member>
         <member name="M:Xamarin.Forms.NavigationPage.PopToRootAsync">
             <summary>Pops all but the root <see cref="T:Xamarin.Forms.Page" /> off the navigation stack.</summary>
@@ -10860,13 +10893,13 @@ namespace FormsGallery
                     <item>
                         <term>Items</term>
                         <description>
-                            <para>A local file specification that identifies an image.</para>
+                            <para>A list of items with which to populate the picker.</para>
                         </description>
                     </item>
                     <item>
                         <term>SelectedIndex</term>
                         <description>
-                            <para>An integer, from 0 to 1 less than the count of items that are listed in <c>Items</c>. Currently, this element must be specified in a tag that appears lexically below <c>Items</c>.</para>
+                            <para>An integer from 0 to 1 less than the count of items that are listed in <c>Items</c>. This element must be specified in a tag that appears lexically after <c>Items</c>.</para>
                         </description>
                     </item>
                     <item>
@@ -11137,6 +11170,31 @@ namespace FormsGallery
             <summary>Returns a point for a valid point description.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Xamarin.Forms.PoppedToRootEventArgs">
+            <summary>EventArgs for the NavigationPage's PoppedToRoot navigation event.</summary>
+            <remarks>
+        The <see cref="E:Xamarin.Forms.NavigationPage.PoppedToRoot" /> passes <see cref="T:Xamarin.Forms.NavigationEventArgs" /> as the
+        event argument. This class can be cast to <see cref="T:Xamarin.Forms.PoppedToRootEventArgs" /> to allow for access to the
+        PoppedPages collection that exposes the pages that was popped.
+    </remarks>
+            <altmember cref="E:Xamarin.Forms.NavigationPage.PoppedToRoot" />
+        </member>
+        <member name="C:Xamarin.Forms.PoppedToRootEventArgs(Xamarin.Forms.Page,System.Collections.Generic.IEnumerable{Xamarin.Forms.Page})">
+            <param name="page">To be added.</param>
+            <param name="poppedPages">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.PoppedToRootEventArgs.PoppedPages">
+            <summary>Gets a collection of pages that was removed from the navigation stack.</summary>
+            <value />
+            <remarks>
+                <para>For <see cref="E:Xamarin.Forms.NavigationPage.PoppedToRoot" /> this represents the pages
+          that were popped. The order of the pages represents the order of the stack that was popped. The first page in the
+          collection is the page that was closest to the root page.
+          </para>
+            </remarks>
         </member>
         <member name="T:Xamarin.Forms.ProgressBar">
             <summary>A <see cref="T:Xamarin.Forms.View" /> control that displays progress.</summary>

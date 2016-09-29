@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Plugin.Geolocator;
+using Plugin.Geolocator.Abstractions;
 using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.ViewModel.Account;
 using System;
@@ -14,7 +15,7 @@ namespace ShareSpecial.Views.Account
 
         private readonly ILoginViewModel Model;
         private readonly IHelperFactory Helper;
-
+        private readonly IGeolocator locator;
         public Login(ILoginViewModel model, IHelperFactory helper)
         {
             this.Model = model;
@@ -22,6 +23,8 @@ namespace ShareSpecial.Views.Account
             Model.Password = "123456";
             BindingContext = model;
             this.Helper = helper;
+            locator = CrossGeolocator.Current;
+            
             InitializeComponent();
             //lat - 34.810579350003934
             //long 138.68080767575302
@@ -63,13 +66,13 @@ namespace ShareSpecial.Views.Account
 
         private async Task SetLocation()
         {
-            var locator = CrossGeolocator.Current;
+            
             locator.DesiredAccuracy = 100; //100 is new default
             if (locator.IsGeolocationAvailable && locator.IsGeolocationEnabled)
             {
                 try
                 {
-                    var position = await locator.GetPositionAsync(timeoutMilliseconds: 60000);
+                    var position = await locator.GetPositionAsync(timeoutMilliseconds: 6000);
                     Model.Latitude = position.Latitude;
                     Model.Longitude = position.Longitude;
                 }
