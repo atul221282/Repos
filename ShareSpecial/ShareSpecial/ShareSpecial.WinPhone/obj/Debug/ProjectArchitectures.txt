@@ -1,0 +1,7 @@
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\ShareSpecial.BusinessEntity.csproj;neutral
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\ShareSpecial.BusinessEntity.csproj;neutral
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\ShareSpecial.Core.csproj;neutral
+C:\Github\Repos\ShareSpecial\ShareSpecial.Model\ShareSpecial.Model.csproj;neutral
+C:\Github\Repos\ShareSpecial\ShareSpecial.Model\ShareSpecial.Model.csproj;neutral
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\ShareSpecial.WinPhone.csproj;neutral
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\ShareSpecial.csproj;neutral
