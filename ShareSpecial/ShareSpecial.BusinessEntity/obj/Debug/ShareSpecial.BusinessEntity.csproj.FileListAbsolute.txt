@@ -185,3 +185,7 @@ C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\Sh
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
 C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Users\atul\Source\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb

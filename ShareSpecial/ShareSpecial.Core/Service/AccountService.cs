@@ -50,7 +50,6 @@ namespace ShareSpecial.Core.Service
                         var token = data["m_Item1"].ToObject<Token>();
                         token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);
                         return Result.Ok(new Tuple<Token, Users>(token, user));
-
                     }
                     else
                         return Result.Error<Tuple<Token, Users>>("Error");
@@ -59,7 +58,6 @@ namespace ShareSpecial.Core.Service
                 {
                     return Result.Error<Tuple<Token, Users>>(ex.Message);
                 }
-
             }
         }
 

@@ -14,6 +14,5 @@ namespace ShareSpecial.Core.Service
     {
         string GetEmail();
         Task<Result<Tuple<Token, Users>>> LoginAsync(string email, string password);
-        
     }
 }

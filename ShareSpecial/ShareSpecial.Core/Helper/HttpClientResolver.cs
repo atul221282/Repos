@@ -16,9 +16,11 @@ namespace ShareSpecial.Core.Helper
     public class HttpClientResolver : IHttpClientResolver
     {
         private readonly ISettingResolver Setting;
-        public HttpClientResolver(ISettingResolver setting)
+        private readonly ITokenHelper token;
+        public HttpClientResolver(ISettingResolver setting, ITokenHelper token)
         {
             this.Setting = setting;
+            this.token = token;
         }
 
         public async Task<HttpClient> GetClient(bool isAuthorised = true)
@@ -44,7 +46,8 @@ namespace ShareSpecial.Core.Helper
 
         private async Task CheckAndPossiblyRefreshToken(HttpClient client)
         {
-            if (DateTime.Now.ToLocalTime() >= DateTime.Parse(Settings.TokenExpiry))
+            //if (DateTime.Now.ToLocalTime() >= DateTime.Parse(Settings.TokenExpiry))
+            if (token.HasExpired())
             {
                 try
                 {

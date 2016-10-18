@@ -38,7 +38,7 @@ namespace ShareSpecial
             if (locator.IsGeolocationEnabled)
             {
                 var position = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
-                ObjectFactory.Container.Resolve<IHelperFactory>().Setting.Location = new PostLocation { Latitude = position.Latitude, Longitude = position.Longitude };
+                //ObjectFactory.Container.Resolve<IHelperFactory>().Setting.Location = new PostLocation { Latitude = position.Latitude, Longitude = position.Longitude };
             }
         }
 

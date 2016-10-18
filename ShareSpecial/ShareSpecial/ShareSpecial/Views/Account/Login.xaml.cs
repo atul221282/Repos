@@ -66,7 +66,6 @@ namespace ShareSpecial.Views.Account
 
         private async Task SetLocation()
         {
-            
             locator.DesiredAccuracy = 100; //100 is new default
             if (locator.IsGeolocationAvailable && locator.IsGeolocationEnabled)
             {

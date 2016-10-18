@@ -36,7 +36,8 @@ namespace ShareSpecial.Core.ViewModel.Account
 
         public string GetEmail() => $"{Email} welcome to xamarin";
 
-        public async Task<Result<List<PostSpecial>>> GetSpecialsAsync() => await Service.Special.GetSpecialsAsync(Longitude, Latitude, Distance);
+        public async Task<Result<List<PostSpecial>>> GetSpecialsAsync() 
+            => await Service.Special.GetSpecialsAsync(Longitude, Latitude, Distance);
 
         public async Task<Result<Tuple<Token, Users>>> LoginAsync()
         {
