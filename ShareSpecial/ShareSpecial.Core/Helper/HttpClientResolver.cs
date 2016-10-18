@@ -51,10 +51,10 @@ namespace ShareSpecial.Core.Helper
             {
                 try
                 {
-                    var result = await client.PostStringAsync<Token>($"{ApplicationConstant.AccountAPI}RefreshToken", Setting.Token);
-                    if (result.IsSuccessStatusCode)
+                    var result = await client.PostJsonAsync<Token>($"{ApplicationConstant.AccountAPI}RefreshToken", Setting.Token);
+                    if (result.HasSuccess)
                     {
-                        var token = JsonConvert.DeserializeObject<Token>(await result.Content.ReadAsStringAsync());
+                        var token = result.Value;
                         //token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);
                         Settings.TokenExpiry = DateTime.Now.AddSeconds(token.expires_in).ToString();
                         Setting.Token = token;

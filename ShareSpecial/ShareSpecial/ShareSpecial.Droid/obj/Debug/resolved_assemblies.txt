@@ -53,6 +53,7 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\a
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\ShareSpecial.BusinessEntity.dll
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
@@ -61,6 +62,5 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\a
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Mono.CSharp.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Thinktecture.IdentityModel.Client.dll
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\Autofac.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll

@@ -18,13 +18,11 @@ namespace ShareSpecial.Core.Service
     public class AccountService : IAccountService
     {
         private readonly IHelperFactory HelperFactory;
-        private readonly IResult Result;
         private readonly IHttpClientService Service;
 
-        public AccountService(IHelperFactory helperFactory, IResult result, IHttpClientService service)
+        public AccountService(IHelperFactory helperFactory,  IHttpClientService service)
         {
             HelperFactory = helperFactory;
-            Result = result;
             Service = service;
         }
 
@@ -40,12 +38,12 @@ namespace ShareSpecial.Core.Service
                 {
                     string url = ApplicationConstant.AccountAPI + "Login";
                     var response = await client
-                        .PostStringAsync<object>(url,
+                        .PostJsonAsync<object>(url,
                         new { EmailAddress = email, Password = password });
 
-                    if (response.IsSuccessStatusCode)
+                    if (response.HasSuccess)
                     {
-                        var data = JsonConvert.DeserializeObject<JObject>(await response.Content.ReadAsStringAsync());
+                        var data = JsonConvert.DeserializeObject<JObject>(JsonConvert.SerializeObject(response.Value));
                         var user = data["m_Item2"].ToObject<Users>();
                         var token = data["m_Item1"].ToObject<Token>();
                         token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);

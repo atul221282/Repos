@@ -39,6 +39,7 @@
   <ItemGroup>
     <Compile Include="BaseCode.cs" />
     <Compile Include="BaseEntity.cs" />
+    <Compile Include="Extension\StringHelper.cs" />
     <Compile Include="Identity\Token.cs" />
     <Compile Include="Interfaces\IBaseCode.cs" />
     <Compile Include="Interfaces\IBaseEntity.cs" />

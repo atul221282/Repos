@@ -15,11 +15,9 @@ namespace ShareSpecial.Core.Service
     {
 
         private readonly IHelperFactory HelperFactory;
-        private readonly IResult Result;
-        public SpecialService(IHelperFactory helperFactory, IResult result)
+        public SpecialService(IHelperFactory helperFactory)
         {
             HelperFactory = helperFactory;
-            Result = result;
         }
 
         public void AddSpecial()
@@ -37,7 +35,7 @@ namespace ShareSpecial.Core.Service
                 try
                 {
                     var response = await client
-                        .GetModel<Result<List<PostSpecial>>>(
+                        .GetAsync<List<PostSpecial>>(
                         $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}");
 
                     if (response.HasSuccess)
@@ -59,7 +57,7 @@ namespace ShareSpecial.Core.Service
                 try
                 {
                     var response = await client
-                        .GetModel<Result<PostSpecial>>(
+                        .GetAsync<PostSpecial>(
                         $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?id={id}");
 
                     if (response.HasSuccess)
