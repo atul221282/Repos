@@ -7,6 +7,8 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using ShareSpecial.BusinessEntities.Post;
+using ShareSpecial.BusinessEntity;
 
 namespace ShareSpecial.Views.Account
 {
@@ -24,7 +26,7 @@ namespace ShareSpecial.Views.Account
             BindingContext = model;
             this.Helper = helper;
             locator = CrossGeolocator.Current;
-            
+
             InitializeComponent();
             //lat - 34.810579350003934
             //long 138.68080767575302
@@ -52,16 +54,17 @@ namespace ShareSpecial.Views.Account
 
         protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
         {
+
             var response = await Model.GetSpecialsAsync();
             if (response.HasSuccess)
             {
-                var special = await Model.GetSpecialAsync(1);
+                var result = await HandleResponse(() => Model.GetSpecialAsync(1));
             }
         }
 
         async protected override void OnAppearing()
         {
-            await SetLocation();
+            await HandleResponse(() => SetLocation());
         }
 
         private async Task SetLocation()
@@ -80,6 +83,31 @@ namespace ShareSpecial.Views.Account
                     //log ex;
                     var ff = ex;
                 }
+            }
+        }
+
+        private async Task<T> HandleResponse<T>(Func<Task<T>> action)
+        {
+            try
+            {
+                return await action.Invoke();
+            }
+            catch (Exception ex)
+            {
+                return default(T);
+            }
+        }
+
+        private async Task HandleResponse(Func<Task> func)
+        {
+            try
+            {
+                await func.Invoke();
+            }
+            catch (Exception ex)
+            {
+                var ff = ex;
+                throw;
             }
         }
     }

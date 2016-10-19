@@ -20,10 +20,7 @@ namespace ShareSpecial.Core.Service
             HelperFactory = helperFactory;
         }
 
-        public void AddSpecial()
-        {
-            throw new NotImplementedException();
-        }
+      
 
         public string GetName() => "I am from special service";
 
