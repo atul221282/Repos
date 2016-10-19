@@ -10,9 +10,9 @@ using System.Text;
 using System.Threading.Tasks;
 using ShareSpecial.BusinessEntities.Post;
 
-namespace ShareSpecial.Core.ViewModel.Account
+namespace ShareSpecial.ViewModel.Account
 {
-    public class LoginViewModel : ILoginViewModel
+    public class LoginViewModel : BaseViewModel, ILoginViewModel
     {
 
         private readonly IServiceFactory Service;
@@ -36,14 +36,13 @@ namespace ShareSpecial.Core.ViewModel.Account
 
         public string GetEmail() => $"{Email} welcome to xamarin";
 
-        public async Task<Result<List<PostSpecial>>> GetSpecialsAsync() 
-            => await Service.Special.GetSpecialsAsync(Longitude, Latitude, Distance);
+        public async Task<Result<List<PostSpecial>>> GetSpecialsAsync()
+            => await HandleResponse(() => Service.Special.GetSpecialsAsync(Longitude, Latitude, Distance));
 
         public async Task<Result<Tuple<Token, Users>>> LoginAsync()
-        {
-            return await Service.Account.LoginAsync(Email, Password);
-        }
+            => await HandleResponse(() => Service.Account.LoginAsync(Email, Password));
 
-        public async Task<Result<PostSpecial>> GetSpecialAsync(long id) => await Service.Special.GetSpecialAsync(id);
+        public async Task<Result<PostSpecial>> GetSpecialAsync(long id)
+            => await HandleResponse(() => Service.Special.GetSpecialAsync(id));
     }
 }

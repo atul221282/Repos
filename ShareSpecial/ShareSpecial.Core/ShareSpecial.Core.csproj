@@ -56,10 +56,6 @@
     <Compile Include="Service\ISpecialService.cs" />
     <Compile Include="Service\ServiceFactory.cs" />
     <Compile Include="Service\SpecialService.cs" />
-    <Compile Include="ViewModel\Account\ILoginViewModel.cs" />
-    <Compile Include="ViewModel\Account\LoginViewModel.cs" />
-    <Compile Include="ViewModel\Special\ISpecialViewModel.cs" />
-    <Compile Include="ViewModel\Special\SpecialViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">

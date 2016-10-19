@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShareSpecial.Core.ViewModel.Account
+namespace ShareSpecial.ViewModel.Account
 {
     public interface ILoginViewModel
     {

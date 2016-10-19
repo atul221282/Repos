@@ -2,13 +2,10 @@
 using Plugin.Geolocator;
 using Plugin.Geolocator.Abstractions;
 using ShareSpecial.Core.Helper;
-using ShareSpecial.Core.ViewModel.Account;
+using ShareSpecial.ViewModel.Account;
 using System;
-using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using ShareSpecial.BusinessEntities.Post;
-using ShareSpecial.BusinessEntity;
 
 namespace ShareSpecial.Views.Account
 {
@@ -55,8 +52,8 @@ namespace ShareSpecial.Views.Account
         protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
         {
 
-            var response = await Model.GetSpecialsAsync();
-            if (response.HasSuccess)
+            var response = await HandleResponse(() => Model.GetSpecialsAsync());
+            if (response != null && response.HasSuccess)
             {
                 var result = await HandleResponse(() => Model.GetSpecialAsync(1));
             }

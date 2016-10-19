@@ -1,12 +1,9 @@
 ﻿using Autofac;
-using ShareSpecial.Core.ViewModel.Special;
 using ShareSpecial.Infrastructure;
 using Plugin.Geolocator;
 using Xamarin.Forms;
 using System.Threading.Tasks;
-using ShareSpecial.Core.Helper;
-using Newtonsoft.Json;
-using ShareSpecial.BusinessEntities.Post;
+using ShareSpecial.ViewModel.Special;
 
 namespace ShareSpecial
 {

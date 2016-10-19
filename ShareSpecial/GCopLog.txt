@@ -40509,3 +40509,50 @@ The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 WebException @10/19/2016 6:57:12 PM
 The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 *******************************************************
+WebException @10/19/2016 6:59:39 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:00:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:01:12 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Syntax node is not within syntax tree
+*******************************************************
+WebException @10/19/2016 7:01:44 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:02:24 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Reported diagnostic 'GCop138' has a source location in file 'C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\Views\Account\Login.xaml.cs', which is not part of the compilation being analyzed.
+Parameter name: diagnostic
+*******************************************************
+WebException @10/19/2016 7:02:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:04:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:05:24 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:05:29 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:06:24 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:07:24 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:09:02 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:10:35 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @10/19/2016 7:12:09 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************

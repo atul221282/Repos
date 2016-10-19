@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShareSpecial.Core.ViewModel.Special
+namespace ShareSpecial.ViewModel.Special
 {
     public class SpecialViewModel : ISpecialViewModel
     {

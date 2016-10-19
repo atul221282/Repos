@@ -1,11 +1,10 @@
 ﻿using Autofac;
 using ShareSpecial.Core.Service;
-using ShareSpecial.Core.ViewModel.Account;
-using ShareSpecial.Core.ViewModel.Special;
 using System;
-
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.Core.Helper;
+using ShareSpecial.ViewModel.Account;
+using ShareSpecial.ViewModel.Special;
 
 namespace ShareSpecial.Infrastructure
 {

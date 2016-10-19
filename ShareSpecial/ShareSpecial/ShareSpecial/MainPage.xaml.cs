@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using ShareSpecial.Core.Helper;
-using ShareSpecial.Core.ViewModel.Account;
-using ShareSpecial.Core.ViewModel.Special;
 using ShareSpecial.Infrastructure;
+using ShareSpecial.ViewModel.Account;
+using ShareSpecial.ViewModel.Special;
 using ShareSpecial.Views.Account;
 using Xamarin.Forms;
 
