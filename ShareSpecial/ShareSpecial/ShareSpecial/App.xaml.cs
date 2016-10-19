@@ -19,7 +19,6 @@ namespace ShareSpecial
 
         private static void SetContainer()
         {
-
             var data = ObjectFactory.Container;
         }
 

@@ -5,6 +5,7 @@ using ShareSpecial.BusinessEntity;
 using ShareSpecial.Core.Helper;
 using ShareSpecial.ViewModel.Account;
 using ShareSpecial.ViewModel.Special;
+using Xamarin.Forms;
 
 namespace ShareSpecial.Infrastructure
 {
@@ -21,7 +22,9 @@ namespace ShareSpecial.Infrastructure
         public static IContainer Components()
         {
             var builder = new ContainerBuilder();
+            var current = Application.Current;
 
+            builder.RegisterInstance(current).As<Application>().ExternallyOwned();
             //builder.Register(x => new HttpClient());
             builder.RegisterType<HelperFactory>().As<IHelperFactory>();
             builder.RegisterType<ServiceFactory>().As<IServiceFactory>();
@@ -38,6 +41,7 @@ namespace ShareSpecial.Infrastructure
             builder.RegisterType<SettingResolver>().As<ISettingResolver>();
             builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
             builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
+
 
             return builder.Build();
         }

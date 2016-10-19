@@ -17,6 +17,7 @@ namespace ShareSpecial.Views.Account
         private readonly IGeolocator locator;
         public Login(ILoginViewModel model, IHelperFactory helper)
         {
+            
             this.Model = model;
             Model.Email = "bsharma2422@gmail.com";
             Model.Password = "123456";
@@ -32,7 +33,6 @@ namespace ShareSpecial.Views.Account
         protected async void btnLogin_OnClickedAsync(object sender, EventArgs events)
         {
             //await SetLocation();
-
             var response = await Model.LoginAsync();
 
             if (response.HasError)
@@ -52,10 +52,10 @@ namespace ShareSpecial.Views.Account
         protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
         {
 
-            var response = await HandleResponse(() => Model.GetSpecialsAsync());
+            var response = await Model.GetSpecialsAsync();
             if (response != null && response.HasSuccess)
             {
-                var result = await HandleResponse(() => Model.GetSpecialAsync(1));
+                var result = await Model.GetSpecialAsync(1);
             }
         }
 

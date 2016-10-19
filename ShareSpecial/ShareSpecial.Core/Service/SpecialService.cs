@@ -31,18 +31,13 @@ namespace ShareSpecial.Core.Service
             {
                 try
                 {
-                    var response = await client
+                    return await client
                         .GetAsync<List<PostSpecial>>(
                         $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}");
-
-                    if (response.HasSuccess)
-                        return response;
-                    else
-                        return Result.Error<List<PostSpecial>>("Error");
                 }
                 catch (Exception ex)
                 {
-                    return Result.Error<List<PostSpecial>>(ex.Message);
+                    return Result.Error<List<PostSpecial>>(ex);
                 }
             }
         }

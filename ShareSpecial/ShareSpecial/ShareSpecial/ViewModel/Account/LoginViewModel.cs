@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ShareSpecial.BusinessEntities.Post;
+using Xamarin.Forms;
 
 namespace ShareSpecial.ViewModel.Account
 {
@@ -17,10 +18,11 @@ namespace ShareSpecial.ViewModel.Account
 
         private readonly IServiceFactory Service;
         private readonly IHelperFactory Helper;
-        public LoginViewModel(IServiceFactory service)
+
+        public LoginViewModel(IServiceFactory service, Application application)
         {
             this.Service = service;
-
+            this.application = application;
             this.Email = service.Account.GetEmail();
         }
 
