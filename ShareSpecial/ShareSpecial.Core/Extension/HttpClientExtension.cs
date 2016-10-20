@@ -85,8 +85,6 @@ namespace ShareSpecial.Core.Extension
                 default:
                     return Result.Error<TOut>(data.StatusCode, message?.ToString());
             }
-
-
         }
 
         private static JObject GetJObject()

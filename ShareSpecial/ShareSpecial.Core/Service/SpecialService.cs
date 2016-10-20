@@ -5,64 +5,33 @@ using ShareSpecial.Core.Helper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ShareSpecial.Core.Service
 {
-    public class SpecialService : ISpecialService
+    public class SpecialService : BaseService, ISpecialService
     {
-
-        private readonly IHelperFactory HelperFactory;
-        public SpecialService(IHelperFactory helperFactory)
+        public SpecialService(IHelperFactory helperFactory) : base(helperFactory)
         {
-            HelperFactory = helperFactory;
         }
-
-      
 
         public string GetName() => "I am from special service";
 
         public async Task<Result<List<PostSpecial>>> GetSpecialsAsync(double? longitude, double? latitude,
             int distance)
         {
-            using (HttpClient client = await HelperFactory.HttpClient.GetClient(isAuthorised: true))
-            {
-                try
-                {
-                    return await client
-                        .GetAsync<List<PostSpecial>>(
-                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}");
-                }
-                catch (Exception ex)
-                {
-                    return Result.Error<List<PostSpecial>>(ex);
-                }
-            }
+            return await Get<List<PostSpecial>>($@"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude=
+                                            {longitude}&latitude={latitude}&distance={distance}",
+                                            isAuthorised: true);
         }
 
         public async Task<Result<PostSpecial>> GetSpecialAsync(long id)
         {
-            using (HttpClient client = await HelperFactory.HttpClient.GetClient())
-            {
-                try
-                {
-                    var response = await client
-                        .GetAsync<PostSpecial>(
-                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?id={id}");
-
-                    if (response.HasSuccess)
-                        return response;
-                    else
-                        return Result.Error<PostSpecial>("Error");
-                }
-                catch (Exception ex)
-                {
-                    return Result.Error<PostSpecial>(ex.Message);
-                }
-            }
+            return await Get<PostSpecial>(
+                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?id={id}", isAuthorised: true);
         }
-
     }
 }

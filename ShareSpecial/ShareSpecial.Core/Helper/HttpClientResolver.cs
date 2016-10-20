@@ -46,7 +46,6 @@ namespace ShareSpecial.Core.Helper
 
         private async Task CheckAndPossiblyRefreshToken(HttpClient client)
         {
-            //if (DateTime.Now.ToLocalTime() >= DateTime.Parse(Settings.TokenExpiry))
             if (token.HasExpired())
             {
                 try
@@ -62,8 +61,7 @@ namespace ShareSpecial.Core.Helper
                 }
                 catch (Exception ex)
                 {
-                    //TODO:Navigate to login page
-                    var gg = ex;
+                    throw;
                 }
             }
         }

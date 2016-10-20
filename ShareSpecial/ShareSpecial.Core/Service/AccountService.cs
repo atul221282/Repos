@@ -12,6 +12,7 @@ using ShareSpecial.Core.Constant;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.BusinessEntities.Post;
 using System.Collections.Generic;
+using System.Net;
 
 namespace ShareSpecial.Core.Service
 {
@@ -20,7 +21,7 @@ namespace ShareSpecial.Core.Service
         private readonly IHelperFactory HelperFactory;
         private readonly IHttpClientService Service;
 
-        public AccountService(IHelperFactory helperFactory,  IHttpClientService service)
+        public AccountService(IHelperFactory helperFactory, IHttpClientService service)
         {
             HelperFactory = helperFactory;
             Service = service;
@@ -50,11 +51,11 @@ namespace ShareSpecial.Core.Service
                         return Result.Ok(new Tuple<Token, Users>(token, user));
                     }
                     else
-                        return Result.Error<Tuple<Token, Users>>("Error");
+                        return Result.Error<Tuple<Token, Users>>(HttpStatusCode.Unauthorized, "Login Error");
                 }
                 catch (Exception ex)
                 {
-                    return Result.Error<Tuple<Token, Users>>(ex.Message);
+                    return Result.Error<Tuple<Token, Users>>(HttpStatusCode.Unauthorized, "Login Error");
                 }
             }
         }

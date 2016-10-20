@@ -50,6 +50,7 @@
     <Compile Include="Helper\TokenHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AccountService.cs" />
+    <Compile Include="Service\BaseService.cs" />
     <Compile Include="Service\HttpClientService.cs" />
     <Compile Include="Service\IAccountService.cs" />
     <Compile Include="Service\IServiceFactory.cs" />
