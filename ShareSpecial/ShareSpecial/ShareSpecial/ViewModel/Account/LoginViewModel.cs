@@ -19,6 +19,7 @@ namespace ShareSpecial.ViewModel.Account
         private readonly IServiceFactory Service;
 
         public LoginViewModel(IServiceFactory service, Application application)
+            :base(application)
         {
             this.Service = service;
             this.application = application;

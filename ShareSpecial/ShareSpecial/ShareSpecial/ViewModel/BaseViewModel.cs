@@ -16,7 +16,10 @@ namespace ShareSpecial.ViewModel
     public abstract class BaseViewModel
     {
         protected Application application;
-
+        protected BaseViewModel(Application application)
+        {
+            this.application = application;
+        }
         protected async Task<T> HandleResponse<T>(Func<Task<T>> action)
         {
             try

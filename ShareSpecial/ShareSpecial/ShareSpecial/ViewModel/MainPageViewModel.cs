@@ -16,7 +16,7 @@ namespace ShareSpecial.ViewModel
         public IGeolocator locator;
 
         public MainPageViewModel(IServiceFactory service,
-            Application application, IGeolocator locator)
+            Application application, IGeolocator locator):base(application)
         {
             this.Service = service;
             this.application = application;

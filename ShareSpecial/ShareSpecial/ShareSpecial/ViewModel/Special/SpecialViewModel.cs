@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace ShareSpecial.ViewModel.Special
 {
@@ -12,7 +13,7 @@ namespace ShareSpecial.ViewModel.Special
     {
         private readonly IServiceFactory Service;
 
-        public SpecialViewModel(IServiceFactory service)
+        public SpecialViewModel(IServiceFactory service, Application application) : base(application)
         {
             Service = service;
         }
