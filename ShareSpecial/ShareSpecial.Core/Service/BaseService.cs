@@ -4,14 +4,15 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using ShareSpecial.Core.Extension;
-using Newtonsoft.Json;
 using System;
+using Plugin.Geolocator.Abstractions;
 
 namespace ShareSpecial.Core.Service
 {
     public abstract class BaseService
     {
         protected readonly IHelperFactory HelperFactory;
+
         private async Task<HttpClient> GetClient(bool isAuthorised)
             => await HelperFactory.HttpClient.GetClient(isAuthorised);
 

@@ -6,6 +6,10 @@ using ShareSpecial.Core.Helper;
 using ShareSpecial.ViewModel.Account;
 using ShareSpecial.ViewModel.Special;
 using Xamarin.Forms;
+using System.Reflection;
+using ShareSpecial.ViewModel;
+using Plugin.Geolocator;
+using Plugin.Geolocator.Abstractions;
 
 namespace ShareSpecial.Infrastructure
 {
@@ -25,6 +29,7 @@ namespace ShareSpecial.Infrastructure
             var current = Application.Current;
 
             builder.RegisterInstance(current).As<Application>().ExternallyOwned();
+            builder.RegisterInstance(CrossGeolocator.Current).As<IGeolocator>().ExternallyOwned();
             //builder.Register(x => new HttpClient());
             builder.RegisterType<HelperFactory>().As<IHelperFactory>();
             builder.RegisterType<ServiceFactory>().As<IServiceFactory>();
@@ -39,9 +44,10 @@ namespace ShareSpecial.Infrastructure
             builder.RegisterType<SpecialService>().As<ISpecialService>();
             builder.RegisterType<AccountService>().As<IAccountService>();
             builder.RegisterType<SettingResolver>().As<ISettingResolver>();
+
+            builder.RegisterType<MainPageViewModel>().As<IMainPageViewModel>();
             builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
             builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
-
 
             return builder.Build();
         }

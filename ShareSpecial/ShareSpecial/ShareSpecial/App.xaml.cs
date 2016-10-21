@@ -4,6 +4,7 @@ using Plugin.Geolocator;
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using ShareSpecial.ViewModel.Special;
+using ShareSpecial.ViewModel;
 
 namespace ShareSpecial
 {
@@ -14,7 +15,7 @@ namespace ShareSpecial
         {
             SetContainer();
             InitializeComponent();
-            MainPage = new MainPage(ObjectFactory.Container.Resolve<ISpecialViewModel>());
+            MainPage = new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>());
         }
 
         private static void SetContainer()

@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:ShareSpecial"
              x:Class="ShareSpecial.MainPage">
 
-  <Label Text="{Binding Name}"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <ListView x:Name="SpecialList">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <TextCell Text="{Binding Details}"/>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
 
 </ContentPage>

@@ -8,7 +8,5 @@ namespace ShareSpecial.ViewModel.Special
 {
     public interface ISpecialViewModel
     {
-        string Name { get; set; }
-
     }
 }

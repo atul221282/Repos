@@ -1,4 +1,10 @@
-﻿using ShareSpecial.BusinessEntity;
+﻿using Autofac;
+using Plugin.Geolocator.Abstractions;
+using ShareSpecial.BusinessEntity;
+using ShareSpecial.Core.Helper;
+using ShareSpecial.Infrastructure;
+using ShareSpecial.ViewModel.Account;
+using ShareSpecial.Views.Account;
 using ShareSpecial.Views.Special;
 using System;
 using System.Net;
@@ -9,7 +15,8 @@ namespace ShareSpecial.ViewModel
 {
     public abstract class BaseViewModel
     {
-        protected  Application application;
+        protected Application application;
+
         protected async Task<T> HandleResponse<T>(Func<Task<T>> action)
         {
             try
@@ -18,7 +25,13 @@ namespace ShareSpecial.ViewModel
                 var result = response as Result;
                 if (result != null && result.HasError && result.HttpCode == HttpStatusCode.Unauthorized)
                 {
-                    await application.MainPage.Navigation.PushAsync(new Index());
+                    await application.MainPage
+                        .Navigation
+                        .PushAsync(
+                            new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
+                            ObjectFactory.Container.Resolve<IHelperFactory>(),
+                            ObjectFactory.Container.Resolve<IGeolocator>())
+                        );
                 }
                 return response;
             }

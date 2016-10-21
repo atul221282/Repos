@@ -47,6 +47,8 @@
     <Compile Include="ViewModel\Account\ILoginViewModel.cs" />
     <Compile Include="ViewModel\Account\LoginViewModel.cs" />
     <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\IMainPageViewModel.cs" />
+    <Compile Include="ViewModel\MainPageViewModel.cs" />
     <Compile Include="ViewModel\Special\ISpecialViewModel.cs" />
     <Compile Include="ViewModel\Special\SpecialViewModel.cs" />
     <Compile Include="Views\Account\Login.xaml.cs">

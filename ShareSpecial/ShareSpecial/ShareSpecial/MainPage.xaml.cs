@@ -1,6 +1,8 @@
 ﻿using Autofac;
+using Plugin.Geolocator.Abstractions;
 using ShareSpecial.Core.Helper;
 using ShareSpecial.Infrastructure;
+using ShareSpecial.ViewModel;
 using ShareSpecial.ViewModel.Account;
 using ShareSpecial.ViewModel.Special;
 using ShareSpecial.Views.Account;
@@ -11,9 +13,9 @@ namespace ShareSpecial
     public partial class MainPage : ContentPage
     {
 
-        private readonly ISpecialViewModel ViewModel;
+        private readonly IMainPageViewModel ViewModel;
 
-        public MainPage(ISpecialViewModel vm)
+        public MainPage(IMainPageViewModel vm)
         {
             this.ViewModel = vm;
             BindingContext = ViewModel;
@@ -21,11 +23,8 @@ namespace ShareSpecial
         }
         async protected override void OnAppearing()
         {
-            //todo load application data here
-            //todo then navigate from here
-            var page = new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
-                ObjectFactory.Container.Resolve<IHelperFactory>());
-            App.Current.MainPage = new NavigationPage(page);
+            await ViewModel.LoadSpecials();
+            SpecialList.ItemsSource = ViewModel.PostSpecials;
         }
     }
 

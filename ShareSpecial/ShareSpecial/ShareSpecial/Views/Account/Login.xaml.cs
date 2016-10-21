@@ -15,15 +15,15 @@ namespace ShareSpecial.Views.Account
         private readonly ILoginViewModel Model;
         private readonly IHelperFactory Helper;
         private readonly IGeolocator locator;
-        public Login(ILoginViewModel model, IHelperFactory helper)
+        public Login(ILoginViewModel model, IHelperFactory helper, IGeolocator locator)
         {
-            
+
             this.Model = model;
             Model.Email = "bsharma2422@gmail.com";
             Model.Password = "123456";
             BindingContext = model;
             this.Helper = helper;
-            locator = CrossGeolocator.Current;
+            this.locator = locator;
 
             InitializeComponent();
             //lat - 34.810579350003934
@@ -61,51 +61,7 @@ namespace ShareSpecial.Views.Account
 
         async protected override void OnAppearing()
         {
-            await HandleResponse(() => SetLocation());
-        }
-
-        private async Task SetLocation()
-        {
-            locator.DesiredAccuracy = 100; //100 is new default
-            if (locator.IsGeolocationAvailable && locator.IsGeolocationEnabled)
-            {
-                try
-                {
-                    var position = await locator.GetPositionAsync(timeoutMilliseconds: 6000);
-                    Model.Latitude = position.Latitude;
-                    Model.Longitude = position.Longitude;
-                }
-                catch (Exception ex)
-                {
-                    //log ex;
-                    var ff = ex;
-                }
-            }
-        }
-
-        private async Task<T> HandleResponse<T>(Func<Task<T>> action)
-        {
-            try
-            {
-                return await action.Invoke();
-            }
-            catch (Exception ex)
-            {
-                return default(T);
-            }
-        }
-
-        private async Task HandleResponse(Func<Task> func)
-        {
-            try
-            {
-                await func.Invoke();
-            }
-            catch (Exception ex)
-            {
-                var ff = ex;
-                throw;
-            }
+            //await SetLocation();
         }
     }
 }
