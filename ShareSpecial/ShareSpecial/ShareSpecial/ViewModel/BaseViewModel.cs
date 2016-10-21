@@ -25,13 +25,11 @@ namespace ShareSpecial.ViewModel
                 var result = response as Result;
                 if (result != null && result.HasError && result.HttpCode == HttpStatusCode.Unauthorized)
                 {
-                    await application.MainPage
-                        .Navigation
-                        .PushAsync(
-                            new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
-                            ObjectFactory.Container.Resolve<IHelperFactory>(),
-                            ObjectFactory.Container.Resolve<IGeolocator>())
-                        );
+                    var loginVm = ObjectFactory.Container.Resolve<ILoginViewModel>();
+                    var helperFac = ObjectFactory.Container.Resolve<IHelperFactory>();
+                    var geo = ObjectFactory.Container.Resolve<IGeolocator>();
+
+                    await application.MainPage.Navigation.PushAsync(new Login(loginVm, helperFac, geo));
                 }
                 return response;
             }
