@@ -15,15 +15,12 @@ namespace ShareSpecial.ViewModel.Account
 {
     public class LoginViewModel : BaseViewModel, ILoginViewModel
     {
-
         private readonly IServiceFactory Service;
-        private readonly IHelperFactory Helper;
 
         public LoginViewModel(IServiceFactory service, Application application)
         {
             this.Service = service;
             this.application = application;
-            this.Email = service.Account.GetEmail();
         }
 
         public string Email { get; set; }
