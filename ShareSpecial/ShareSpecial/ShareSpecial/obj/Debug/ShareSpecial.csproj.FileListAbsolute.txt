@@ -86,3 +86,4 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Vi
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Views.Account.Login.xaml.g.cs
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.pdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Views.Index.xaml.g.cs

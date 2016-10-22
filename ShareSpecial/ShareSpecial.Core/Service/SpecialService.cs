@@ -23,15 +23,15 @@ namespace ShareSpecial.Core.Service
         public async Task<Result<List<PostSpecial>>> GetSpecialsAsync(double? longitude, double? latitude,
             int distance)
         {
-            return await Get<List<PostSpecial>>($@"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude=
-                                            {longitude}&latitude={latitude}&distance={distance}",
-                                            isAuthorised: true);
+            return await Get<List<PostSpecial>>($@"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}"
+                ,isAuthorised: true);
         }
 
         public async Task<Result<PostSpecial>> GetSpecialAsync(long id)
         {
             return await Get<PostSpecial>(
-                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?id={id}", isAuthorised: true);
+                        $"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?id={id}",
+                        isAuthorised: true);
         }
     }
 }

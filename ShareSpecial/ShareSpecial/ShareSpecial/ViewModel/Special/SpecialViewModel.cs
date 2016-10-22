@@ -13,11 +13,9 @@ namespace ShareSpecial.ViewModel.Special
     {
         private readonly IServiceFactory Service;
 
-        public SpecialViewModel(IServiceFactory service, Application application) : base(application)
+        public SpecialViewModel(IServiceFactory service, INavigation navigation) : base(navigation)
         {
             Service = service;
         }
-
-
     }
 }

@@ -5,6 +5,8 @@ using Xamarin.Forms;
 using System.Threading.Tasks;
 using ShareSpecial.ViewModel.Special;
 using ShareSpecial.ViewModel;
+using Plugin.Geolocator.Abstractions;
+using ShareSpecial.Views;
 
 namespace ShareSpecial
 {
@@ -13,9 +15,15 @@ namespace ShareSpecial
         public static IContainer container;
         public App()
         {
-            SetContainer();
             InitializeComponent();
-            MainPage = new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>());
+
+            SetContainer();
+
+            MainPage = new Index();
+
+            //MainPage = new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
+            //    ObjectFactory.Container.Resolve<IGeolocator>());
+
         }
 
         private static void SetContainer()
@@ -26,7 +34,7 @@ namespace ShareSpecial
         async protected override void OnStart()
         {
             // Handle when your app starts
-            await GetLocation();
+            //await GetLocation();
         }
 
         private async Task GetLocation()

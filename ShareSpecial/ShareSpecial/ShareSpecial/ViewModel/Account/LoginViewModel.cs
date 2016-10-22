@@ -18,11 +18,10 @@ namespace ShareSpecial.ViewModel.Account
     {
         private readonly IServiceFactory Service;
 
-        public LoginViewModel(IServiceFactory service, Application application)
-            :base(application)
+        public LoginViewModel(IServiceFactory service, INavigation navigation) : base(navigation)
         {
             this.Service = service;
-            this.application = application;
+            this.Navigation = navigation;
         }
 
         public string Email { get; set; }

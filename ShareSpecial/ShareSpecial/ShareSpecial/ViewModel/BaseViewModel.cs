@@ -15,10 +15,10 @@ namespace ShareSpecial.ViewModel
 {
     public abstract class BaseViewModel
     {
-        protected Application application;
-        protected BaseViewModel(Application application)
+        protected INavigation Navigation;
+        protected BaseViewModel(INavigation navigation)
         {
-            this.application = application;
+            this.Navigation = navigation;
         }
         protected async Task<T> HandleResponse<T>(Func<Task<T>> action)
         {
@@ -32,7 +32,7 @@ namespace ShareSpecial.ViewModel
                     var helperFac = ObjectFactory.Container.Resolve<IHelperFactory>();
                     var geo = ObjectFactory.Container.Resolve<IGeolocator>();
 
-                    await application.MainPage.Navigation.PushAsync(new Login(loginVm, helperFac, geo));
+                    await Navigation.PushAsync(new Login(loginVm, helperFac, geo));
                 }
                 return response;
             }

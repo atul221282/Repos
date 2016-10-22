@@ -17,7 +17,7 @@ namespace ShareSpecial.Views.Account
         private readonly IGeolocator locator;
         public Login(ILoginViewModel model, IHelperFactory helper, IGeolocator locator)
         {
-
+            
             this.Model = model;
             Model.Email = "bsharma2422@gmail.com";
             Model.Password = "123456";
@@ -41,27 +41,12 @@ namespace ShareSpecial.Views.Account
             }
             else
             {
-                Helper.Setting.User = response.Value.Item2;
-                var token = response.Value.Item1;
-                Settings.TokenExpiry = DateTime.Now.AddSeconds(token.expires_in).ToString();
-                Settings.Token = JsonConvert.SerializeObject(token);
                 var answer = await DisplayAlert("wlecome", Helper.Setting.User.FullName, "Yes", "No");
-            }
-        }
-
-        protected async void btnGetPost_OnClickedAsync(object sender, EventArgs events)
-        {
-
-            var response = await Model.GetSpecialsAsync();
-            if (response != null && response.HasSuccess)
-            {
-                var result = await Model.GetSpecialAsync(1);
             }
         }
 
         async protected override void OnAppearing()
         {
-            //await SetLocation();
         }
     }
 }

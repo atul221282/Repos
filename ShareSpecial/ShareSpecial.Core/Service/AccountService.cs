@@ -38,6 +38,10 @@ namespace ShareSpecial.Core.Service
                 var user = data["m_Item2"].ToObject<Users>();
                 var token = data["m_Item1"].ToObject<Token>();
                 token.CreatedOn = DateTime.Now.AddSeconds(token.expires_in);
+                HelperFactory.Setting.User = user;
+              
+                Settings.TokenExpiry = DateTime.Now.AddSeconds(token.expires_in).ToString();
+                Settings.Token = JsonConvert.SerializeObject(token);
                 return Result.Ok(new Tuple<Token, Users>(token, user));
             }
             else

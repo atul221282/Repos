@@ -28,26 +28,31 @@ namespace ShareSpecial.Infrastructure
             var builder = new ContainerBuilder();
             var current = Application.Current;
 
-            builder.RegisterInstance(current).As<Application>().ExternallyOwned();
-            builder.RegisterInstance(CrossGeolocator.Current).As<IGeolocator>().ExternallyOwned();
-            //builder.Register(x => new HttpClient());
-            builder.RegisterType<HelperFactory>().As<IHelperFactory>();
-            builder.RegisterType<ServiceFactory>().As<IServiceFactory>();
-
-            builder.RegisterType<Result>().As<IResult>();
-
-            builder.RegisterType<HttpClientService>().As<IHttpClientService>();
-            builder.RegisterType<HttpClientResolver>().As<IHttpClientResolver>();
-            builder.RegisterType<TokenHelper>().As<ITokenHelper>();
+            
+            builder.RegisterInstance(current).As<Application>().SingleInstance();
+            builder.RegisterInstance(CrossGeolocator.Current).As<IGeolocator>().ExternallyOwned().SingleInstance();
 
 
-            builder.RegisterType<SpecialService>().As<ISpecialService>();
-            builder.RegisterType<AccountService>().As<IAccountService>();
-            builder.RegisterType<SettingResolver>().As<ISettingResolver>();
+            builder.RegisterType<HelperFactory>().As<IHelperFactory>().SingleInstance();
+            builder.RegisterType<ServiceFactory>().As<IServiceFactory>().SingleInstance();
 
-            builder.RegisterType<MainPageViewModel>().As<IMainPageViewModel>();
-            builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
-            builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
+            builder.RegisterType<Result>().As<IResult>().SingleInstance();
+
+            builder.RegisterType<HttpClientService>().As<IHttpClientService>().SingleInstance();
+            builder.RegisterType<HttpClientResolver>().As<IHttpClientResolver>().SingleInstance();
+            builder.RegisterType<TokenHelper>().As<ITokenHelper>().SingleInstance();
+
+
+            builder.RegisterType<SpecialService>().As<ISpecialService>().SingleInstance();
+            builder.RegisterType<AccountService>().As<IAccountService>().SingleInstance();
+            builder.RegisterType<SettingResolver>().As<ISettingResolver>().SingleInstance();
+
+
+            builder.RegisterType<MainPageViewModel>().As<IMainPageViewModel>().SingleInstance();
+            builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>().SingleInstance();
+            builder.RegisterType<LoginViewModel>().As<ILoginViewModel>().SingleInstance();
+
+            builder.Register<INavigation>(context => App.Current.MainPage.Navigation).SingleInstance();
 
             return builder.Build();
         }

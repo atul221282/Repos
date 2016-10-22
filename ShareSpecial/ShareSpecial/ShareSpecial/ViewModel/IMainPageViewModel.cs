@@ -11,6 +11,6 @@ namespace ShareSpecial.ViewModel
     {
         IEnumerable<PostSpecial> PostSpecials { get; set; }
 
-        Task LoadSpecials();
+        Task<List<PostSpecial>> GetSpecials(double longitude, double latitude, int distance);
     }
 }

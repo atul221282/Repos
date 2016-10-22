@@ -10,8 +10,6 @@
     <Entry x:Name="enPassword" Placeholder="Password" Text="{Binding Password}"></Entry>
     <Button Text="Login" FontSize="20" HorizontalOptions="CenterAndExpand"
                 Clicked="btnLogin_OnClickedAsync" x:Name="btnLogin"></Button>
-    <Button Text="Get Post" FontSize="20" HorizontalOptions="CenterAndExpand"
-                Clicked="btnGetPost_OnClickedAsync" x:Name="btnGetPost"></Button>
   </StackLayout>
 
 </ContentPage>
