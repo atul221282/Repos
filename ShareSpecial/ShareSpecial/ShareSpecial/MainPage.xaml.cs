@@ -29,7 +29,6 @@ namespace ShareSpecial
             var positionResult = await GetLocation();
             if (positionResult.HasSuccess)
             {
-                await Navigation.PushAsync(new Login(null, null, null));
                 SpecialList.ItemsSource = await
                     ViewModel.GetSpecials(positionResult.Value.Longitude, positionResult.Value.Latitude, 5000);
             }

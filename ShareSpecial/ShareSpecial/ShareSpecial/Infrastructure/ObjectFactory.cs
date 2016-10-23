@@ -48,11 +48,11 @@ namespace ShareSpecial.Infrastructure
             builder.RegisterType<SettingResolver>().As<ISettingResolver>().SingleInstance();
 
 
-            builder.RegisterType<MainPageViewModel>().As<IMainPageViewModel>().SingleInstance();
-            builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>().SingleInstance();
-            builder.RegisterType<LoginViewModel>().As<ILoginViewModel>().SingleInstance();
+            builder.RegisterType<MainPageViewModel>().As<IMainPageViewModel>();
+            builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
+            builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
 
-            builder.Register<INavigation>(context => App.Current.MainPage.Navigation).SingleInstance();
+             builder.Register<INavigation>(context => App.Current.MainPage.Navigation).SingleInstance();
 
             return builder.Build();
         }

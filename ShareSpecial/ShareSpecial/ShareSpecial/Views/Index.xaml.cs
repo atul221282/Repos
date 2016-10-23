@@ -16,12 +16,15 @@ namespace ShareSpecial.Views
     {
         public Index()
         {
-            InitializeComponent();
-
             var data = ObjectFactory.Container;
+            InitializeComponent();
+          
+        }
 
-            Navigation.PushAsync(new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
-                ObjectFactory.Container.Resolve<IGeolocator>())));
+        protected override void OnAppearing()
+        {
+            App.Current.MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
+                ObjectFactory.Container.Resolve<IGeolocator>()));
         }
     }
 }

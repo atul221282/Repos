@@ -14,18 +14,17 @@ namespace ShareSpecial.Views.Account
 
         private readonly ILoginViewModel Model;
         private readonly IHelperFactory Helper;
-        private readonly IGeolocator locator;
-        public Login(ILoginViewModel model, IHelperFactory helper, IGeolocator locator)
+        public Login(ILoginViewModel model, IHelperFactory helper)
         {
-            
+            InitializeComponent();
+
             this.Model = model;
             Model.Email = "bsharma2422@gmail.com";
             Model.Password = "123456";
             BindingContext = model;
             this.Helper = helper;
-            this.locator = locator;
 
-            InitializeComponent();
+            
             //lat - 34.810579350003934
             //long 138.68080767575302
         }

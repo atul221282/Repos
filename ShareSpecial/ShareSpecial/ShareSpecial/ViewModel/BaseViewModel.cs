@@ -26,14 +26,13 @@ namespace ShareSpecial.ViewModel
             {
                 var response = await action.Invoke();
                 var result = response as Result;
-                if (result != null && result.HasError && result.HttpCode == HttpStatusCode.Unauthorized)
-                {
+                //if (result != null && result.HasError && result.HttpCode == HttpStatusCode.Unauthorized)
+                //{
                     var loginVm = ObjectFactory.Container.Resolve<ILoginViewModel>();
                     var helperFac = ObjectFactory.Container.Resolve<IHelperFactory>();
                     var geo = ObjectFactory.Container.Resolve<IGeolocator>();
-
-                    await Navigation.PushAsync(new Login(loginVm, helperFac, geo));
-                }
+                    await Navigation.PushAsync(new Login(loginVm, helperFac));
+                //}
                 return response;
             }
             catch (Exception ex)
