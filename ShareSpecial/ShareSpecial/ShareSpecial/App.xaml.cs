@@ -17,13 +17,7 @@ namespace ShareSpecial
         {
             InitializeComponent();
 
-            SetContainer();
-
             MainPage = new Index();
-
-            //MainPage = new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
-            //    ObjectFactory.Container.Resolve<IGeolocator>());
-
         }
 
         private static void SetContainer()

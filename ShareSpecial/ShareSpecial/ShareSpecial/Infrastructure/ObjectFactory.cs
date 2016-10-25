@@ -10,6 +10,7 @@ using System.Reflection;
 using ShareSpecial.ViewModel;
 using Plugin.Geolocator;
 using Plugin.Geolocator.Abstractions;
+using ShareSpecial.Helpers;
 
 namespace ShareSpecial.Infrastructure
 {
@@ -28,10 +29,8 @@ namespace ShareSpecial.Infrastructure
             var builder = new ContainerBuilder();
             var current = Application.Current;
 
-            
             builder.RegisterInstance(current).As<Application>().SingleInstance();
             builder.RegisterInstance(CrossGeolocator.Current).As<IGeolocator>().ExternallyOwned().SingleInstance();
-
 
             builder.RegisterType<HelperFactory>().As<IHelperFactory>().SingleInstance();
             builder.RegisterType<ServiceFactory>().As<IServiceFactory>().SingleInstance();
@@ -42,21 +41,17 @@ namespace ShareSpecial.Infrastructure
             builder.RegisterType<HttpClientResolver>().As<IHttpClientResolver>().SingleInstance();
             builder.RegisterType<TokenHelper>().As<ITokenHelper>().SingleInstance();
 
-
             builder.RegisterType<SpecialService>().As<ISpecialService>().SingleInstance();
             builder.RegisterType<AccountService>().As<IAccountService>().SingleInstance();
             builder.RegisterType<SettingResolver>().As<ISettingResolver>().SingleInstance();
 
+            builder.RegisterType<NavigationService>().As<INavigationService>();
 
             builder.RegisterType<MainPageViewModel>().As<IMainPageViewModel>();
             builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
             builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
-
-             builder.Register<INavigation>(context => App.Current.MainPage.Navigation).SingleInstance();
-
+           
             return builder.Build();
         }
-
     }
-
 }

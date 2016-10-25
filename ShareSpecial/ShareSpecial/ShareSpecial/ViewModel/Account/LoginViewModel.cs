@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using ShareSpecial.BusinessEntities.Post;
 using Xamarin.Forms;
 using Plugin.Geolocator.Abstractions;
+using ShareSpecial.Helpers;
 
 namespace ShareSpecial.ViewModel.Account
 {
@@ -18,7 +19,7 @@ namespace ShareSpecial.ViewModel.Account
     {
         private readonly IServiceFactory Service;
 
-        public LoginViewModel(IServiceFactory service, INavigation navigation) : base(navigation)
+        public LoginViewModel(IServiceFactory service, INavigationService navigation) : base(navigation)
         {
             this.Service = service;
             this.Navigation = navigation;

@@ -16,13 +16,12 @@ namespace ShareSpecial.Views
     {
         public Index()
         {
-            var data = ObjectFactory.Container;
             InitializeComponent();
-          
         }
 
         protected override void OnAppearing()
         {
+            var data = ObjectFactory.Container;
             App.Current.MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
                 ObjectFactory.Container.Resolve<IGeolocator>()));
         }

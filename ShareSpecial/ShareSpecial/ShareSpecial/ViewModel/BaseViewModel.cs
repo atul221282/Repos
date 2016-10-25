@@ -2,6 +2,7 @@
 using Plugin.Geolocator.Abstractions;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.Core.Helper;
+using ShareSpecial.Helpers;
 using ShareSpecial.Infrastructure;
 using ShareSpecial.ViewModel.Account;
 using ShareSpecial.Views.Account;
@@ -15,8 +16,8 @@ namespace ShareSpecial.ViewModel
 {
     public abstract class BaseViewModel
     {
-        protected INavigation Navigation;
-        protected BaseViewModel(INavigation navigation)
+        protected INavigationService Navigation;
+        protected BaseViewModel(INavigationService navigation)
         {
             this.Navigation = navigation;
         }
@@ -28,10 +29,11 @@ namespace ShareSpecial.ViewModel
                 var result = response as Result;
                 //if (result != null && result.HasError && result.HttpCode == HttpStatusCode.Unauthorized)
                 //{
-                    var loginVm = ObjectFactory.Container.Resolve<ILoginViewModel>();
-                    var helperFac = ObjectFactory.Container.Resolve<IHelperFactory>();
-                    var geo = ObjectFactory.Container.Resolve<IGeolocator>();
-                    await Navigation.PushAsync(new Login(loginVm, helperFac));
+                var loginVm = ObjectFactory.Container.Resolve<ILoginViewModel>();
+                var helperFac = ObjectFactory.Container.Resolve<IHelperFactory>();
+                var geo = ObjectFactory.Container.Resolve<IGeolocator>();
+                var loginView = new Login(loginVm, helperFac);
+                await Navigation.PushAsync(loginView);
                 //}
                 return response;
             }

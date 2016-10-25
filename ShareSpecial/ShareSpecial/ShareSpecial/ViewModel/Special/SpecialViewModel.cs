@@ -1,5 +1,6 @@
 ﻿using Plugin.Geolocator.Abstractions;
 using ShareSpecial.Core.Service;
+using ShareSpecial.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace ShareSpecial.ViewModel.Special
     {
         private readonly IServiceFactory Service;
 
-        public SpecialViewModel(IServiceFactory service, INavigation navigation) : base(navigation)
+        public SpecialViewModel(IServiceFactory service, INavigationService navigation) : base(navigation)
         {
             Service = service;
         }

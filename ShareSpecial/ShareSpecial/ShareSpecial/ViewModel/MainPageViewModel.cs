@@ -2,6 +2,7 @@
 using ShareSpecial.BusinessEntities.Post;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.Core.Service;
+using ShareSpecial.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace ShareSpecial.ViewModel
         public IGeolocator locator;
         
         public MainPageViewModel(IServiceFactory service,
-             IGeolocator locator,INavigation navigation) : base(navigation)
+             IGeolocator locator, INavigationService navigation) : base(navigation)
         {
             this.Service = service;
             this.Navigation = navigation;

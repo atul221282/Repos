@@ -38,6 +38,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\INavigationService.cs" />
+    <Compile Include="Helpers\NavigationService.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="Infrastructure\ObjectFactory.cs" />
     <Compile Include="MainPage.xaml.cs">
