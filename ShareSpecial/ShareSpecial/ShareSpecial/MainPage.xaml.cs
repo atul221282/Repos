@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Plugin.Geolocator.Abstractions;
+using ShareSpecial.BusinessEntities.Post;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.Core.Helper;
 using ShareSpecial.Infrastructure;
@@ -30,7 +31,12 @@ namespace ShareSpecial
 
         async protected override void OnAppearing()
         {
-                ViewModel.GetSpecialCommand.Execute(null);
+            ViewModel.LoadSpecialListCommand.Execute(null);
+        }
+
+        protected void OnItemTapped(object sender, ItemTappedEventArgs events)
+        {
+            ViewModel.LoadSpecialCommand.Execute(events.Item as PostSpecial);
         }
     }
 }

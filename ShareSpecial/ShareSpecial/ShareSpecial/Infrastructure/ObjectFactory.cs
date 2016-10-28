@@ -49,6 +49,7 @@ namespace ShareSpecial.Infrastructure
 
             builder.RegisterType<MainPageViewModel>().As<IMainPageViewModel>();
             builder.RegisterType<SpecialViewModel>().As<ISpecialViewModel>();
+            builder.RegisterType<SpecialDetailViewModel>().As<ISpecialDetailViewModel>();
             builder.RegisterType<LoginViewModel>().As<ILoginViewModel>();
            
             return builder.Build();

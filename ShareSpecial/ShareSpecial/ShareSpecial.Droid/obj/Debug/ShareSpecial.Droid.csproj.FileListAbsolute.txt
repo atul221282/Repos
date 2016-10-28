@@ -151,7 +151,9 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Newtonsof
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Thinktecture.IdentityModel.Client.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Autofac.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Core.pdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Core.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.pdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\FormsViewGroup.pdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.CurrentActivity.xml
@@ -194,5 +196,3 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\res\layou
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\res\values\styles.xml
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\R.cs.flag
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\uploadflags.txt
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Core.dll.mdb
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.dll.mdb

@@ -52,13 +52,18 @@
     <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="ViewModel\IMainPageViewModel.cs" />
     <Compile Include="ViewModel\MainPageViewModel.cs" />
+    <Compile Include="ViewModel\Special\ISpecialDetailViewModel.cs" />
     <Compile Include="ViewModel\Special\ISpecialViewModel.cs" />
+    <Compile Include="ViewModel\Special\SpecialDetailViewModel.cs" />
     <Compile Include="ViewModel\Special\SpecialViewModel.cs" />
     <Compile Include="Views\Account\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Index.xaml.cs">
       <DependentUpon>Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Special\Detail.xaml.cs">
+      <DependentUpon>Detail.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Special\Index.xaml.cs">
       <DependentUpon>Index.xaml</DependentUpon>
@@ -153,7 +158,12 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Special\Detail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Index.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

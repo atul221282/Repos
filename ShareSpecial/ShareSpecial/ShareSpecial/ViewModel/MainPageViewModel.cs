@@ -1,8 +1,12 @@
-﻿using Plugin.Geolocator.Abstractions;
+﻿using Autofac;
+using Plugin.Geolocator.Abstractions;
 using ShareSpecial.BusinessEntities.Post;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.Core.Service;
 using ShareSpecial.Helpers;
+using ShareSpecial.Infrastructure;
+using ShareSpecial.ViewModel.Special;
+using ShareSpecial.Views.Special;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -15,9 +19,11 @@ namespace ShareSpecial.ViewModel
     {
         private readonly IServiceFactory Service;
         private ObservableCollection<PostSpecial> _specials;
+        private PostSpecial _postSpecial;
 
         public IGeolocator locator;
-        public Command GetSpecialCommand { get; }
+        public Command LoadSpecialListCommand { get; }
+        public Command LoadSpecialCommand { get; }
 
         public MainPageViewModel(IServiceFactory service,
              IGeolocator locator, INavigationService navigation) : base(navigation)
@@ -26,7 +32,16 @@ namespace ShareSpecial.ViewModel
             this.Navigation = navigation;
             this.locator = locator;
 
-            GetSpecialCommand = new Command(async (x) => await ExecuteGetSpecialsCommand(x as Position));
+            LoadSpecialListCommand = new Command(async (x) => await ExecuteLoadSpecialListCommand(null));
+
+            LoadSpecialCommand = new Command(async (x) => await ExecuteLoadSpecial(x as PostSpecial));
+        }
+
+        private async Task ExecuteLoadSpecial(PostSpecial special)
+        {
+            var vm = ObjectFactory.Container.Resolve<ISpecialDetailViewModel>();
+            vm.Special = special;
+            await Navigation.PushAsync(new Detail(vm));
         }
 
         /// <summary>
@@ -40,12 +55,19 @@ namespace ShareSpecial.ViewModel
                 SetProperty(ref _specials, value);
             }
         }
-
-
-        private async Task ExecuteGetSpecialsCommand(Position position)
+        
+        private async Task ExecuteLoadSpecialListCommand(Position position)
         {
-            position = position ?? (await GetLocation())?.Value;
-            PostSpecials = new ObservableCollection<PostSpecial>(await GetSpecials(position.Longitude, position.Latitude, 5000));
+            try
+            {
+                position = position ?? (await GetLocation())?.Value;
+                var specials = await GetSpecials(position.Longitude, position.Latitude, 5000);
+                PostSpecials = new ObservableCollection<PostSpecial>(specials);
+            }
+            catch (Exception ex)
+            {
+                var gg = ex;
+            }
         }
 
         #region "Private methods"

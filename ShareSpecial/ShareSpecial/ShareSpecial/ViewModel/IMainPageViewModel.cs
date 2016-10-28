@@ -11,10 +11,10 @@ namespace ShareSpecial.ViewModel
 {
     public interface IMainPageViewModel
     {
-        Command GetSpecialCommand { get; }
+        Command LoadSpecialListCommand { get; }
 
+        Command LoadSpecialCommand { get; }
+        
         ObservableCollection<PostSpecial> PostSpecials { get; set; }
-
-        //Task<List<PostSpecial>> GetSpecials(double longitude, double latitude, int distance);
     }
 }
