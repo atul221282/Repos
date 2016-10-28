@@ -1,16 +1,20 @@
 ﻿using ShareSpecial.BusinessEntities.Post;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace ShareSpecial.ViewModel
 {
     public interface IMainPageViewModel
     {
-        IEnumerable<PostSpecial> PostSpecials { get; set; }
+        Command GetSpecialCommand { get; }
 
-        Task<List<PostSpecial>> GetSpecials(double longitude, double latitude, int distance);
+        ObservableCollection<PostSpecial> PostSpecials { get; set; }
+
+        //Task<List<PostSpecial>> GetSpecials(double longitude, double latitude, int distance);
     }
 }

@@ -17,41 +17,20 @@ namespace ShareSpecial
     {
         private readonly IMainPageViewModel ViewModel;
         private readonly IGeolocator locator;
+
+
         public MainPage(IMainPageViewModel vm, IGeolocator locator)
         {
             this.ViewModel = vm;
             this.locator = locator;
             BindingContext = ViewModel;
             InitializeComponent();
+
         }
+
         async protected override void OnAppearing()
         {
-            var positionResult = await GetLocation();
-            if (positionResult.HasSuccess)
-            {
-                SpecialList.ItemsSource = await
-                    ViewModel.GetSpecials(positionResult.Value.Longitude, positionResult.Value.Latitude, 5000);
-            }
-        }
-
-        private async Task<Result<Position>> GetLocation()
-        {
-            locator.DesiredAccuracy = 100; //100 is new default
-            if (locator.IsGeolocationAvailable && locator.IsGeolocationEnabled)
-            {
-                try
-                {
-                    var position = await locator.GetPositionAsync(timeoutMilliseconds: 6000);
-                    return Result.Ok(position);
-                }
-                catch (Exception ex)
-                {
-                    //log ex;
-                    return Result.Error<Position>(ex);
-                }
-            }
-            return Result.Error<Position>("Cannot access location");
+                ViewModel.GetSpecialCommand.Execute(null);
         }
     }
-
 }

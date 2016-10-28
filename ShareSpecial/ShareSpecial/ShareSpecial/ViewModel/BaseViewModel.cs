@@ -1,20 +1,18 @@
 ﻿using Autofac;
-using Plugin.Geolocator.Abstractions;
 using ShareSpecial.BusinessEntity;
 using ShareSpecial.Core.Helper;
 using ShareSpecial.Helpers;
 using ShareSpecial.Infrastructure;
 using ShareSpecial.ViewModel.Account;
 using ShareSpecial.Views.Account;
-using ShareSpecial.Views.Special;
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using Xamarin.Forms;
+using ShareSpecial.Helper;
 
 namespace ShareSpecial.ViewModel
 {
-    public abstract class BaseViewModel
+    public abstract class BaseViewModel: ObservableObject
     {
         protected INavigationService Navigation;
         protected BaseViewModel(INavigationService navigation)

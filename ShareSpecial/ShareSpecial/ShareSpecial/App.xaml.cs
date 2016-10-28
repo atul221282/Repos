@@ -25,10 +25,9 @@ namespace ShareSpecial
             var data = ObjectFactory.Container;
         }
 
-        async protected override void OnStart()
+        protected override void OnStart()
         {
-            // Handle when your app starts
-            //await GetLocation();
+          
         }
 
         private async Task GetLocation()
