@@ -212,11 +212,3 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Multipl
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Xamarin.Forms.Platform.WinRT.Tablet.pri.xml
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\ProjectArchitectures.txt
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles.intermediate
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles.intermediate
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles.intermediate
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml.intermediate

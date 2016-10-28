@@ -15,6 +15,7 @@ namespace ShareSpecial.Views.Special
         public Detail(ISpecialDetailViewModel vm)
         {
             this.vm = vm;
+            this.BindingContext = this.vm;
             InitializeComponent();
         }
     }
