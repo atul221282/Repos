@@ -4,21 +4,26 @@
              xmlns:local="clr-namespace:ShareSpecial"
              x:Class="ShareSpecial.MainPage">
 
-  <ListView x:Name="SpecialList" ItemsSource="{Binding PostSpecials}"
-            ItemTapped="OnItemTapped"
-            SeparatorVisibility="Default" RowHeight="50" SeparatorColor="Purple">
-    <ListView.Header>
-      <StackLayout Orientation="Horizontal">
-        <Label Text="Specials"
-        TextColor="Olive"
-        BackgroundColor="Red" />
-      </StackLayout>
-    </ListView.Header>
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <TextCell Text="{Binding Details}"/>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
+  <StackLayout>
 
+    <ListView x:Name="SpecialList" ItemsSource="{Binding PostSpecials}"
+              ItemTapped="OnItemTapped"
+              SeparatorVisibility="Default" RowHeight="50" SeparatorColor="Purple">
+      <ListView.Header>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Specials"
+          TextColor="Olive"
+          BackgroundColor="Red" />
+        </StackLayout>
+      </ListView.Header>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <TextCell Text="{Binding Details}"/>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+    <Button Text="These buttons" Style="{StaticResource buttonStyle}" />
+
+  </StackLayout>
 </ContentPage>

@@ -42641,3 +42641,92 @@ The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 WebException @10/29/2016 10:45:51 PM
 The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 *******************************************************
+WebException @10/30/2016 8:56:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/1/2016 9:17:19 PM
+An item with the same key has already been added.
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at GCop.Utilities.DteExtensions.GetProjectFromFilePath(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/1/2016 9:17:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:18:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:27:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:41:02 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:44:19 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:45:42 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:47:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:53:24 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:53:24 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Value does not fall within the expected range.
+*******************************************************
+WebException @11/1/2016 9:55:00 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:56:21 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:57:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 9:57:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:00:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:03:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:04:26 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:07:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/1/2016 10:08:16 PM
+An item with the same key has already been added.
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at GCop.Utilities.DteExtensions.GetProjectFromFilePath(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/1/2016 10:08:16 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:12:26 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:16:26 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:17:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:18:49 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************

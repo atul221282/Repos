@@ -10,11 +10,12 @@ namespace ShareSpecial.ViewModel.Special
 {
     public class SpecialDetailViewModel : BaseViewModel, ISpecialDetailViewModel
     {
-        public SpecialDetailViewModel(INavigationService navigation) : base(navigation)
+        private PostSpecial _special;
+
+        public SpecialDetailViewModel(INavigationService navigation)
+            : base(navigation)
         {
         }
-
-        private PostSpecial _special;
 
         public PostSpecial Special
         {

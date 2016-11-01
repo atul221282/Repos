@@ -165,10 +165,8 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Ge
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Geolocator.Abstractions.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.pdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.xml
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.Abstractions.pdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.Abstractions.xml
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Settings.xml
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Settings.Abstractions.xml
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Xamarin.Forms.Core.pdb

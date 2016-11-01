@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-28T12:37:22.623</Modified>
+      <Modified>2016-11-01T11:30:06.774</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Windows.exe">
       <PackagePath>ShareSpecial.Windows.exe</PackagePath>
-      <Modified>2016-10-29T12:10:54.342</Modified>
+      <Modified>2016-11-01T11:48:44.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xam.Plugin.Geolocator.3.0.4\lib\win8\Plugin.Geolocator.Abstractions.dll">
       <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
@@ -54,7 +54,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2016-10-29T12:10:53.587</Modified>
+      <Modified>2016-11-01T11:48:43.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -82,11 +82,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2016-10-28T13:17:20.699</Modified>
+      <Modified>2016-11-01T11:29:59.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
       <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
-      <Modified>2016-10-28T13:17:20.264</Modified>
+      <Modified>2016-11-01T11:29:58.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -122,15 +122,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2016-10-28T12:37:21.687</Modified>
+      <Modified>2016-11-01T11:30:05.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-10-28T12:37:21.687</Modified>
+      <Modified>2016-11-01T11:30:05.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll">
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
-      <Modified>2016-10-28T13:17:20.259</Modified>
+      <Modified>2016-11-01T11:29:58.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
@@ -163,7 +163,7 @@
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-29T12:09:46.428</Modified>
+      <Modified>2016-11-01T11:48:44.453</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
