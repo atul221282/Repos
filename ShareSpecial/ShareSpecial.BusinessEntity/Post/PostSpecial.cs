@@ -4,6 +4,7 @@ namespace ShareSpecial.BusinessEntities.Post
 {
     public class PostSpecial : BaseEntity
     {
+        private string _title;
         private string _details;
         private long _postedById;
         private long _postSpecialTypeid;
@@ -12,6 +13,11 @@ namespace ShareSpecial.BusinessEntities.Post
         private string _promoCode;
         private bool _isAvailableOnline;
 
+        public string Title
+        {
+            get { return _title; }
+            set { _title = value; }
+        }
         public string Details
         {
             get { return _details; }

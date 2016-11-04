@@ -42730,3 +42730,629 @@ The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 WebException @11/1/2016 10:18:49 PM
 The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 *******************************************************
+WebException @11/1/2016 10:27:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:34:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:35:16 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:45:16 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/1/2016 10:59:18 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 8:39:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 8:49:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 8:50:07 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 8:59:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:09:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:11:43 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:12:48 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:13:58 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:15:10 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:16:17 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:18:22 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:19:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:22:04 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:25:24 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:27:34 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:29:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:29:08 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:34:33 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:39:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:48:46 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:49:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:49:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:51:48 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:52:53 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:54:47 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:55:57 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:56:58 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:57:53 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Syntax node is not within syntax tree
+*******************************************************
+WebException @11/2/2016 9:58:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:59:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 9:59:14 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:01:27 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:02:32 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:03:35 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:04:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/2/2016 10:05:36 PM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/2/2016 10:05:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:06:45 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:08:09 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:09:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:09:11 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:11:08 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/2/2016 10:11:15 PM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/2/2016 10:12:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:18:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:19:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:19:01 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:20:46 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:21:50 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/2/2016 10:22:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 10:52:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 10:55:00 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 10:57:55 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:02:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:02:57 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/4/2016 11:03:02 PM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+ArgumentException @11/4/2016 11:03:04 PM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/4/2016 11:04:44 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:12:58 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:21:40 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:22:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:22:57 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:23:46 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:25:58 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/4/2016 11:26:10 PM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/4/2016 11:28:08 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:29:17 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:30:30 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:32:57 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:33:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:35:03 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:36:04 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:36:20 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Syntax node is not within syntax tree
+*******************************************************
+WebException @11/4/2016 11:37:11 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:38:54 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:40:14 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:40:35 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Syntax node is not within syntax tree
+*******************************************************
+WebException @11/4/2016 11:42:57 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:44:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:45:35 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:50:44 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:52:57 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:53:55 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:54:55 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:56:22 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:57:23 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/4/2016 11:58:05 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Syntax node is not within syntax tree
+*******************************************************
+WebException @11/4/2016 11:58:37 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:02:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:03:11 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/5/2016 12:03:33 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+ArgumentException @11/5/2016 12:03:42 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/5/2016 12:04:20 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:05:25 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:12:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:17:15 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:18:17 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:22:26 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/5/2016 12:22:41 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/5/2016 12:22:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:23:27 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:24:27 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:25:27 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:26:56 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:28:25 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/5/2016 12:28:30 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/5/2016 12:29:25 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:30:47 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:31:59 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:32:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:33:07 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:34:43 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:34:51 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Reported diagnostic 'GCop179' has a source location in file 'C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\PrimaryButtonRenderer.cs', which is not part of the compilation being analyzed.
+Parameter name: diagnostic
+*******************************************************
+ArgumentException @11/5/2016 12:34:55 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/5/2016 12:35:49 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:36:33 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+Actual error is :
+Syntax node is not within syntax tree
+*******************************************************
+WebException @11/5/2016 12:37:01 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:38:05 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:39:27 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:40:27 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:41:27 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:42:52 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:42:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:43:55 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:45:15 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:46:15 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:47:16 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:49:02 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:50:10 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:52:11 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:52:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:53:12 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:54:40 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 12:55:56 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/5/2016 12:55:59 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+ArgumentException @11/5/2016 12:55:59 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+ArgumentException @11/5/2016 12:55:59 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+ArgumentException @11/5/2016 12:55:59 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+ArgumentException @11/5/2016 12:55:59 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/5/2016 12:58:58 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:00:11 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:01:18 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:02:21 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:02:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:03:22 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @11/5/2016 1:03:37 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+ArgumentException @11/5/2016 1:04:03 AM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @11/5/2016 1:04:22 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:05:33 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:06:37 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:07:42 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:08:51 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:09:51 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @11/5/2016 1:12:57 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************

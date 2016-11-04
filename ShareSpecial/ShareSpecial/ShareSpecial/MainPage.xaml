@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:ShareSpecial"
+             xmlns:local="clr-namespace:ShareSpecial.Utils.Controls;assembly:ShareSpecial"
              x:Class="ShareSpecial.MainPage">
 
   <StackLayout>
 
     <ListView x:Name="SpecialList" ItemsSource="{Binding PostSpecials}"
-              ItemTapped="OnItemTapped"
-              SeparatorVisibility="Default" RowHeight="50" SeparatorColor="Purple">
+              ItemTapped="OnItemTapped" IsPullToRefreshEnabled="True"
+              SeparatorVisibility="Default" RowHeight="75" SeparatorColor="Purple">
       <ListView.Header>
         <StackLayout Orientation="Horizontal">
           <Label Text="Specials"
@@ -18,12 +18,15 @@
       </ListView.Header>
       <ListView.ItemTemplate>
         <DataTemplate>
-          <TextCell Text="{Binding Details}"/>
+          <TextCell Text="{Binding Title}"
+                    Detail="{Binding Details}"
+                    TextColor="#f35e20"
+                    DetailColor="#503026"/>
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>
 
-    <Button Text="These buttons" Style="{StaticResource buttonStyle}" />
-
+    <Button Text="These buttons"  Style="{StaticResource buttonStyle}" />
+    <local:PrimaryButton Text="Primary Button"  Style="{StaticResource buttonStyle}" />
   </StackLayout>
 </ContentPage>

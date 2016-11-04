@@ -26,7 +26,7 @@ namespace ShareSpecial
             this.locator = locator;
             BindingContext = ViewModel;
             InitializeComponent();
-
+            
         }
 
         async protected override void OnAppearing()

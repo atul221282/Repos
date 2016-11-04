@@ -12,7 +12,7 @@ using ShareSpecial.Helper;
 
 namespace ShareSpecial.ViewModel
 {
-    public abstract class BaseViewModel: ObservableObject
+    public abstract class BaseViewModel : ObservableObject
     {
         protected INavigationService Navigation;
         protected BaseViewModel(INavigationService navigation)
@@ -34,8 +34,9 @@ namespace ShareSpecial.ViewModel
                 }
                 return response;
             }
-            catch (Exception ex)
+            catch
             {
+                // No logging is needed
                 return default(T);
             }
         }
