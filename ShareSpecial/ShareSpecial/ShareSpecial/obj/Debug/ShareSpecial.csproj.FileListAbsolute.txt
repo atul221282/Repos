@@ -88,3 +88,7 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Vi
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.pdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.Views.Special.Detail.xaml.g.cs
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll.mdb

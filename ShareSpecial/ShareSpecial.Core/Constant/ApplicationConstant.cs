@@ -4,7 +4,7 @@ namespace ShareSpecial.Core.Constant
 {
     public static class ApplicationConstant
     {
-        public const string BaseUrl = @"http://192.168.0.6/";
+        public const string BaseUrl = @"http://192.168.0.13/";
         public const string BaseAPI = BaseUrl + "PostAnything.API/api/";
 
         public const string AccountAPI = BaseAPI + "Account/";

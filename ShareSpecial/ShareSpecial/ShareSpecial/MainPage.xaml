@@ -28,5 +28,7 @@
 
     <local:PrimaryButton Text="These Button" />
     <local:PrimaryButton Text="Primary Button" />
+    <local:DangerButton Text="Danger Button" />
+    <local:SuccessButton Text="Success Button" />
   </StackLayout>
 </ContentPage>

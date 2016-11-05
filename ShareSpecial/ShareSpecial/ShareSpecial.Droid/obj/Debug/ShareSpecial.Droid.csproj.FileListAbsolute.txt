@@ -151,9 +151,7 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Newtonsof
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Thinktecture.IdentityModel.Client.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Autofac.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Core.pdb
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Core.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.pdb
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\FormsViewGroup.pdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.CurrentActivity.xml
@@ -196,13 +194,16 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\R.cs.flag
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\obj\Debug\uploadflags.txt
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Droid.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Core.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\Mono.CSharp.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\mscorlib.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Droid.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\ShareSpecial.Model.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\System.Core.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Droid\bin\Debug\System.dll.mdb

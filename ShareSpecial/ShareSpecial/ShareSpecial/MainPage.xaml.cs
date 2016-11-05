@@ -31,7 +31,14 @@ namespace ShareSpecial
 
         async protected override void OnAppearing()
         {
-            ViewModel.LoadSpecialListCommand.Execute(null);
+            try
+            {
+                ViewModel.LoadSpecialListCommand.Execute(null);
+            }
+            catch(Exception ex)
+            {
+                var fg = ex;
+            }
         }
 
         protected void OnItemTapped(object sender, ItemTappedEventArgs events)

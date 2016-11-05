@@ -34,10 +34,10 @@ namespace ShareSpecial.ViewModel
                 }
                 return response;
             }
-            catch
+            catch(Exception ex)
             {
                 // No logging is needed
-                return default(T);
+                throw;
             }
         }
 

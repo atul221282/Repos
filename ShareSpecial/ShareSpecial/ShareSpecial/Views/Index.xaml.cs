@@ -21,7 +21,7 @@ namespace ShareSpecial.Views
 
         protected override void OnAppearing()
         {
-            var data = ObjectFactory.Container;
+            //var data = ObjectFactory.Container;
             App.Current.MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
                 ObjectFactory.Container.Resolve<IGeolocator>()));
         }

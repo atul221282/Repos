@@ -16,7 +16,8 @@ namespace ShareSpecial.Helpers
         }
         public async Task PushAsync(Page page)
         {
-            await application.MainPage.Navigation.PushAsync(page);
+            await Application.Current.MainPage.Navigation.PushAsync(page);
+            //await application.MainPage.Navigation.PushAsync(page);
         }
     }
 }
