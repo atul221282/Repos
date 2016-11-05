@@ -26,7 +26,7 @@
       </ListView.ItemTemplate>
     </ListView>
 
-    <Button Text="These buttons"  Style="{StaticResource buttonStyle}" />
-    <local:PrimaryButton Text="Primary Button"  Style="{StaticResource buttonStyle}" />
+    <local:PrimaryButton Text="These Button" />
+    <local:PrimaryButton Text="Primary Button" />
   </StackLayout>
 </ContentPage>
