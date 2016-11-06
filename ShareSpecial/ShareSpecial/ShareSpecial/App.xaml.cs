@@ -19,9 +19,9 @@ namespace ShareSpecial
 
             SetContainer();
 
-            MainPage = new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
-                ObjectFactory.Container.Resolve<IGeolocator>());
-                //new Index();
+            MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
+                ObjectFactory.Container.Resolve<IGeolocator>()));
+            //new  NavigationPage(new Index());
         }
 
         private static void SetContainer()
@@ -31,7 +31,7 @@ namespace ShareSpecial
 
         protected override void OnStart()
         {
-          
+
         }
 
         private async Task GetLocation()

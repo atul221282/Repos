@@ -12,14 +12,14 @@ using ShareSpecial.Helper;
 
 namespace ShareSpecial.ViewModel
 {
-    public abstract class BaseViewModel : ObservableObject
+    public abstract class BaseViewModel : ObservableObject, IBaseViewModel
     {
-        protected INavigationService Navigation;
+        public INavigationService NavigationService { get; set; }
         protected BaseViewModel(INavigationService navigation)
         {
-            this.Navigation = navigation;
+            this.NavigationService = navigation;
         }
-        protected async Task<T> HandleResponse<T>(Func<Task<T>> action)
+        public async Task<T> HandleResponse<T>(Func<Task<T>> action)
         {
             try
             {
@@ -30,18 +30,18 @@ namespace ShareSpecial.ViewModel
                     var loginVm = ObjectFactory.Container.Resolve<ILoginViewModel>();
                     var helperFac = ObjectFactory.Container.Resolve<IHelperFactory>();
                     var loginView = new Login(loginVm, helperFac);
-                    await Navigation.PushAsync(loginView);
+                    await NavigationService.PushAsync(loginView);
                 }
                 return response;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 // No logging is needed
                 throw;
             }
         }
 
-        protected async Task HandleResponse(Func<Task> func)
+        public async Task HandleResponse(Func<Task> func)
         {
             try
             {

@@ -22,7 +22,7 @@ namespace ShareSpecial.ViewModel.Account
         public LoginViewModel(IServiceFactory service, INavigationService navigation) : base(navigation)
         {
             this.Service = service;
-            this.Navigation = navigation;
+            this.NavigationService = navigation;
         }
 
         public string Email { get; set; }

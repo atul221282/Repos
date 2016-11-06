@@ -23,6 +23,11 @@ namespace ShareSpecial.Core.Service
         public async Task<Result<List<PostSpecial>>> GetSpecialsAsync(double? longitude, double? latitude,
             int distance)
         {
+            //Settings.Token = "";
+            //Settings.TokenExpiry = "";
+            //Settings.User = "";
+            //Settings.Location = "";
+
             return await Get<List<PostSpecial>>($@"{HelperFactory.Setting.PostSpecialAPI}GetPostSpecial?longitude={longitude}&latitude={latitude}&distance={distance}"
                 ,isAuthorised: true);
         }

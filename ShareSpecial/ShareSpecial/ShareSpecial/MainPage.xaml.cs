@@ -26,19 +26,12 @@ namespace ShareSpecial
             this.locator = locator;
             BindingContext = ViewModel;
             InitializeComponent();
-            
+
         }
 
         async protected override void OnAppearing()
         {
-            try
-            {
-                ViewModel.LoadSpecialListCommand.Execute(null);
-            }
-            catch(Exception ex)
-            {
-                var fg = ex;
-            }
+            ViewModel.LoadSpecialListCommand.Execute(null);
         }
 
         protected void OnItemTapped(object sender, ItemTappedEventArgs events)

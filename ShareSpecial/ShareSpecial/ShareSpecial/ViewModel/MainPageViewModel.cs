@@ -29,7 +29,7 @@ namespace ShareSpecial.ViewModel
              IGeolocator locator, INavigationService navigation) : base(navigation)
         {
             this.Service = service;
-            this.Navigation = navigation;
+            this.NavigationService = navigation;
             this.locator = locator;
 
             LoadSpecialListCommand = new Command(async (x) => await ExecuteLoadSpecialListCommand(null));
@@ -41,7 +41,7 @@ namespace ShareSpecial.ViewModel
         {
             var vm = ObjectFactory.Container.Resolve<ISpecialDetailViewModel>();
             vm.Special = special;
-            await Navigation.PushAsync(new Detail(vm));
+            await NavigationService.PushAsync(new Detail(vm));
         }
 
         /// <summary>
