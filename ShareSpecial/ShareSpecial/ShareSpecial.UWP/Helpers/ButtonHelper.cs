@@ -28,6 +28,7 @@ namespace ShareSpecial.UWP.Helpers
                 if (control != null)
                     if (control.IsPointerOver || control.IsPressed)
                     {
+                        button.Foreground = ColorResolver.GetColorViaHex(ColorResolver.PrimaryText);
                         button.BackgroundColor = ColorResolver.GetColorViaHex(ColorResolver.PrimaryHover);
                         button.BorderBrush = ColorResolver.GetColorViaHex(ColorResolver.PrimaryBorderHover);
                     }
@@ -57,6 +58,7 @@ namespace ShareSpecial.UWP.Helpers
                 if (control != null)
                     if (control.IsPointerOver || control.IsPressed)
                     {
+                        button.Foreground = ColorResolver.GetColorViaHex(ColorResolver.DangerText);
                         button.BackgroundColor = ColorResolver.GetColorViaHex(ColorResolver.DangerHover);
                         button.BorderBrush = ColorResolver.GetColorViaHex(ColorResolver.DangerBorderHover);
                     }
@@ -86,6 +88,7 @@ namespace ShareSpecial.UWP.Helpers
                 if (control != null)
                     if (control.IsPointerOver || control.IsPressed)
                     {
+                        button.Foreground = ColorResolver.GetColorViaHex(ColorResolver.SuccessText);
                         button.BackgroundColor = ColorResolver.GetColorViaHex(ColorResolver.SuccessHover);
                         button.BorderBrush = ColorResolver.GetColorViaHex(ColorResolver.SuccessBorderHover);
                     }

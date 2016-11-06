@@ -90,3 +90,5 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dl
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.pdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\obj\Debug\ShareSpecial.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll.mdb

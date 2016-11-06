@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Media;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.UWP;
 
@@ -25,7 +26,7 @@ namespace ShareSpecial.UWP.Custom.Control.Buttons
             base.OnElementChanged(e);
             if (Control == null)
                 return;
-
+           
             buttonHelper.SetSuccess(Control);
         }
     }

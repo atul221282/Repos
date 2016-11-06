@@ -9,6 +9,11 @@ C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.pdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.pdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.csprojResolveAssemblyReference.cache
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb

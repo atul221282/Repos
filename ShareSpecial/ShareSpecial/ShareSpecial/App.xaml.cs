@@ -21,7 +21,6 @@ namespace ShareSpecial
 
             MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
                 ObjectFactory.Container.Resolve<IGeolocator>()));
-            //new  NavigationPage(new Index());
         }
 
         private static void SetContainer()
