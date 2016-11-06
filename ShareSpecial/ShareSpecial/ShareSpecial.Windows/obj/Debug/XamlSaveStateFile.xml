@@ -1,11 +1,11 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\github\repos\sharespecial\sharespecial\sharespecial.windows\obj\debug\intermediatexaml\sharespecial.windows.exe" HashGuid="30dae7e8-7bbe-7aa9-ee9f-62826f196707" />
+    <LocalAssembly PathName="c:\github\repos\sharespecial\sharespecial\sharespecial.windows\obj\debug\intermediatexaml\sharespecial.windows.exe" HashGuid="6548ed1b-bcd0-d6d6-fe75-8d14da717650" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xam.plugin.geolocator.3.0.4\lib\win8\plugin.geolocator.abstractions.dll" HashGuid="20adc366-e6fc-8a10-1342-7d33d9231080" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xam.plugin.geolocator.3.0.4\lib\win8\plugin.geolocator.dll" HashGuid="388f1122-9d57-ce2f-c8c7-dae5f9a81113" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xam.plugins.settings.2.5.1.0\lib\win8\plugin.settings.abstractions.dll" HashGuid="980b2971-f9fe-95cd-97df-1f782f505122" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xam.plugins.settings.2.5.1.0\lib\win8\plugin.settings.dll" HashGuid="46503c50-0e56-9e2b-1865-407c69d010e7" />
-    <ReferenceAssembly PathName="c:\github\repos\sharespecial\sharespecial\sharespecial\bin\debug\sharespecial.dll" HashGuid="90764f7d-b6d8-03e9-2975-a649fca1101c" />
+    <ReferenceAssembly PathName="c:\github\repos\sharespecial\sharespecial\sharespecial\bin\debug\sharespecial.dll" HashGuid="05713085-3345-d0e7-76ef-d4a4a18b9671" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xamarin.forms.2.3.2.127\lib\win81\xamarin.forms.core.dll" HashGuid="725dee27-7376-6787-2b92-d2b102c486d4" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xamarin.forms.2.3.2.127\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xamarin.forms.2.3.2.127\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="07994aa2-3382-4066-7150-6b749ac659d6" />

@@ -196,6 +196,14 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\en\Autofac.Util.EnforceResources.resw
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\en\Autofac.Util.ReflectionExtensionsResources.resw
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\ShareSpecial.Windows.csproj.GenerateResource.Cache
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\layout.resfiles.intermediate
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\Resources.resfiles.intermediate
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\pri.resfiles.intermediate
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml
+C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\priconfig.xml.intermediate
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac.pri
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\Autofac\qualifiers.txt
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\obj\Debug\priconfig.xml

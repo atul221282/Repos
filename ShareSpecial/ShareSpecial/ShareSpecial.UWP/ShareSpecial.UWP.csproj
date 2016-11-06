@@ -96,6 +96,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Custom\Control\Buttons\DangerButtonRenderer.cs" />
+    <Compile Include="Helpers\ButtonHelper.cs" />
+    <Compile Include="Helpers\ColorResolver.cs" />
+    <Compile Include="Helpers\IButtonHelper.cs" />
+    <Compile Include="Helpers\IColorResolver.cs" />
+    <Compile Include="Helpers\Settings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
