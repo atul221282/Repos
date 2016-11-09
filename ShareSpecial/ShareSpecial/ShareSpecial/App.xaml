@@ -6,15 +6,14 @@
     
     <ResourceDictionary>
     
-      <Style x:Key="buttonStyle" TargetType="Button">
-        <Setter Property="HorizontalOptions" Value="Center" />
+      <Style x:Key="SuccessButton" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
         <Setter Property="VerticalOptions" Value="CenterAndExpand" />
-        <Setter Property="BorderColor" Value="#357ebd" />
-        <Setter Property="BorderRadius" Value="2" />
-        <Setter Property="BorderWidth" Value="2" />
+        <Setter Property="BorderColor" Value="#3c9a5f" />
+        <Setter Property="BorderWidth" Value="1" />
         <Setter Property="WidthRequest" Value="200" />
-        <Setter Property="TextColor" Value="#357ebd" />
-        <Setter Property="BackgroundColor" Value="#008cba" />
+        <Setter Property="TextColor" Value="#ffffff" />
+        <Setter Property="BackgroundColor" Value="#43ac6a" />
         
       </Style>
       

@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>744B052BE2FA5F20894BF2693CEEB138EC56CC7672227427A53D8423FDEDD6B7</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>CA8DCCCD0EEDFBD4E8F99C9C81FA235AB41455782362E85D1091E05E8F0FD9E8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4e8282c8-d102-43c7-baab-819fde322ac4_1.0.0.0_x86__ve58hr65qtxht</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4e8282c8-d102-43c7-baab-819fde322ac4_ve58hr65qtxht!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4e8282c8-d102-43c7-baab-819fde322ac4</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-06T10:12:56.378</Modified>
+      <Modified>2016-11-09T11:37:41.521</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.UWP.exe">
       <PackagePath>entrypoint\ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-11-06T10:12:55.300</Modified>
+      <Modified>2016-11-09T11:37:40.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -526,7 +526,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2016-11-06T10:11:57.793</Modified>
+      <Modified>2016-11-09T11:37:01.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -534,11 +534,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2016-11-06T10:11:57.336</Modified>
+      <Modified>2016-11-09T11:37:00.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
       <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
-      <Modified>2016-11-06T10:11:56.655</Modified>
+      <Modified>2016-11-09T11:37:00.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -592,7 +592,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll">
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
-      <Modified>2016-11-06T10:11:56.462</Modified>
+      <Modified>2016-11-09T11:37:00.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -609,11 +609,11 @@
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-06T10:12:56.219</Modified>
+      <Modified>2016-11-09T11:37:41.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\ShareSpecial.UWP.exe">
       <PackagePath>ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-11-06T10:12:56.375</Modified>
+      <Modified>2016-11-09T11:37:41.518</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -25,7 +25,9 @@
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>
-
+    
+    <Button Text="These buttons" Style="{StaticResource SuccessButton}" />
+    
     <local:PrimaryButton Text="These Button" />
     <local:PrimaryButton Text="Primary Button" />
     <local:DangerButton Text="Danger Button" />

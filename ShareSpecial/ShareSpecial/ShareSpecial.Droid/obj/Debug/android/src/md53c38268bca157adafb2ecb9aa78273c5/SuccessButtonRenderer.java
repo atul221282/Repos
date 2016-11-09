@@ -2,7 +2,7 @@ package md53c38268bca157adafb2ecb9aa78273c5;
 
 
 public class SuccessButtonRenderer
-	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.ButtonRenderer
+	extends md5270abb39e60627f0f200893b490a1ade.ButtonRenderer
 	implements
 		mono.android.IGCUserPeer
 {
