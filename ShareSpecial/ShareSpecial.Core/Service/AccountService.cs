@@ -28,7 +28,7 @@ namespace ShareSpecial.Core.Service
 
         public async Task<Result<Tuple<Token, Users>>> LoginAsync(string email, string password)
         {
-            string url = ApplicationConstant.AccountAPI + "Login";
+            string url = ApplicationConstant.BaseAPI + "Login";
 
             var response = await Post<dynamic>(new { EmailAddress = email, Password = password }, url, isAuthorised: false);
 

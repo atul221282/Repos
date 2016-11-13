@@ -36,7 +36,6 @@ namespace ShareSpecial.ViewModel
             }
             catch (Exception ex)
             {
-                // No logging is needed
                 throw;
             }
         }
@@ -49,7 +48,6 @@ namespace ShareSpecial.ViewModel
             }
             catch (Exception ex)
             {
-                var ff = ex;
                 throw;
             }
         }

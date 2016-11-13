@@ -19,7 +19,6 @@ namespace ShareSpecial
         private readonly IMainPageViewModel ViewModel;
         private readonly IGeolocator locator;
 
-
         public MainPage(IMainPageViewModel vm, IGeolocator locator)
         {
             this.ViewModel = vm;

@@ -10,13 +10,13 @@ namespace ShareSpecial.Helpers
     public class NavigationService : INavigationService
     {
         private readonly Application application;
+
         public NavigationService(Application application)
         {
             this.application = application;
         }
         public async Task PushAsync(Page page)
         {
-            //await Application.Current.MainPage.Navigation.PushAsync(page);
             await application.MainPage.Navigation.PushAsync(page);
         }
     }
