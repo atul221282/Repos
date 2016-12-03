@@ -13,13 +13,13 @@ namespace ShareSpecial.Core.Service
     {
         protected readonly IHelperFactory HelperFactory;
 
-        private async Task<HttpClient> GetClient(bool isAuthorised)
-            => await HelperFactory.HttpClient.GetClient(isAuthorised);
-
         protected BaseService(IHelperFactory helperFactory)
         {
             this.HelperFactory = helperFactory;
         }
+
+        private async Task<HttpClient> GetClient(bool isAuthorised)
+            => await HelperFactory.HttpClient.GetClient(isAuthorised);
 
         protected async Task<Result<T>> Get<T>(string url, bool isAuthorised = true)
         {

@@ -68,3 +68,5 @@ C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.cspro
 C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.csprojResolveAssemblyReference.cache
 C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll
 C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.pdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
