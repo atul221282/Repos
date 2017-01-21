@@ -5,7 +5,7 @@
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xam.plugin.geolocator.3.0.4\lib\wpa81\plugin.geolocator.dll" HashGuid="618defcf-6366-faf9-0828-d0d769893df2" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xam.plugins.settings.2.5.1.0\lib\wpa81\plugin.settings.abstractions.dll" HashGuid="980b2971-f9fe-95cd-97df-1f782f505122" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xam.plugins.settings.2.5.1.0\lib\wpa81\plugin.settings.dll" HashGuid="46503c50-0e56-9e2b-1865-407c69d010e7" />
-    <ReferenceAssembly PathName="c:\github\repos\sharespecial\sharespecial\sharespecial\bin\debug\sharespecial.dll" HashGuid="289968b9-3270-304c-7244-32b50b404fec" />
+    <ReferenceAssembly PathName="c:\github\repos\sharespecial\sharespecial\sharespecial\bin\debug\sharespecial.dll" HashGuid="b9b00523-6dab-5499-e155-f2eb4f7bb00e" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xamarin.forms.2.3.3.180\lib\wpa81\xamarin.forms.core.dll" HashGuid="c782f70f-077f-7e2d-5bd4-f6b5da067f8a" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xamarin.forms.2.3.3.180\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
     <ReferenceAssembly PathName="c:\github\repos\sharespecial\packages\xamarin.forms.2.3.3.180\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="fe4acc44-27ba-0e4e-a08b-26ae7dccb678" />

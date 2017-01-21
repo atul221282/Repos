@@ -35,8 +35,22 @@ namespace ShareSpecial.Views.Layout
             {
                 if (e.SelectedItem != null)
                 {
-                    Detail = new NavigationPage(new Special.Index());
-                    IsPresented = false;
+                    var name = (e.SelectedItem as MasterPageItem).TargetType.Name;
+                    switch (name)
+                    {
+                        case "Detail":
+                            Detail = new NavigationPage(new Detail(ObjectFactory.Container.Resolve<ISpecialDetailViewModel>()));
+                            break;
+                        case "Index":
+                            Detail = new NavigationPage(new Special.Index());
+                            break;
+                        default:
+                            Detail = new NavigationPage(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
+                                ObjectFactory.Container.Resolve<IHelperFactory>()));
+                            break;
+                    }
+                    
+                    IsPresented = Device.Idiom == TargetIdiom.Tablet || Device.Idiom == TargetIdiom.Desktop;
                 }
             };
             var personDataTemplate = new DataTemplate(() =>

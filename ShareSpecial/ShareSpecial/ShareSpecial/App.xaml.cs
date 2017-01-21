@@ -7,6 +7,7 @@ using ShareSpecial.ViewModel.Special;
 using ShareSpecial.ViewModel;
 using Plugin.Geolocator.Abstractions;
 using ShareSpecial.Views;
+using ShareSpecial.Views.Layout;
 
 namespace ShareSpecial
 {
@@ -19,8 +20,9 @@ namespace ShareSpecial
 
             SetContainer();
 
-            MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
-                ObjectFactory.Container.Resolve<IGeolocator>()));
+            //MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
+            //    ObjectFactory.Container.Resolve<IGeolocator>()));
+            MainPage = new Home();
         }
 
         private static void SetContainer()
