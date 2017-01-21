@@ -9,6 +9,7 @@ using ShareSpecial.Infrastructure;
 using ShareSpecial.ViewModel.Account;
 using ShareSpecial.ViewModel.Special;
 using ShareSpecial.Views.Account;
+using ShareSpecial.Views.Layout;
 using ShareSpecial.Views.Special;
 using System;
 using System.Collections.Generic;
@@ -58,8 +59,9 @@ namespace ShareSpecial.ViewModel
 
         public async Task GotoLogin()
         {
-            await this.NavigationService.PushAsync(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
-                ObjectFactory.Container.Resolve<IHelperFactory>()));
+            //await this.NavigationService.PushAsync(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
+            //    ObjectFactory.Container.Resolve<IHelperFactory>()));
+            await this.NavigationService.PushModal(new Home());
         }
 
         #region "Private methods"

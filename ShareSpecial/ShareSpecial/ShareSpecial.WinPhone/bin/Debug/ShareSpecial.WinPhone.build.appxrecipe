@@ -43,19 +43,19 @@
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT.dll">
       <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone.dll">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Phone.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
@@ -109,28 +109,28 @@
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll">
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\FormsTextBoxStyle.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\FormsTextBoxStyle.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\FormsTextBoxStyle.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\PhoneResources.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\PhoneResources.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\PhoneResources.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Resources.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Resources.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\Resources.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\SearchBox.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\SearchBox.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\SearchBox.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Xamarin.Forms.Platform.WinRT.Phone.xr.xml">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\wpa81\Xamarin.Forms.Platform.WinRT.Phone\Xamarin.Forms.Platform.WinRT.Phone.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Phone\Xamarin.Forms.Platform.WinRT.Phone.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\bin\Debug\resources.pri">

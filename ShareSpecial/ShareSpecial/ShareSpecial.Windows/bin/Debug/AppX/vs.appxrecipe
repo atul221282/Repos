@@ -34,7 +34,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Windows.exe">
       <PackagePath>ShareSpecial.Windows.exe</PackagePath>
-      <Modified>2017-01-21T05:04:09.306</Modified>
+      <Modified>2017-01-21T11:14:59.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xam.Plugin.Geolocator.3.0.4\lib\win8\Plugin.Geolocator.Abstractions.dll">
       <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
@@ -54,7 +54,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2017-01-21T05:04:08.283</Modified>
+      <Modified>2017-01-21T11:14:58.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -163,7 +163,7 @@
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-21T04:53:36.348</Modified>
+      <Modified>2017-01-21T10:56:32.006</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
