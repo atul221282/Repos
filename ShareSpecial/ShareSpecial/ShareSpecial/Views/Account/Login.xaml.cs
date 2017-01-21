@@ -1,8 +1,12 @@
-﻿using Newtonsoft.Json;
+﻿using Autofac;
+using Newtonsoft.Json;
 using Plugin.Geolocator;
 using Plugin.Geolocator.Abstractions;
 using ShareSpecial.Core.Helper;
+using ShareSpecial.Infrastructure;
+using ShareSpecial.ViewModel;
 using ShareSpecial.ViewModel.Account;
+using ShareSpecial.Views.Layout;
 using System;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -46,7 +50,7 @@ namespace ShareSpecial.Views.Account
         async protected override void OnAppearing()
         {
         }
-        
+
         protected override bool OnBackButtonPressed()
         {
             return CanNavigate();
@@ -67,7 +71,13 @@ namespace ShareSpecial.Views.Account
             if (answer)
             {
                 _canClose = answer;
-                await Model.GotoHome();
+                if (this.Parent?.Parent?.GetType() == typeof(Home))
+                {
+                    App.Current.MainPage = new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
+                      ObjectFactory.Container.Resolve<IGeolocator>());
+                }
+                else
+                    await Model.GotoHome();
             }
         }
 

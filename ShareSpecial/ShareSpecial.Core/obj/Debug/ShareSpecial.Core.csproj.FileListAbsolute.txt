@@ -120,3 +120,15 @@ C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.m
 C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\obj\Debug\ShareSpecial.Core.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.Core\bin\Debug\ShareSpecial.Core.dll.mdb
