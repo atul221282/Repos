@@ -93,3 +93,17 @@ C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
 C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\obj\Debug\ShareSpecial.BusinessEntity.dll.mdb
+C:\Github\Repos\ShareSpecial\ShareSpecial.BusinessEntity\bin\Debug\ShareSpecial.BusinessEntity.dll.mdb

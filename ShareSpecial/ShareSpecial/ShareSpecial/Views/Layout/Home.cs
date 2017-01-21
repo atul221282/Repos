@@ -16,7 +16,7 @@ namespace ShareSpecial.Views.Layout
 {
     public partial class Home : MasterDetailPage
     {
-       
+
         public Home()
         {
             //NavigationPage.set
@@ -35,12 +35,21 @@ namespace ShareSpecial.Views.Layout
             {
                 if (e.SelectedItem != null)
                 {
-                    Detail = new NavigationPage(new  Special.Index());
+                    Detail = new NavigationPage(new Special.Index());
                     IsPresented = false;
                 }
             };
+            var personDataTemplate = new DataTemplate(() =>
+            {
 
-            Detail = new NavigationPage( new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
+                var nameLabel = new Label { FontAttributes = FontAttributes.Bold };
+                nameLabel.SetBinding(Label.TextProperty, "Title");
+                return new ViewCell { View = nameLabel };
+            });
+
+            listView.ItemTemplate = personDataTemplate;
+
+            Detail = new NavigationPage(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
                 ObjectFactory.Container.Resolve<IHelperFactory>()));
         }
 

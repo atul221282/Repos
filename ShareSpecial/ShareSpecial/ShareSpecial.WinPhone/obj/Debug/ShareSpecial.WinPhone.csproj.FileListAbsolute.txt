@@ -106,11 +106,3 @@ C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Multip
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri.xml
 C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\ProjectArchitectures.txt
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\layout.resfiles
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\layout.resfiles.intermediate
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\Resources.resfiles
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\Resources.resfiles.intermediate
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\pri.resfiles
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\pri.resfiles.intermediate
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\priconfig.xml
-C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.WinPhone\obj\Debug\Autofac\priconfig.xml.intermediate

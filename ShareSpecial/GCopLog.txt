@@ -45862,3 +45862,119 @@ The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 WebException @1/21/2017 11:33:16 PM
 The remote name could not be resolved: 'gcop.watch.masoud.g.e'
 *******************************************************
+WebException @1/21/2017 11:37:31 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:38:36 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @1/21/2017 11:39:04 PM
+The path is not of a legal form.
+System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at GCop.Core.Settings.Settings.IsSharedProject(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @1/21/2017 11:39:41 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:42:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:43:59 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:45:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:46:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:47:31 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:47:56 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:50:28 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:51:28 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:52:28 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:53:29 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:54:32 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:55:48 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:56:48 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:57:31 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:57:48 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/21/2017 11:59:22 PM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:00:26 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+ArgumentException @1/22/2017 12:00:38 AM
+An item with the same key has already been added.
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at GCop.Utilities.DteExtensions.GetProjectFromFilePath(String filePath)
+   at GCop.Core.Settings.VisualStudioSettingsValidator.IsContextValid(Rule rule, SyntaxTree tree, IEnumerable`1 references)
+*******************************************************
+WebException @1/22/2017 12:02:18 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:07:31 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:17:31 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:18:24 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:20:31 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:21:32 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:22:34 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:27:31 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:31:26 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:32:28 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:33:28 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
+WebException @1/22/2017 12:37:06 AM
+The remote name could not be resolved: 'gcop.watch.masoud.g.e'
+*******************************************************
