@@ -31,31 +31,10 @@ namespace ShareSpecial.Views.Layout
                 Icon = "hamburger.png"
             };
 
-            listView.ItemSelected += (sender, e) =>
-            {
-                if (e.SelectedItem != null)
-                {
-                    var name = (e.SelectedItem as MasterPageItem).TargetType.Name;
-                    switch (name)
-                    {
-                        case "Detail":
-                            Detail = new NavigationPage(new Detail(ObjectFactory.Container.Resolve<ISpecialDetailViewModel>()));
-                            break;
-                        case "Index":
-                            Detail = new NavigationPage(new Special.Index());
-                            break;
-                        default:
-                            Detail = new NavigationPage(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
-                                ObjectFactory.Container.Resolve<IHelperFactory>()));
-                            break;
-                    }
-                    
-                    IsPresented = Device.Idiom == TargetIdiom.Tablet || Device.Idiom == TargetIdiom.Desktop;
-                }
-            };
+            listView.ItemSelected += ListView_ItemSelected;
+
             var personDataTemplate = new DataTemplate(() =>
             {
-
                 var nameLabel = new Label { FontAttributes = FontAttributes.Bold };
                 nameLabel.SetBinding(Label.TextProperty, "Title");
                 return new ViewCell { View = nameLabel };
@@ -65,6 +44,28 @@ namespace ShareSpecial.Views.Layout
 
             Detail = new NavigationPage(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
                 ObjectFactory.Container.Resolve<IHelperFactory>()));
+        }
+
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem == null)
+                return;
+
+            var name = (e.SelectedItem as MasterPageItem).TargetType.Name;
+            switch (name)
+            {
+                case "Detail":
+                    Detail = new NavigationPage(new Detail(ObjectFactory.Container.Resolve<ISpecialDetailViewModel>()));
+                    break;
+                case "Index":
+                    Detail = new NavigationPage(new Special.Index());
+                    break;
+                default:
+                    Detail = new NavigationPage(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
+                        ObjectFactory.Container.Resolve<IHelperFactory>()));
+                    break;
+            }
+            IsPresented = Device.Idiom == TargetIdiom.Tablet || Device.Idiom == TargetIdiom.Desktop;
         }
 
         private IEnumerable<MasterPageItem> GetList()
