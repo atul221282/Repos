@@ -29,7 +29,7 @@ namespace ShareSpecial.Views.Account
             //long 138.68080767575302
         }
 
-        protected async void btnLogin_OnClickedAsync(object sender, EventArgs events)
+        protected async void Login_OnClickedAsync(object sender, EventArgs events)
         {
             Model.IsBusy = true;
             //await SetLocation();

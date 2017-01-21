@@ -7,12 +7,13 @@
     <ActivityIndicator
                            IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
-                           Color="Black" />
+                           Color="Pink" />
     <Entry x:Name="enEmail" Placeholder="Email" Text="{Binding Email}">
     </Entry>
     <Entry x:Name="enPassword" Placeholder="Password" Text="{Binding Password}"></Entry>
+    
     <Button Text="Login" FontSize="20" HorizontalOptions="CenterAndExpand"
-                Clicked="btnLogin_OnClickedAsync" x:Name="btnLogin"></Button>
+                Clicked="Login_OnClickedAsync" x:Name="btnLogin"></Button>
   </StackLayout>
 
 </ContentPage>
