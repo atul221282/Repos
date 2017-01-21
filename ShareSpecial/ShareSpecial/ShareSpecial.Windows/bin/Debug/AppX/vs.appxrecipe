@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-20T14:10:26.917</Modified>
+      <Modified>2017-01-21T04:53:36.581</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\ShareSpecial.Windows.exe">
       <PackagePath>ShareSpecial.Windows.exe</PackagePath>
-      <Modified>2017-01-21T03:38:21.839</Modified>
+      <Modified>2017-01-21T05:04:09.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xam.Plugin.Geolocator.3.0.4\lib\win8\Plugin.Geolocator.Abstractions.dll">
       <PackagePath>Plugin.Geolocator.Abstractions.dll</PackagePath>
@@ -54,27 +54,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2017-01-21T03:38:05.987</Modified>
+      <Modified>2017-01-21T05:04:08.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2016-10-18T11:51:32.900</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2016-10-18T11:51:32.906</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
       <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
-      <Modified>2016-10-18T11:51:32.908</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
-      <Modified>2016-10-18T11:51:32.910</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2016-10-18T11:51:32.919</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2017-01-20T14:10:22.475</Modified>
+      <Modified>2017-01-21T04:53:33.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
       <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
@@ -132,38 +132,38 @@
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
       <Modified>2017-01-20T14:10:21.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
-      <Modified>2016-10-18T11:51:32.916</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
-      <Modified>2016-10-18T11:51:32.917</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
-      <Modified>2016-10-18T11:51:32.918</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf</PackagePath>
-      <Modified>2016-10-18T11:51:32.912</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
-      <Modified>2016-10-18T11:51:32.913</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
-      <Modified>2016-10-18T11:51:32.914</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.2.127\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+    <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\packages\Xamarin.Forms.2.3.3.180\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
-      <Modified>2016-10-18T11:51:32.915</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-21T02:17:42.471</Modified>
+      <Modified>2017-01-21T04:53:36.348</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

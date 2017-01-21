@@ -14,6 +14,8 @@ namespace ShareSpecial.Views.Account
 
         private readonly ILoginViewModel Model;
         private readonly IHelperFactory Helper;
+        private bool _canClose = true;
+
         public Login(ILoginViewModel model, IHelperFactory helper)
         {
             InitializeComponent();
@@ -29,9 +31,10 @@ namespace ShareSpecial.Views.Account
 
         protected async void btnLogin_OnClickedAsync(object sender, EventArgs events)
         {
+            Model.IsBusy = true;
             //await SetLocation();
             var response = await Model.LoginAsync();
-
+            Model.IsBusy = false;
             if (response.HasError)
                 await DisplayAlert("Error", response.Errors, "Ok");
             else
@@ -43,9 +46,13 @@ namespace ShareSpecial.Views.Account
         async protected override void OnAppearing()
         {
         }
-        private bool _canClose = true;
-
+        
         protected override bool OnBackButtonPressed()
+        {
+            return CanNavigate();
+        }
+
+        private bool CanNavigate()
         {
             if (_canClose)
             {
@@ -64,10 +71,6 @@ namespace ShareSpecial.Views.Account
             }
         }
 
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
-        }
     }
 }
 

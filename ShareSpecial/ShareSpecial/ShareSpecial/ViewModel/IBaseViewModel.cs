@@ -12,5 +12,7 @@ namespace ShareSpecial.ViewModel
         Task<T> HandleResponse<T>(Func<Task<T>> action);
 
         Task HandleResponse(Func<Task> func);
+
+        bool IsBusy { get; set; }
     }
 }

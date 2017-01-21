@@ -25,7 +25,6 @@
     <RootPropertyPathName Name="FontWeight" />
     <RootPropertyPathName Name="FontSize" />
     <RootPropertyPathName Name="FontFamily" />
-    <RootPropertyPathName Name="ShowNavigationBar" />
     <RootPropertyPathName Name="TitleInset" />
     <RootPropertyPathName Name="Icon" />
     <RootPropertyPathName Name="Value" />

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ShareSpecial.ViewModel.Account
 {
-    public interface ILoginViewModel
+    public interface ILoginViewModel : IBaseViewModel
     {
         string Email { get; set; }
 

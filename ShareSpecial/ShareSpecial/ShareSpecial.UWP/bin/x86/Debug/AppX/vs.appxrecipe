@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-21T03:56:28.301</Modified>
+      <Modified>2017-01-21T05:04:36.506</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.UWP.exe">
       <PackagePath>entrypoint\ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2017-01-21T03:56:27.587</Modified>
+      <Modified>2017-01-21T05:04:34.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -508,25 +508,25 @@
       <PackagePath>Plugin.Settings.dll</PackagePath>
       <Modified>2016-09-24T21:37:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.2.127\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2016-09-13T00:53:46.000</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.2.127\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2016-09-13T00:53:46.000</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.2.127\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2016-09-13T00:53:46.000</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.2.127\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2016-09-13T00:53:46.000</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2017-01-21T03:56:26.399</Modified>
+      <Modified>2017-01-21T05:04:08.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -534,7 +534,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2017-01-20T14:10:22.475</Modified>
+      <Modified>2017-01-21T04:53:33.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
       <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
@@ -598,22 +598,22 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-10-07T23:13:59.905</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.2.127\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2016-09-13T00:53:46.000</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.2.127\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
-      <Modified>2016-09-13T00:53:46.000</Modified>
+      <Modified>2016-12-14T05:32:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-21T03:56:28.141</Modified>
+      <Modified>2017-01-21T05:04:36.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\ShareSpecial.UWP.exe">
       <PackagePath>ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2017-01-21T03:56:28.298</Modified>
+      <Modified>2017-01-21T05:04:36.503</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

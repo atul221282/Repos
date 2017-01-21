@@ -14,6 +14,16 @@ namespace ShareSpecial.ViewModel
 {
     public abstract class BaseViewModel : ObservableObject, IBaseViewModel
     {
+        private bool _isBusy;
+        public bool IsBusy
+        {
+            get { return _isBusy; }
+            set
+            {
+                _isBusy = value;
+                OnPropertyChanged();
+            }
+        }
         public INavigationService NavigationService { get; set; }
         protected BaseViewModel(INavigationService navigation)
         {

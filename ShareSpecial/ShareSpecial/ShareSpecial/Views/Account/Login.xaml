@@ -4,7 +4,10 @@
              x:Class="ShareSpecial.Views.Account.Login">
 
   <StackLayout VerticalOptions="Center">
-    
+    <ActivityIndicator
+                           IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           Color="Black" />
     <Entry x:Name="enEmail" Placeholder="Email" Text="{Binding Email}">
     </Entry>
     <Entry x:Name="enPassword" Placeholder="Password" Text="{Binding Password}"></Entry>
