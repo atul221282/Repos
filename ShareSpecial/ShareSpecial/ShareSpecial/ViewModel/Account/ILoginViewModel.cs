@@ -29,5 +29,7 @@ namespace ShareSpecial.ViewModel.Account
         Task<Result<List<PostSpecial>>> GetSpecialsAsync();
 
         Task<Result<PostSpecial>> GetSpecialAsync(long id);
+
+        Task GotoHome();
     }
 }

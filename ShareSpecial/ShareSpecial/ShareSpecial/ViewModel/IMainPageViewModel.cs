@@ -16,5 +16,7 @@ namespace ShareSpecial.ViewModel
         Command LoadSpecialCommand { get; }
         
         ObservableCollection<PostSpecial> PostSpecials { get; set; }
+
+        Task GotoLogin();
     }
 }

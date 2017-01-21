@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-09T11:37:41.521</Modified>
+      <Modified>2017-01-21T03:56:28.301</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.UWP.exe">
       <PackagePath>entrypoint\ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-11-09T11:37:40.403</Modified>
+      <Modified>2017-01-21T03:56:27.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -526,7 +526,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2016-11-09T11:37:01.190</Modified>
+      <Modified>2017-01-21T03:56:26.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -534,11 +534,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.Core.dll">
       <PackagePath>ShareSpecial.Core.dll</PackagePath>
-      <Modified>2016-11-09T11:37:00.752</Modified>
+      <Modified>2017-01-20T14:10:22.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.BusinessEntity.dll">
       <PackagePath>ShareSpecial.BusinessEntity.dll</PackagePath>
-      <Modified>2016-11-09T11:37:00.217</Modified>
+      <Modified>2017-01-20T14:10:21.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -592,7 +592,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial.Model\bin\Debug\ShareSpecial.Model.dll">
       <PackagePath>ShareSpecial.Model.dll</PackagePath>
-      <Modified>2016-11-09T11:37:00.312</Modified>
+      <Modified>2017-01-20T14:10:21.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -609,11 +609,11 @@
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-09T11:37:41.249</Modified>
+      <Modified>2017-01-21T03:56:28.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\ShareSpecial.UWP.exe">
       <PackagePath>ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2016-11-09T11:37:41.518</Modified>
+      <Modified>2017-01-21T03:56:28.298</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

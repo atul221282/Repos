@@ -37,5 +37,10 @@ namespace ShareSpecial
         {
             ViewModel.LoadSpecialCommand.Execute(events.Item as PostSpecial);
         }
+
+        async protected void OnButtonClicked(object sender, EventArgs events)
+        {
+            await ViewModel.GotoLogin();
+        }
     }
 }

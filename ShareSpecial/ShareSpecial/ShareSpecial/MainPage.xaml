@@ -26,7 +26,7 @@
       </ListView.ItemTemplate>
     </ListView>
     
-    <Button Text="These buttons" Style="{StaticResource SuccessButton}" />
+    <Button Text="These buttons" Style="{StaticResource SuccessButton}" Clicked="OnButtonClicked"  />
     
     <local:PrimaryButton Text="These Button" />
     <local:PrimaryButton Text="Primary Button" />

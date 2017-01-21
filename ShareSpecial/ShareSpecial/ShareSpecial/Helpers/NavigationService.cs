@@ -19,5 +19,15 @@ namespace ShareSpecial.Helpers
         {
             await application.MainPage.Navigation.PushAsync(page);
         }
+
+        public async Task PushModal(Page page)
+        {
+            await application.MainPage.Navigation.PushModalAsync(page);
+        }
+
+        public async Task PopToRoot()
+        {
+            await application.MainPage.Navigation.PopToRootAsync();
+        }
     }
 }

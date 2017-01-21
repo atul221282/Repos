@@ -12,6 +12,8 @@ using ShareSpecial.BusinessEntities.Post;
 using Xamarin.Forms;
 using Plugin.Geolocator.Abstractions;
 using ShareSpecial.Helpers;
+using ShareSpecial.Infrastructure;
+using Autofac;
 
 namespace ShareSpecial.ViewModel.Account
 {
@@ -45,5 +47,10 @@ namespace ShareSpecial.ViewModel.Account
 
         public async Task<Result<PostSpecial>> GetSpecialAsync(long id)
             => await HandleResponse(() => Service.Special.GetSpecialAsync(id));
+
+        public async Task GotoHome()
+        {
+            await this.NavigationService.PopToRoot();
+        }
     }
 }

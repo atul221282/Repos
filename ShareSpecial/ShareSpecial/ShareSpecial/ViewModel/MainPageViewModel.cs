@@ -2,10 +2,13 @@
 using Plugin.Geolocator.Abstractions;
 using ShareSpecial.BusinessEntities.Post;
 using ShareSpecial.BusinessEntity;
+using ShareSpecial.Core.Helper;
 using ShareSpecial.Core.Service;
 using ShareSpecial.Helpers;
 using ShareSpecial.Infrastructure;
+using ShareSpecial.ViewModel.Account;
 using ShareSpecial.ViewModel.Special;
+using ShareSpecial.Views.Account;
 using ShareSpecial.Views.Special;
 using System;
 using System.Collections.Generic;
@@ -44,9 +47,6 @@ namespace ShareSpecial.ViewModel
             await NavigationService.PushAsync(new Detail(vm));
         }
 
-        /// <summary>
-        /// This property is bind to listview on mainpage.xaml
-        /// </summary>
         public ObservableCollection<PostSpecial> PostSpecials
         {
             get { return _specials; }
@@ -55,7 +55,15 @@ namespace ShareSpecial.ViewModel
                 SetProperty(ref _specials, value);
             }
         }
-        
+
+        public async Task GotoLogin()
+        {
+            await this.NavigationService.PushAsync(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
+                ObjectFactory.Container.Resolve<IHelperFactory>()));
+        }
+
+        #region "Private methods"
+
         private async Task ExecuteLoadSpecialListCommand(Position position)
         {
             try
@@ -69,8 +77,6 @@ namespace ShareSpecial.ViewModel
                 var gg = ex;
             }
         }
-
-        #region "Private methods"
 
         private async Task<List<PostSpecial>> GetSpecials(double longitude, double latitude, int distance)
         {

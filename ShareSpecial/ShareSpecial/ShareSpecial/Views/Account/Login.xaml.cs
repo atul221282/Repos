@@ -23,8 +23,6 @@ namespace ShareSpecial.Views.Account
             Model.Password = "123456";
             BindingContext = model;
             this.Helper = helper;
-
-            
             //lat - 34.810579350003934
             //long 138.68080767575302
         }
@@ -35,9 +33,7 @@ namespace ShareSpecial.Views.Account
             var response = await Model.LoginAsync();
 
             if (response.HasError)
-            {
                 await DisplayAlert("Error", response.Errors, "Ok");
-            }
             else
             {
                 var answer = await DisplayAlert("wlecome", Helper.Setting.User.FullName, "Yes", "No");
@@ -46,6 +42,31 @@ namespace ShareSpecial.Views.Account
 
         async protected override void OnAppearing()
         {
+        }
+        private bool _canClose = true;
+
+        protected override bool OnBackButtonPressed()
+        {
+            if (_canClose)
+            {
+                ShowExitDialog();
+            }
+            return _canClose;
+        }
+
+        private async void ShowExitDialog()
+        {
+            var answer = await DisplayAlert("", "Do you wan't to exit the App?", "Yes", "No");
+            if (answer)
+            {
+                _canClose = answer;
+                await Model.GotoHome();
+            }
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
         }
     }
 }
