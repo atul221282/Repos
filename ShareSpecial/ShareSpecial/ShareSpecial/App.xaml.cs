@@ -22,7 +22,8 @@ namespace ShareSpecial
 
             //MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
             //    ObjectFactory.Container.Resolve<IGeolocator>()));
-            MainPage = new Home();
+            //MainPage = new Home();
+            MainPage = new MasterDetailLearningPage();
         }
 
         private static void SetContainer()

@@ -67,12 +67,21 @@
       <DependentUpon>Index.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Layout\Home.cs" />
+    <Compile Include="Views\Layout\MasterDetailLearningPage.xaml.cs">
+      <DependentUpon>MasterDetailLearningPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Layout\MasterPageItem.cs" />
     <Compile Include="Views\Special\Detail.xaml.cs">
       <DependentUpon>Detail.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Special\Index.xaml.cs">
       <DependentUpon>Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Test\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Test\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +181,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Index.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Layout\MasterDetailLearningPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Test\Page1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Test\Page2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -56,13 +56,17 @@ namespace ShareSpecial.Views.Layout
             {
                 case "Detail":
                     Detail = new NavigationPage(new Detail(ObjectFactory.Container.Resolve<ISpecialDetailViewModel>()));
+                    Detail.Title = "Special Detail";
+                    
                     break;
                 case "Index":
                     Detail = new NavigationPage(new Special.Index());
+                    Detail.Title = "Specials";
                     break;
                 default:
                     Detail = new NavigationPage(new Login(ObjectFactory.Container.Resolve<ILoginViewModel>(),
                         ObjectFactory.Container.Resolve<IHelperFactory>()));
+                    Detail.Title = "Login";
                     break;
             }
             IsPresented = Device.Idiom == TargetIdiom.Tablet || Device.Idiom == TargetIdiom.Desktop;
