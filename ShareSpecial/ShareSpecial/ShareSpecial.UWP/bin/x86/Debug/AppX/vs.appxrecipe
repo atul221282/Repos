@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-22T12:23:47.548</Modified>
+      <Modified>2017-01-22T13:02:45.734</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\ShareSpecial.UWP.exe">
       <PackagePath>entrypoint\ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2017-01-22T12:23:46.246</Modified>
+      <Modified>2017-01-22T13:02:44.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\atulc\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -526,7 +526,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\ShareSpecial.dll">
       <PackagePath>ShareSpecial.dll</PackagePath>
-      <Modified>2017-01-22T12:23:44.467</Modified>
+      <Modified>2017-01-22T13:01:09.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial\bin\Debug\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -609,11 +609,11 @@
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-22T12:23:47.272</Modified>
+      <Modified>2017-01-22T13:02:45.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github\Repos\ShareSpecial\ShareSpecial\ShareSpecial.UWP\bin\x86\Debug\Core\ShareSpecial.UWP.exe">
       <PackagePath>ShareSpecial.UWP.exe</PackagePath>
-      <Modified>2017-01-22T12:23:47.542</Modified>
+      <Modified>2017-01-22T13:02:45.730</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
