@@ -33,6 +33,8 @@ namespace ShareSpecial.Views.Layout
                 case "Page2":
                     Detail = new NavigationPage(new Page2());
                     break;
+                default:
+                    throw new NotImplementedException();
             }
             IsPresented = Device.Idiom == TargetIdiom.Tablet || Device.Idiom == TargetIdiom.Desktop;
         }
