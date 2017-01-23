@@ -67,6 +67,7 @@
       <DependentUpon>Index.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Layout\Home.cs" />
+    <Compile Include="Views\Layout\HomeTabbed.cs" />
     <Compile Include="Views\Layout\MasterDetailLearningPage.xaml.cs">
       <DependentUpon>MasterDetailLearningPage.xaml</DependentUpon>
     </Compile>

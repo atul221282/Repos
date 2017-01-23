@@ -24,6 +24,7 @@ namespace ShareSpecial
             //    ObjectFactory.Container.Resolve<IGeolocator>()));
             //MainPage = new Home();
             MainPage = new MasterDetailLearningPage();
+            //MainPage = new HomeTabbed();
         }
 
         private static void SetContainer()

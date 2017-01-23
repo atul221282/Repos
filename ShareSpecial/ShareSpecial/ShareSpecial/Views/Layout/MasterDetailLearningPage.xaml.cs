@@ -28,13 +28,10 @@ namespace ShareSpecial.Views.Layout
             switch (name)
             {
                 case "Page1":
-                    Detail = new NavigationPage( new Page1());
+                    Detail = new NavigationPage(new Page1());
                     break;
                 case "Page2":
-                    Detail = new NavigationPage( new Page2());
-                    break;
-                default:
-                    Detail = new NavigationPage( new Page2());
+                    Detail = new NavigationPage(new Page2());
                     break;
             }
             IsPresented = Device.Idiom == TargetIdiom.Tablet || Device.Idiom == TargetIdiom.Desktop;
