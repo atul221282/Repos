@@ -12,8 +12,7 @@ namespace ShareSpecial.Views.Special
     {
         public Index()
         {
-            NavigationPage.SetHasNavigationBar(page: this, value: false);
-            //NavigationController.SetNavigationBarHidden(true, true);
+            //NavigationPage.SetHasNavigationBar(page: this, value: false);
             InitializeComponent();
         }
     }

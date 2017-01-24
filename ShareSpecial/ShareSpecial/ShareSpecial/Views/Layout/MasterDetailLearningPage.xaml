@@ -4,10 +4,11 @@
              x:Class="ShareSpecial.Views.Layout.MasterDetailLearningPage">
 
   <MasterDetailPage.Master>
-    <ContentPage Padding="10" BackgroundColor="Gray" Title="Master">
+    <ContentPage Padding="10" Title="Master">
       <ContentPage.Content>
         <StackLayout Margin="5, 30, 5, 5">
-          <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" ItemSelected="ListView_ItemSelected">
+          <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorColor="Green"
+                    ItemSelected="ListView_ItemSelected" RowHeight="50">
             <ListView.ItemTemplate>
               <DataTemplate>
                 <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />
