@@ -6,12 +6,18 @@
   <MasterDetailPage.Master>
     <ContentPage Padding="10" Title="Master">
       <ContentPage.Content>
-        <StackLayout Margin="5, 30, 5, 5">
-          <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorColor="Green"
-                    ItemSelected="ListView_ItemSelected" RowHeight="50">
+        <StackLayout Margin="5, 30, 5, 5" BackgroundColor="White">
+          <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorColor="Green" ItemTapped="ListView_ItemSelected"
+                    RowHeight="50">
             <ListView.ItemTemplate>
               <DataTemplate>
-                <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />
+                <!--<ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />-->
+                <ViewCell>
+                  <StackLayout Spacing="10" x:Name="layout">
+                    <Button Text="{Binding Title}" VerticalOptions="FillAndExpand"
+                      HorizontalOptions="FillAndExpand" />
+                  </StackLayout>
+                </ViewCell>
               </DataTemplate>
             </ListView.ItemTemplate>
           </ListView>

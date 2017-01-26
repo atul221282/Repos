@@ -3,10 +3,6 @@ using ShareSpecial.Infrastructure;
 using Plugin.Geolocator;
 using Xamarin.Forms;
 using System.Threading.Tasks;
-using ShareSpecial.ViewModel.Special;
-using ShareSpecial.ViewModel;
-using Plugin.Geolocator.Abstractions;
-using ShareSpecial.Views;
 using ShareSpecial.Views.Layout;
 
 namespace ShareSpecial
@@ -23,8 +19,8 @@ namespace ShareSpecial
             //MainPage = new NavigationPage(new MainPage(ObjectFactory.Container.Resolve<IMainPageViewModel>(),
             //    ObjectFactory.Container.Resolve<IGeolocator>()));
             //MainPage = new Home();
-            MainPage = new MasterDetailLearningPage();
-            //MainPage = new HomeTabbed();
+            //MainPage = new MasterDetailLearningPage();
+            MainPage = new HomeTabbed();
         }
 
         private static void SetContainer()

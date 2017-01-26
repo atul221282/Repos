@@ -19,12 +19,11 @@ namespace ShareSpecial.Views.Layout
             IsPresented = false;
         }
 
-        protected void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        protected void ListView_ItemSelected(object sender, ItemTappedEventArgs e)
         {
-            if (e.SelectedItem == null)
+            if (e.Item == null)
                 return;
-
-            var name = (e.SelectedItem as MasterPageItem).TargetType.Name;
+            var name = (e.Item as MasterPageItem)?.TargetType.Name;
             switch (name)
             {
                 case "Page1":
